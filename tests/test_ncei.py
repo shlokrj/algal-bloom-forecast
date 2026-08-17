@@ -53,3 +53,17 @@ class NceiTests(unittest.TestCase):
             classify_item("noaa_hab_ofs", "bulletins/2024-Aug-01_bulletin.pdf"),
             "hab_bulletin",
         )
+        self.assertEqual(
+            classify_item(
+                "glerl_ciglr_water_quality",
+                "lake_erie_habs_fluoroprobe_data_dictionary_2017-2022.csv",
+            ),
+            "source_metadata",
+        )
+        self.assertEqual(
+            classify_item(
+                "glerl_ciglr_water_quality",
+                "lake_erie_habs_browse_graphic_transect_2022.jpg",
+            ),
+            "browse_graphic",
+        )

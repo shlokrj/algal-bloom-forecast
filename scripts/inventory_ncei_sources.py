@@ -57,6 +57,10 @@ def classify_item(collection: str, path: str) -> str:
             return "auxiliary_or_model_data"
         return "archive_metadata"
 
+    if normalized.endswith((".jpg", ".jpeg", ".png")) or "browse_graphic" in normalized:
+        return "browse_graphic"
+    if any(token in normalized for token in ("dictionary", "coordinates", "iso-19115")):
+        return "source_metadata"
     if any(
         token in normalized
         for token in ("buoy", "moored", "continuous", "time_series", "annual_summary")
@@ -74,10 +78,6 @@ def classify_item(collection: str, path: str) -> str:
         )
     ):
         return "discrete_sampling"
-    if any(token in normalized for token in ("dictionary", "coordinates", "iso-19115")):
-        return "source_metadata"
-    if normalized.endswith((".jpg", ".jpeg", ".png")) or "browse_graphic" in normalized:
-        return "browse_graphic"
     return "unclassified"
 
 
