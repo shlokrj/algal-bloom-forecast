@@ -27,6 +27,13 @@ class NceiTests(unittest.TestCase):
 
         self.assertEqual([(file.name, file.size_bytes) for file in files], [("sample.csv", 123)])
 
+    def test_ftp_urls_quote_spaces_in_source_names(self):
+        listing = "-rw-rw-r--    1 0 0 123 Jan 01 2025 Western Lake Erie.csv\n"
+
+        files = parse_ftp_listing(listing, base_url="ftp://example.test/data/")
+
+        self.assertEqual(files[0].url, "ftp://example.test/data/Western%20Lake%20Erie.csv")
+
     def test_classification_separates_discrete_and_moored_names(self):
         self.assertEqual(
             classify_item(

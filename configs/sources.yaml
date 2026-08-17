@@ -21,7 +21,11 @@ sources:
       - '0279446'
       - '0288351'
       - '0299571'
-    notes: Confirm a stable historical target product, valid-pixel rules, and missing-image handling before feature generation.
+    historical_target_accession: '0312614'
+    historical_target_ftp_root: ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0243/0312614/1.1/data/0-data/HAB_GreatLakes_Monitoring/intensity-extent-timeseries-csvs/GLErie/
+    historical_target_metrics: ci_sum and bloom_area_sqkm from Western Lake Erie_fused
+    historical_target_semantics: cross-sensor fused 10-day composite center date; no timezone; preserve seasonal gaps and missing values
+    notes: Keep the current daily CI-CIcyano GeoTIFF target separate from the historical 10-day fused target until product calibration and temporal alignment are explicitly defined.
 
   noaa_glerl_ciglr_water_quality:
     role: predictors

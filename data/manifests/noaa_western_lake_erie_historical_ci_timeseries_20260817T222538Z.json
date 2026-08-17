@@ -1,0 +1,119 @@
+{
+  "accession": "0312614",
+  "accession_url": "https://www.ncei.noaa.gov/archive/accession/0312614",
+  "artifacts": [
+    {
+      "local_path": "data/raw/noaa/satellite/historical_ci_timeseries/Western Lake Erie_BloomArea_sqkm_timeseries.csv",
+      "metadata": {
+        "accession": "0312614",
+        "listed_size_bytes": 24961,
+        "metric": "bloom_area_sqkm",
+        "time_basis": "date-only 10-day composite center date; no timezone"
+      },
+      "retrieved_at": "2026-08-17T22:25:38.570361+00:00",
+      "sha256": "4afe6ad48a4cf366bf79c4b3a5a7b7a28ccf8620070475146a3d35358aa74013",
+      "size_bytes": 24961,
+      "source_id": "noaa_western_lake_erie_historical_ci_timeseries",
+      "source_url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0243/0312614/1.1/data/0-data/HAB_GreatLakes_Monitoring/intensity-extent-timeseries-csvs/GLErie/Western%20Lake%20Erie_BloomArea_sqkm_timeseries.csv"
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/historical_ci_timeseries/Western Lake Erie_CIsum_timeseries.csv",
+      "metadata": {
+        "accession": "0312614",
+        "listed_size_bytes": 22686,
+        "metric": "ci_sum",
+        "time_basis": "date-only 10-day composite center date; no timezone"
+      },
+      "retrieved_at": "2026-08-17T22:25:38.570361+00:00",
+      "sha256": "af14388717195084bae6182c908a1d603b1ddd2c3cb5be30640b25d7e66b2fc9",
+      "size_bytes": 22686,
+      "source_id": "noaa_western_lake_erie_historical_ci_timeseries",
+      "source_url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0243/0312614/1.1/data/0-data/HAB_GreatLakes_Monitoring/intensity-extent-timeseries-csvs/GLErie/Western%20Lake%20Erie_CIsum_timeseries.csv"
+    }
+  ],
+  "data_root": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0243/0312614/1.1/data/0-data/HAB_GreatLakes_Monitoring/intensity-extent-timeseries-csvs/GLErie/",
+  "derived_table": {
+    "local_path": "data/processed/noaa_western_lake_erie_historical_target_20260817T222538Z.csv",
+    "metadata": {
+      "metrics": [
+        "ci_sum",
+        "bloom_area_sqkm"
+      ],
+      "records": 372,
+      "target_semantics": "10-day composite center date; no interpolation"
+    },
+    "retrieved_at": "2026-08-17T22:25:38.570361+00:00",
+    "sha256": "233e99b02f1630aa12c1312630731f5e6fac6033d36d0b4da8cc69122eae2642",
+    "size_bytes": 13404,
+    "source_id": "noaa_western_lake_erie_historical_target_table",
+    "source_url": "https://www.ncei.noaa.gov/archive/accession/0312614"
+  },
+  "doi": "https://doi.org/10.25921/wzk1-r208",
+  "profiles": [
+    {
+      "accession": "0312614",
+      "date_interval_days": {
+        "10": 344,
+        "20": 3,
+        "224": 1,
+        "225": 18,
+        "226": 5
+      },
+      "fields": [
+        "Date",
+        "Western Lake Erie_meris",
+        "Western Lake Erie_olci",
+        "Western Lake Erie_CyanNet",
+        "Western Lake Erie_merged_gf",
+        "meris < cyannet (30%) at Q2 (67.76)",
+        "olci < cyannet (30%) at Q2(277.515)",
+        "Western Lake Erie_fused"
+      ],
+      "fused_max": 2530.1100000000006,
+      "fused_min": 0.18,
+      "listed_size_bytes": 24961,
+      "metric": "bloom_area_sqkm",
+      "missing_fused_records": 4,
+      "observed_end": "2024-10-22",
+      "observed_start": "2000-06-06",
+      "records": 372,
+      "source_filename": "Western Lake Erie_BloomArea_sqkm_timeseries.csv",
+      "source_url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0243/0312614/1.1/data/0-data/HAB_GreatLakes_Monitoring/intensity-extent-timeseries-csvs/GLErie/Western%20Lake%20Erie_BloomArea_sqkm_timeseries.csv",
+      "time_basis": "date-only 10-day composite center date; no timezone"
+    },
+    {
+      "accession": "0312614",
+      "date_interval_days": {
+        "10": 344,
+        "20": 3,
+        "224": 1,
+        "225": 18,
+        "226": 5
+      },
+      "fields": [
+        "Date",
+        "Western Lake Erie_meris",
+        "Western Lake Erie_olci",
+        "Western Lake Erie_CyanNet",
+        "Western Lake Erie_merged_gf",
+        "meris < cyannet (30%) at Q2 (0.163)",
+        "olci < cyannet (30%) at Q2(0.998)",
+        "Western Lake Erie_fused"
+      ],
+      "fused_max": 53.92269711,
+      "fused_min": 0.000554551,
+      "listed_size_bytes": 22686,
+      "metric": "ci_sum",
+      "missing_fused_records": 4,
+      "observed_end": "2024-10-22",
+      "observed_start": "2000-06-06",
+      "records": 372,
+      "source_filename": "Western Lake Erie_CIsum_timeseries.csv",
+      "source_url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0243/0312614/1.1/data/0-data/HAB_GreatLakes_Monitoring/intensity-extent-timeseries-csvs/GLErie/Western%20Lake%20Erie_CIsum_timeseries.csv",
+      "time_basis": "date-only 10-day composite center date; no timezone"
+    }
+  ],
+  "retrieved_at": "2026-08-17T22:25:38.570361+00:00",
+  "source_id": "noaa_western_lake_erie_historical_ci_timeseries",
+  "target_semantics": "cross-sensor fused 10-day composite center dates; no timezone"
+}

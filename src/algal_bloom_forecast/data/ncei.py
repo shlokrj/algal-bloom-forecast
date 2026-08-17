@@ -5,7 +5,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Literal
-from urllib.parse import urljoin
+from urllib.parse import quote, urljoin
 from urllib.request import urlopen
 
 EntryKind = Literal["file", "directory"]
@@ -59,7 +59,7 @@ def parse_ftp_entries(listing: str, *, base_url: str) -> list[RemoteEntry]:
         entries.append(
             RemoteEntry(
                 name=name,
-                url=urljoin(base, name),
+                url=urljoin(base, quote(name)),
                 kind=kind,
                 size_bytes=size_bytes,
             )
