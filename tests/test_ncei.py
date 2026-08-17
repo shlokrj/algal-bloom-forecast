@@ -43,6 +43,13 @@ class NceiTests(unittest.TestCase):
             "moored_buoy_or_continuous",
         )
         self.assertEqual(
+            classify_item(
+                "glerl_ciglr_water_quality",
+                "WE02_2018_annual_summary.csv",
+            ),
+            "moored_buoy_or_continuous",
+        )
+        self.assertEqual(
             classify_item("noaa_hab_ofs", "bulletins/2024-Aug-01_bulletin.pdf"),
             "hab_bulletin",
         )

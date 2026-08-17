@@ -45,7 +45,7 @@ sources:
       - '0292222'
       - '0293514'
       - '0303633'
-    listed_moored_series_status: no moored or continuous series filenames found in the accession inventory; verify collection metadata before treating this as absence
+    listed_moored_series_status: annual_summary files in accessions 0190201, 0190729, 0194301, and 0194302 are continuous logger series; verify any additional buoy products separately
     earliest_date: 2012-05-15
     seasonal_coverage: May-October
     notes: Profile discrete sampling and moored-buoy subsets separately; do not treat them as one homogeneous series.

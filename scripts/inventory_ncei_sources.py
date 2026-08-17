@@ -57,7 +57,10 @@ def classify_item(collection: str, path: str) -> str:
             return "auxiliary_or_model_data"
         return "archive_metadata"
 
-    if any(token in normalized for token in ("buoy", "moored", "continuous", "time_series")):
+    if any(
+        token in normalized
+        for token in ("buoy", "moored", "continuous", "time_series", "annual_summary")
+    ):
         return "moored_buoy_or_continuous"
     if any(
         token in normalized
