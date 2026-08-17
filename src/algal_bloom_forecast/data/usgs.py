@@ -4,7 +4,9 @@ from __future__ import annotations
 
 import json
 from dataclasses import dataclass
+from datetime import date
 from pathlib import Path
+from typing import Any
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
@@ -61,3 +63,36 @@ def fetch_daily_values(
         output_path.write_bytes(raw)
 
     return payload, url
+
+
+def _parse_discharge(value: Any) -> float | None:
+    if value is None or str(value).strip().lower() in {"", "na", "nan", "n/a", "null"}:
+        return None
+    return float(value)
+
+
+def parse_daily_values_payload(payload: dict[str, Any]) -> list[dict[str, Any]]:
+    """Normalize a USGS daily-values feature collection into date-keyed records."""
+    records: list[dict[str, Any]] = []
+    seen_dates: set[str] = set()
+    for feature in payload.get("features", []):
+        properties = feature.get("properties", {})
+        observation_date = str(properties.get("time", ""))
+        try:
+            date.fromisoformat(observation_date)
+        except ValueError as error:
+            raise ValueError(f"USGS record has an invalid date: {observation_date!r}") from error
+        if observation_date in seen_dates:
+            raise ValueError(f"USGS response contains duplicate date: {observation_date}")
+        seen_dates.add(observation_date)
+        qualifiers = properties.get("qualifier") or []
+        if isinstance(qualifiers, str):
+            qualifiers = [qualifiers]
+        records.append(
+            {
+                "observation_date": observation_date,
+                "usgs_maumee_discharge_cfs": _parse_discharge(properties.get("value")),
+                "usgs_maumee_discharge_estimated": "ESTIMATED" in qualifiers,
+            }
+        )
+    return sorted(records, key=lambda record: record["observation_date"])

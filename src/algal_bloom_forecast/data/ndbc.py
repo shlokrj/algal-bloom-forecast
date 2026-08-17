@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import math
 from datetime import UTC, datetime
 from gzip import open as gzip_open
 from pathlib import Path
@@ -58,8 +59,7 @@ def parse_standard_meteorology(file_path: Path) -> list[dict[str, Any]]:
                 continue
             if len(values) != len(columns):
                 raise ValueError(
-                    f"NDBC row {line_number} has {len(values)} values; "
-                    f"expected {len(columns)}"
+                    f"NDBC row {line_number} has {len(values)} values; expected {len(columns)}"
                 )
             parsed = {column: _parse_value(column, value) for column, value in zip(columns, values)}
             timestamp = datetime(
@@ -72,3 +72,72 @@ def parse_standard_meteorology(file_path: Path) -> list[dict[str, Any]]:
             )
             records.append({"timestamp": timestamp.isoformat(), **parsed})
     return records
+
+
+def _utc_date(timestamp: str) -> str:
+    parsed = datetime.fromisoformat(timestamp)
+    if parsed.tzinfo is None:
+        raise ValueError(f"NDBC timestamp must be timezone-aware: {timestamp!r}")
+    return parsed.astimezone(UTC).date().isoformat()
+
+
+def _mean(values: list[float]) -> float | None:
+    return sum(values) / len(values) if values else None
+
+
+def _circular_mean(values: list[float]) -> float | None:
+    if not values:
+        return None
+    radians = [math.radians(value) for value in values]
+    sine = sum(math.sin(value) for value in radians)
+    cosine = sum(math.cos(value) for value in radians)
+    if math.isclose(sine, 0.0, abs_tol=1e-12) and math.isclose(cosine, 0.0, abs_tol=1e-12):
+        return None
+    result = math.degrees(math.atan2(sine, cosine)) % 360
+    return 0.0 if math.isclose(result, 360.0, abs_tol=1e-12) else result
+
+
+def aggregate_standard_meteorology(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Aggregate ten-minute NDBC records into UTC calendar-day features."""
+    scalar_fields = (
+        "WSPD",
+        "GST",
+        "WVHT",
+        "DPD",
+        "APD",
+        "PRES",
+        "ATMP",
+        "WTMP",
+        "DEWP",
+        "VIS",
+        "TIDE",
+    )
+    direction_fields = ("WDIR", "MWD")
+    grouped: dict[str, list[dict[str, Any]]] = {}
+    for record in records:
+        observation_date = _utc_date(str(record["timestamp"]))
+        grouped.setdefault(observation_date, []).append(record)
+
+    daily: list[dict[str, Any]] = []
+    for observation_date in sorted(grouped):
+        day_records = grouped[observation_date]
+        output: dict[str, Any] = {
+            "observation_date": observation_date,
+            "ndbc_sample_count": len(day_records),
+        }
+        for field in scalar_fields:
+            values = [
+                float(record[field]) for record in day_records if record.get(field) is not None
+            ]
+            prefix = f"ndbc_{field.lower()}"
+            output[f"{prefix}_mean"] = _mean(values)
+            output[f"{prefix}_valid_count"] = len(values)
+        for field in direction_fields:
+            values = [
+                float(record[field]) for record in day_records if record.get(field) is not None
+            ]
+            prefix = f"ndbc_{field.lower()}"
+            output[f"{prefix}_circular_mean"] = _circular_mean(values)
+            output[f"{prefix}_valid_count"] = len(values)
+        daily.append(output)
+    return daily

@@ -3,9 +3,11 @@
 from __future__ import annotations
 
 import csv
+import re
 from collections import Counter
 from datetime import datetime
 from pathlib import Path
+from typing import Any
 
 MISSING_VALUES = {"", "na", "nan", "n/a", "null", "none"}
 
@@ -134,3 +136,88 @@ def profile_glerl_csv(path: Path, *, source_class: str) -> dict[str, object]:
             )
         ),
     }
+
+
+def _feature_name(field: str) -> str | None:
+    normalized = re.sub(r"[^a-z0-9]+", "_", field.strip().lower()).strip("_")
+    if not normalized or normalized.endswith("_flags"):
+        return None
+    return normalized
+
+
+def _parse_numeric(value: str | None) -> float | None:
+    if _is_missing(value):
+        return None
+    try:
+        return float(str(value).strip())
+    except ValueError:
+        return None
+
+
+def _station_name(path: Path) -> str:
+    match = re.match(r"([A-Za-z0-9]+)_\d{4}_annual_summary\.csv$", path.name)
+    if not match:
+        raise ValueError(f"GLERL annual-summary filename does not identify a station: {path.name}")
+    return match.group(1).lower()
+
+
+def parse_glerl_continuous_csv(path: Path) -> list[dict[str, Any]]:
+    """Parse one GLERL annual-summary logger file into timestamped numeric rows."""
+    with path.open(newline="", encoding="latin-1") as handle:
+        reader = csv.DictReader(handle)
+        fieldnames = reader.fieldnames or []
+        timestamp_column = _find_column(fieldnames, "timestamp")
+        if timestamp_column is None:
+            raise ValueError(f"GLERL continuous file has no timestamp column: {path}")
+        numeric_columns = {
+            field: feature
+            for field in fieldnames
+            if (feature := _feature_name(field)) is not None
+            and not feature.endswith("_flags")
+            and field != timestamp_column
+        }
+        station = _station_name(path)
+        rows: list[dict[str, Any]] = []
+        for row in reader:
+            parsed_timestamp = _parse_datetime(row.get(timestamp_column) or "")
+            if parsed_timestamp is None:
+                continue
+            output: dict[str, Any] = {
+                "observation_date": parsed_timestamp.date().isoformat(),
+            }
+            for field, feature in numeric_columns.items():
+                value = _parse_numeric(row.get(field))
+                if value is not None:
+                    output[f"glerl_{station}_{feature}"] = value
+            rows.append(output)
+    return rows
+
+
+def aggregate_glerl_continuous(paths: list[Path]) -> list[dict[str, Any]]:
+    """Aggregate GLERL continuous logger rows by UTC calendar day."""
+    grouped: dict[str, dict[str, list[float]]] = {}
+    stations: dict[str, set[str]] = {}
+    record_counts: Counter[str] = Counter()
+    for path in paths:
+        station = _station_name(path)
+        for row in parse_glerl_continuous_csv(path):
+            observation_date = row["observation_date"]
+            record_counts[observation_date] += 1
+            stations.setdefault(observation_date, set()).add(station)
+            for field, value in row.items():
+                if field == "observation_date":
+                    continue
+                grouped.setdefault(observation_date, {}).setdefault(field, []).append(float(value))
+
+    daily: list[dict[str, Any]] = []
+    for observation_date in sorted(record_counts):
+        output: dict[str, Any] = {
+            "observation_date": observation_date,
+            "glerl_continuous_record_count": record_counts[observation_date],
+            "glerl_continuous_station_count": len(stations[observation_date]),
+        }
+        for field, values in sorted(grouped.get(observation_date, {}).items()):
+            output[f"{field}_mean"] = sum(values) / len(values)
+            output[f"{field}_valid_count"] = len(values)
+        daily.append(output)
+    return daily
