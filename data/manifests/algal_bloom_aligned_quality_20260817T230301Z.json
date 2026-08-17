@@ -1,0 +1,1206 @@
+{
+  "input_path": "data/processed/algal_bloom_aligned_training_20260817T230105Z.csv",
+  "profile": {
+    "fields": {
+      "bloom_area_sqkm": {
+        "missing": 16,
+        "non_null": 1472,
+        "records": 1488
+      },
+      "ci_sum": {
+        "missing": 16,
+        "non_null": 1472,
+        "records": 1488
+      },
+      "feature_lag_days": {
+        "missing": 708,
+        "non_null": 780,
+        "records": 1488
+      },
+      "forecast_horizon_days": {
+        "missing": 0,
+        "non_null": 1488,
+        "records": 1488
+      },
+      "glerl_continuous_record_count": {
+        "missing": 1193,
+        "non_null": 295,
+        "records": 1488
+      },
+      "glerl_continuous_station_count": {
+        "missing": 1193,
+        "non_null": 295,
+        "records": 1488
+      },
+      "glerl_we02_air_temp_mean": {
+        "missing": 1261,
+        "non_null": 227,
+        "records": 1488
+      },
+      "glerl_we02_air_temp_valid_count": {
+        "missing": 1261,
+        "non_null": 227,
+        "records": 1488
+      },
+      "glerl_we02_barometric_pressure_mean": {
+        "missing": 1261,
+        "non_null": 227,
+        "records": 1488
+      },
+      "glerl_we02_barometric_pressure_valid_count": {
+        "missing": 1261,
+        "non_null": 227,
+        "records": 1488
+      },
+      "glerl_we02_chlorophylla_c6_mean": {
+        "missing": 1386,
+        "non_null": 102,
+        "records": 1488
+      },
+      "glerl_we02_chlorophylla_c6_valid_count": {
+        "missing": 1386,
+        "non_null": 102,
+        "records": 1488
+      },
+      "glerl_we02_chlorophylla_mean": {
+        "missing": 1213,
+        "non_null": 275,
+        "records": 1488
+      },
+      "glerl_we02_chlorophylla_rfu_mean": {
+        "missing": 1430,
+        "non_null": 58,
+        "records": 1488
+      },
+      "glerl_we02_chlorophylla_rfu_valid_count": {
+        "missing": 1430,
+        "non_null": 58,
+        "records": 1488
+      },
+      "glerl_we02_chlorophylla_valid_count": {
+        "missing": 1213,
+        "non_null": 275,
+        "records": 1488
+      },
+      "glerl_we02_colored_dissolved_organic_matter_c6_mean": {
+        "missing": 1386,
+        "non_null": 102,
+        "records": 1488
+      },
+      "glerl_we02_colored_dissolved_organic_matter_c6_valid_count": {
+        "missing": 1386,
+        "non_null": 102,
+        "records": 1488
+      },
+      "glerl_we02_conductivity_mean": {
+        "missing": 1430,
+        "non_null": 58,
+        "records": 1488
+      },
+      "glerl_we02_conductivity_valid_count": {
+        "missing": 1430,
+        "non_null": 58,
+        "records": 1488
+      },
+      "glerl_we02_depth_c6_mean": {
+        "missing": 1386,
+        "non_null": 102,
+        "records": 1488
+      },
+      "glerl_we02_depth_c6_valid_count": {
+        "missing": 1386,
+        "non_null": 102,
+        "records": 1488
+      },
+      "glerl_we02_depth_mean": {
+        "missing": 1214,
+        "non_null": 274,
+        "records": 1488
+      },
+      "glerl_we02_depth_valid_count": {
+        "missing": 1214,
+        "non_null": 274,
+        "records": 1488
+      },
+      "glerl_we02_flourescent_dissolved_organic_matter_mean": {
+        "missing": 1213,
+        "non_null": 275,
+        "records": 1488
+      },
+      "glerl_we02_flourescent_dissolved_organic_matter_qsu_mean": {
+        "missing": 1430,
+        "non_null": 58,
+        "records": 1488
+      },
+      "glerl_we02_flourescent_dissolved_organic_matter_qsu_valid_count": {
+        "missing": 1430,
+        "non_null": 58,
+        "records": 1488
+      },
+      "glerl_we02_flourescent_dissolved_organic_matter_valid_count": {
+        "missing": 1213,
+        "non_null": 275,
+        "records": 1488
+      },
+      "glerl_we02_no3_suna_mean": {
+        "missing": 1311,
+        "non_null": 177,
+        "records": 1488
+      },
+      "glerl_we02_no3_suna_valid_count": {
+        "missing": 1311,
+        "non_null": 177,
+        "records": 1488
+      },
+      "glerl_we02_no3m_suna_mean": {
+        "missing": 1311,
+        "non_null": 177,
+        "records": 1488
+      },
+      "glerl_we02_no3m_suna_valid_count": {
+        "missing": 1311,
+        "non_null": 177,
+        "records": 1488
+      },
+      "glerl_we02_organic_dissolved_oxygen_mean": {
+        "missing": 1213,
+        "non_null": 275,
+        "records": 1488
+      },
+      "glerl_we02_organic_dissolved_oxygen_saturation_mean": {
+        "missing": 1213,
+        "non_null": 275,
+        "records": 1488
+      },
+      "glerl_we02_organic_dissolved_oxygen_saturation_valid_count": {
+        "missing": 1213,
+        "non_null": 275,
+        "records": 1488
+      },
+      "glerl_we02_organic_dissolved_oxygen_valid_count": {
+        "missing": 1213,
+        "non_null": 275,
+        "records": 1488
+      },
+      "glerl_we02_oxidation_reduction_potential_mean": {
+        "missing": 1440,
+        "non_null": 48,
+        "records": 1488
+      },
+      "glerl_we02_oxidation_reduction_potential_valid_count": {
+        "missing": 1440,
+        "non_null": 48,
+        "records": 1488
+      },
+      "glerl_we02_ph_mean": {
+        "missing": 1213,
+        "non_null": 275,
+        "records": 1488
+      },
+      "glerl_we02_ph_mv_mean": {
+        "missing": 1430,
+        "non_null": 58,
+        "records": 1488
+      },
+      "glerl_we02_ph_mv_valid_count": {
+        "missing": 1430,
+        "non_null": 58,
+        "records": 1488
+      },
+      "glerl_we02_ph_valid_count": {
+        "missing": 1213,
+        "non_null": 275,
+        "records": 1488
+      },
+      "glerl_we02_phycocyanin_c6_mean": {
+        "missing": 1386,
+        "non_null": 102,
+        "records": 1488
+      },
+      "glerl_we02_phycocyanin_c6_valid_count": {
+        "missing": 1386,
+        "non_null": 102,
+        "records": 1488
+      },
+      "glerl_we02_phycocyanin_mean": {
+        "missing": 1213,
+        "non_null": 275,
+        "records": 1488
+      },
+      "glerl_we02_phycocyanin_rfu_mean": {
+        "missing": 1430,
+        "non_null": 58,
+        "records": 1488
+      },
+      "glerl_we02_phycocyanin_rfu_valid_count": {
+        "missing": 1430,
+        "non_null": 58,
+        "records": 1488
+      },
+      "glerl_we02_phycocyanin_valid_count": {
+        "missing": 1213,
+        "non_null": 275,
+        "records": 1488
+      },
+      "glerl_we02_phycoerythrin_c6_mean": {
+        "missing": 1386,
+        "non_null": 102,
+        "records": 1488
+      },
+      "glerl_we02_phycoerythrin_c6_valid_count": {
+        "missing": 1386,
+        "non_null": 102,
+        "records": 1488
+      },
+      "glerl_we02_specific_conductivity_mean": {
+        "missing": 1213,
+        "non_null": 275,
+        "records": 1488
+      },
+      "glerl_we02_specific_conductivity_valid_count": {
+        "missing": 1213,
+        "non_null": 275,
+        "records": 1488
+      },
+      "glerl_we02_total_dissolved_solids_mean": {
+        "missing": 1430,
+        "non_null": 58,
+        "records": 1488
+      },
+      "glerl_we02_total_dissolved_solids_valid_count": {
+        "missing": 1430,
+        "non_null": 58,
+        "records": 1488
+      },
+      "glerl_we02_turbidity_c6_mean": {
+        "missing": 1386,
+        "non_null": 102,
+        "records": 1488
+      },
+      "glerl_we02_turbidity_c6_valid_count": {
+        "missing": 1386,
+        "non_null": 102,
+        "records": 1488
+      },
+      "glerl_we02_turbidity_mean": {
+        "missing": 1213,
+        "non_null": 275,
+        "records": 1488
+      },
+      "glerl_we02_turbidity_valid_count": {
+        "missing": 1213,
+        "non_null": 275,
+        "records": 1488
+      },
+      "glerl_we02_water_temp_c6_mean": {
+        "missing": 1444,
+        "non_null": 44,
+        "records": 1488
+      },
+      "glerl_we02_water_temp_c6_valid_count": {
+        "missing": 1444,
+        "non_null": 44,
+        "records": 1488
+      },
+      "glerl_we02_water_temperature_c6_mean": {
+        "missing": 1430,
+        "non_null": 58,
+        "records": 1488
+      },
+      "glerl_we02_water_temperature_c6_valid_count": {
+        "missing": 1430,
+        "non_null": 58,
+        "records": 1488
+      },
+      "glerl_we02_water_temperature_mean": {
+        "missing": 1213,
+        "non_null": 275,
+        "records": 1488
+      },
+      "glerl_we02_water_temperature_valid_count": {
+        "missing": 1213,
+        "non_null": 275,
+        "records": 1488
+      },
+      "glerl_we02_wave_direction_mean": {
+        "missing": 1428,
+        "non_null": 60,
+        "records": 1488
+      },
+      "glerl_we02_wave_direction_valid_count": {
+        "missing": 1428,
+        "non_null": 60,
+        "records": 1488
+      },
+      "glerl_we02_wave_height_mean": {
+        "missing": 1428,
+        "non_null": 60,
+        "records": 1488
+      },
+      "glerl_we02_wave_height_valid_count": {
+        "missing": 1428,
+        "non_null": 60,
+        "records": 1488
+      },
+      "glerl_we02_wave_period_mean": {
+        "missing": 1428,
+        "non_null": 60,
+        "records": 1488
+      },
+      "glerl_we02_wave_period_valid_count": {
+        "missing": 1428,
+        "non_null": 60,
+        "records": 1488
+      },
+      "glerl_we02_wind_direction_mean": {
+        "missing": 1428,
+        "non_null": 60,
+        "records": 1488
+      },
+      "glerl_we02_wind_direction_mean_mean": {
+        "missing": 1261,
+        "non_null": 227,
+        "records": 1488
+      },
+      "glerl_we02_wind_direction_mean_valid_count": {
+        "missing": 1261,
+        "non_null": 227,
+        "records": 1488
+      },
+      "glerl_we02_wind_direction_valid_count": {
+        "missing": 1428,
+        "non_null": 60,
+        "records": 1488
+      },
+      "glerl_we02_wind_speed_max_mean": {
+        "missing": 1261,
+        "non_null": 227,
+        "records": 1488
+      },
+      "glerl_we02_wind_speed_max_valid_count": {
+        "missing": 1261,
+        "non_null": 227,
+        "records": 1488
+      },
+      "glerl_we02_wind_speed_mean": {
+        "missing": 1428,
+        "non_null": 60,
+        "records": 1488
+      },
+      "glerl_we02_wind_speed_mean_mean": {
+        "missing": 1261,
+        "non_null": 227,
+        "records": 1488
+      },
+      "glerl_we02_wind_speed_mean_valid_count": {
+        "missing": 1261,
+        "non_null": 227,
+        "records": 1488
+      },
+      "glerl_we02_wind_speed_valid_count": {
+        "missing": 1428,
+        "non_null": 60,
+        "records": 1488
+      },
+      "glerl_we04_air_temp_mean": {
+        "missing": 1245,
+        "non_null": 243,
+        "records": 1488
+      },
+      "glerl_we04_air_temp_valid_count": {
+        "missing": 1245,
+        "non_null": 243,
+        "records": 1488
+      },
+      "glerl_we04_barometric_pressure_mean": {
+        "missing": 1245,
+        "non_null": 243,
+        "records": 1488
+      },
+      "glerl_we04_barometric_pressure_valid_count": {
+        "missing": 1245,
+        "non_null": 243,
+        "records": 1488
+      },
+      "glerl_we04_chlorophylla_c6_mean": {
+        "missing": 1425,
+        "non_null": 63,
+        "records": 1488
+      },
+      "glerl_we04_chlorophylla_c6_valid_count": {
+        "missing": 1425,
+        "non_null": 63,
+        "records": 1488
+      },
+      "glerl_we04_chlorophylla_mean": {
+        "missing": 1279,
+        "non_null": 209,
+        "records": 1488
+      },
+      "glerl_we04_chlorophylla_valid_count": {
+        "missing": 1279,
+        "non_null": 209,
+        "records": 1488
+      },
+      "glerl_we04_colored_dissolved_organic_matter_c6_mean": {
+        "missing": 1425,
+        "non_null": 63,
+        "records": 1488
+      },
+      "glerl_we04_colored_dissolved_organic_matter_c6_valid_count": {
+        "missing": 1425,
+        "non_null": 63,
+        "records": 1488
+      },
+      "glerl_we04_depth_c6_mean": {
+        "missing": 1425,
+        "non_null": 63,
+        "records": 1488
+      },
+      "glerl_we04_depth_c6_valid_count": {
+        "missing": 1425,
+        "non_null": 63,
+        "records": 1488
+      },
+      "glerl_we04_depth_mean": {
+        "missing": 1279,
+        "non_null": 209,
+        "records": 1488
+      },
+      "glerl_we04_depth_valid_count": {
+        "missing": 1279,
+        "non_null": 209,
+        "records": 1488
+      },
+      "glerl_we04_flourescent_dissolved_organic_matter_mean": {
+        "missing": 1279,
+        "non_null": 209,
+        "records": 1488
+      },
+      "glerl_we04_flourescent_dissolved_organic_matter_valid_count": {
+        "missing": 1279,
+        "non_null": 209,
+        "records": 1488
+      },
+      "glerl_we04_no3_suna_mean": {
+        "missing": 1317,
+        "non_null": 171,
+        "records": 1488
+      },
+      "glerl_we04_no3_suna_valid_count": {
+        "missing": 1317,
+        "non_null": 171,
+        "records": 1488
+      },
+      "glerl_we04_no3m_suna_mean": {
+        "missing": 1317,
+        "non_null": 171,
+        "records": 1488
+      },
+      "glerl_we04_no3m_suna_valid_count": {
+        "missing": 1317,
+        "non_null": 171,
+        "records": 1488
+      },
+      "glerl_we04_organic_dissolved_oxygen_mean": {
+        "missing": 1279,
+        "non_null": 209,
+        "records": 1488
+      },
+      "glerl_we04_organic_dissolved_oxygen_saturation_mean": {
+        "missing": 1279,
+        "non_null": 209,
+        "records": 1488
+      },
+      "glerl_we04_organic_dissolved_oxygen_saturation_valid_count": {
+        "missing": 1279,
+        "non_null": 209,
+        "records": 1488
+      },
+      "glerl_we04_organic_dissolved_oxygen_valid_count": {
+        "missing": 1279,
+        "non_null": 209,
+        "records": 1488
+      },
+      "glerl_we04_ph_mean": {
+        "missing": 1279,
+        "non_null": 209,
+        "records": 1488
+      },
+      "glerl_we04_ph_valid_count": {
+        "missing": 1279,
+        "non_null": 209,
+        "records": 1488
+      },
+      "glerl_we04_phycocyanin_c6_mean": {
+        "missing": 1425,
+        "non_null": 63,
+        "records": 1488
+      },
+      "glerl_we04_phycocyanin_c6_valid_count": {
+        "missing": 1425,
+        "non_null": 63,
+        "records": 1488
+      },
+      "glerl_we04_phycocyanin_mean": {
+        "missing": 1279,
+        "non_null": 209,
+        "records": 1488
+      },
+      "glerl_we04_phycocyanin_valid_count": {
+        "missing": 1279,
+        "non_null": 209,
+        "records": 1488
+      },
+      "glerl_we04_phycoerythrin_c6_mean": {
+        "missing": 1425,
+        "non_null": 63,
+        "records": 1488
+      },
+      "glerl_we04_phycoerythrin_c6_valid_count": {
+        "missing": 1425,
+        "non_null": 63,
+        "records": 1488
+      },
+      "glerl_we04_specific_conductivity_mean": {
+        "missing": 1279,
+        "non_null": 209,
+        "records": 1488
+      },
+      "glerl_we04_specific_conductivity_valid_count": {
+        "missing": 1279,
+        "non_null": 209,
+        "records": 1488
+      },
+      "glerl_we04_turbidity_c6_mean": {
+        "missing": 1425,
+        "non_null": 63,
+        "records": 1488
+      },
+      "glerl_we04_turbidity_c6_valid_count": {
+        "missing": 1425,
+        "non_null": 63,
+        "records": 1488
+      },
+      "glerl_we04_turbidity_mean": {
+        "missing": 1279,
+        "non_null": 209,
+        "records": 1488
+      },
+      "glerl_we04_turbidity_valid_count": {
+        "missing": 1279,
+        "non_null": 209,
+        "records": 1488
+      },
+      "glerl_we04_water_temperature_c6_mean": {
+        "missing": 1425,
+        "non_null": 63,
+        "records": 1488
+      },
+      "glerl_we04_water_temperature_c6_valid_count": {
+        "missing": 1425,
+        "non_null": 63,
+        "records": 1488
+      },
+      "glerl_we04_water_temperature_mean": {
+        "missing": 1279,
+        "non_null": 209,
+        "records": 1488
+      },
+      "glerl_we04_water_temperature_valid_count": {
+        "missing": 1279,
+        "non_null": 209,
+        "records": 1488
+      },
+      "glerl_we04_wind_direction_mean_mean": {
+        "missing": 1245,
+        "non_null": 243,
+        "records": 1488
+      },
+      "glerl_we04_wind_direction_mean_valid_count": {
+        "missing": 1245,
+        "non_null": 243,
+        "records": 1488
+      },
+      "glerl_we04_wind_speed_max_mean": {
+        "missing": 1245,
+        "non_null": 243,
+        "records": 1488
+      },
+      "glerl_we04_wind_speed_max_valid_count": {
+        "missing": 1245,
+        "non_null": 243,
+        "records": 1488
+      },
+      "glerl_we04_wind_speed_mean_mean": {
+        "missing": 1245,
+        "non_null": 243,
+        "records": 1488
+      },
+      "glerl_we04_wind_speed_mean_valid_count": {
+        "missing": 1245,
+        "non_null": 243,
+        "records": 1488
+      },
+      "glerl_we08_air_temp_mean": {
+        "missing": 1242,
+        "non_null": 246,
+        "records": 1488
+      },
+      "glerl_we08_air_temp_valid_count": {
+        "missing": 1242,
+        "non_null": 246,
+        "records": 1488
+      },
+      "glerl_we08_barometric_pressure_mean": {
+        "missing": 1242,
+        "non_null": 246,
+        "records": 1488
+      },
+      "glerl_we08_barometric_pressure_valid_count": {
+        "missing": 1242,
+        "non_null": 246,
+        "records": 1488
+      },
+      "glerl_we08_chlorophylla_c6_mean": {
+        "missing": 1460,
+        "non_null": 28,
+        "records": 1488
+      },
+      "glerl_we08_chlorophylla_c6_valid_count": {
+        "missing": 1460,
+        "non_null": 28,
+        "records": 1488
+      },
+      "glerl_we08_chlorophylla_mean": {
+        "missing": 1269,
+        "non_null": 219,
+        "records": 1488
+      },
+      "glerl_we08_chlorophylla_valid_count": {
+        "missing": 1269,
+        "non_null": 219,
+        "records": 1488
+      },
+      "glerl_we08_colored_dissolved_organic_matter_c6_mean": {
+        "missing": 1460,
+        "non_null": 28,
+        "records": 1488
+      },
+      "glerl_we08_colored_dissolved_organic_matter_c6_valid_count": {
+        "missing": 1460,
+        "non_null": 28,
+        "records": 1488
+      },
+      "glerl_we08_depth_c6_mean": {
+        "missing": 1460,
+        "non_null": 28,
+        "records": 1488
+      },
+      "glerl_we08_depth_c6_valid_count": {
+        "missing": 1460,
+        "non_null": 28,
+        "records": 1488
+      },
+      "glerl_we08_depth_mean": {
+        "missing": 1269,
+        "non_null": 219,
+        "records": 1488
+      },
+      "glerl_we08_depth_valid_count": {
+        "missing": 1269,
+        "non_null": 219,
+        "records": 1488
+      },
+      "glerl_we08_flourescent_dissolved_organic_matter_mean": {
+        "missing": 1297,
+        "non_null": 191,
+        "records": 1488
+      },
+      "glerl_we08_flourescent_dissolved_organic_matter_valid_count": {
+        "missing": 1297,
+        "non_null": 191,
+        "records": 1488
+      },
+      "glerl_we08_organic_dissolved_oxygen_mean": {
+        "missing": 1297,
+        "non_null": 191,
+        "records": 1488
+      },
+      "glerl_we08_organic_dissolved_oxygen_saturation_mean": {
+        "missing": 1297,
+        "non_null": 191,
+        "records": 1488
+      },
+      "glerl_we08_organic_dissolved_oxygen_saturation_valid_count": {
+        "missing": 1297,
+        "non_null": 191,
+        "records": 1488
+      },
+      "glerl_we08_organic_dissolved_oxygen_valid_count": {
+        "missing": 1297,
+        "non_null": 191,
+        "records": 1488
+      },
+      "glerl_we08_ph_mean": {
+        "missing": 1297,
+        "non_null": 191,
+        "records": 1488
+      },
+      "glerl_we08_ph_valid_count": {
+        "missing": 1297,
+        "non_null": 191,
+        "records": 1488
+      },
+      "glerl_we08_phycocyanin_c6_mean": {
+        "missing": 1460,
+        "non_null": 28,
+        "records": 1488
+      },
+      "glerl_we08_phycocyanin_c6_valid_count": {
+        "missing": 1460,
+        "non_null": 28,
+        "records": 1488
+      },
+      "glerl_we08_phycocyanin_mean": {
+        "missing": 1297,
+        "non_null": 191,
+        "records": 1488
+      },
+      "glerl_we08_phycocyanin_valid_count": {
+        "missing": 1297,
+        "non_null": 191,
+        "records": 1488
+      },
+      "glerl_we08_phycoerythrin_c6_mean": {
+        "missing": 1460,
+        "non_null": 28,
+        "records": 1488
+      },
+      "glerl_we08_phycoerythrin_c6_valid_count": {
+        "missing": 1460,
+        "non_null": 28,
+        "records": 1488
+      },
+      "glerl_we08_specific_conductivity_mean": {
+        "missing": 1269,
+        "non_null": 219,
+        "records": 1488
+      },
+      "glerl_we08_specific_conductivity_valid_count": {
+        "missing": 1269,
+        "non_null": 219,
+        "records": 1488
+      },
+      "glerl_we08_turbidity_c6_mean": {
+        "missing": 1460,
+        "non_null": 28,
+        "records": 1488
+      },
+      "glerl_we08_turbidity_c6_valid_count": {
+        "missing": 1460,
+        "non_null": 28,
+        "records": 1488
+      },
+      "glerl_we08_turbidity_mean": {
+        "missing": 1269,
+        "non_null": 219,
+        "records": 1488
+      },
+      "glerl_we08_turbidity_valid_count": {
+        "missing": 1269,
+        "non_null": 219,
+        "records": 1488
+      },
+      "glerl_we08_water_temperature_c6_mean": {
+        "missing": 1460,
+        "non_null": 28,
+        "records": 1488
+      },
+      "glerl_we08_water_temperature_c6_valid_count": {
+        "missing": 1460,
+        "non_null": 28,
+        "records": 1488
+      },
+      "glerl_we08_water_temperature_mean": {
+        "missing": 1269,
+        "non_null": 219,
+        "records": 1488
+      },
+      "glerl_we08_water_temperature_valid_count": {
+        "missing": 1269,
+        "non_null": 219,
+        "records": 1488
+      },
+      "glerl_we08_wind_direction_mean_mean": {
+        "missing": 1242,
+        "non_null": 246,
+        "records": 1488
+      },
+      "glerl_we08_wind_direction_mean_valid_count": {
+        "missing": 1242,
+        "non_null": 246,
+        "records": 1488
+      },
+      "glerl_we08_wind_speed_max_mean": {
+        "missing": 1242,
+        "non_null": 246,
+        "records": 1488
+      },
+      "glerl_we08_wind_speed_max_valid_count": {
+        "missing": 1242,
+        "non_null": 246,
+        "records": 1488
+      },
+      "glerl_we08_wind_speed_mean_mean": {
+        "missing": 1242,
+        "non_null": 246,
+        "records": 1488
+      },
+      "glerl_we08_wind_speed_mean_valid_count": {
+        "missing": 1242,
+        "non_null": 246,
+        "records": 1488
+      },
+      "glerl_we13_air_temp_mean": {
+        "missing": 1301,
+        "non_null": 187,
+        "records": 1488
+      },
+      "glerl_we13_air_temp_valid_count": {
+        "missing": 1301,
+        "non_null": 187,
+        "records": 1488
+      },
+      "glerl_we13_barometric_pressure_mean": {
+        "missing": 1301,
+        "non_null": 187,
+        "records": 1488
+      },
+      "glerl_we13_barometric_pressure_valid_count": {
+        "missing": 1301,
+        "non_null": 187,
+        "records": 1488
+      },
+      "glerl_we13_chlorophylla_mean": {
+        "missing": 1303,
+        "non_null": 185,
+        "records": 1488
+      },
+      "glerl_we13_chlorophylla_valid_count": {
+        "missing": 1303,
+        "non_null": 185,
+        "records": 1488
+      },
+      "glerl_we13_depth_mean": {
+        "missing": 1303,
+        "non_null": 185,
+        "records": 1488
+      },
+      "glerl_we13_depth_valid_count": {
+        "missing": 1303,
+        "non_null": 185,
+        "records": 1488
+      },
+      "glerl_we13_flourescent_dissolved_organic_matter_mean": {
+        "missing": 1303,
+        "non_null": 185,
+        "records": 1488
+      },
+      "glerl_we13_flourescent_dissolved_organic_matter_valid_count": {
+        "missing": 1303,
+        "non_null": 185,
+        "records": 1488
+      },
+      "glerl_we13_organic_dissolved_oxygen_mean": {
+        "missing": 1303,
+        "non_null": 185,
+        "records": 1488
+      },
+      "glerl_we13_organic_dissolved_oxygen_saturation_mean": {
+        "missing": 1303,
+        "non_null": 185,
+        "records": 1488
+      },
+      "glerl_we13_organic_dissolved_oxygen_saturation_valid_count": {
+        "missing": 1303,
+        "non_null": 185,
+        "records": 1488
+      },
+      "glerl_we13_organic_dissolved_oxygen_valid_count": {
+        "missing": 1303,
+        "non_null": 185,
+        "records": 1488
+      },
+      "glerl_we13_ph_mean": {
+        "missing": 1303,
+        "non_null": 185,
+        "records": 1488
+      },
+      "glerl_we13_ph_valid_count": {
+        "missing": 1303,
+        "non_null": 185,
+        "records": 1488
+      },
+      "glerl_we13_phycocyanin_mean": {
+        "missing": 1303,
+        "non_null": 185,
+        "records": 1488
+      },
+      "glerl_we13_phycocyanin_valid_count": {
+        "missing": 1303,
+        "non_null": 185,
+        "records": 1488
+      },
+      "glerl_we13_specific_conductivity_mean": {
+        "missing": 1303,
+        "non_null": 185,
+        "records": 1488
+      },
+      "glerl_we13_specific_conductivity_valid_count": {
+        "missing": 1303,
+        "non_null": 185,
+        "records": 1488
+      },
+      "glerl_we13_turbidity_mean": {
+        "missing": 1303,
+        "non_null": 185,
+        "records": 1488
+      },
+      "glerl_we13_turbidity_valid_count": {
+        "missing": 1303,
+        "non_null": 185,
+        "records": 1488
+      },
+      "glerl_we13_water_temperature_mean": {
+        "missing": 1303,
+        "non_null": 185,
+        "records": 1488
+      },
+      "glerl_we13_water_temperature_valid_count": {
+        "missing": 1303,
+        "non_null": 185,
+        "records": 1488
+      },
+      "glerl_we13_wind_direction_mean_mean": {
+        "missing": 1301,
+        "non_null": 187,
+        "records": 1488
+      },
+      "glerl_we13_wind_direction_mean_valid_count": {
+        "missing": 1301,
+        "non_null": 187,
+        "records": 1488
+      },
+      "glerl_we13_wind_speed_max_mean": {
+        "missing": 1301,
+        "non_null": 187,
+        "records": 1488
+      },
+      "glerl_we13_wind_speed_max_valid_count": {
+        "missing": 1301,
+        "non_null": 187,
+        "records": 1488
+      },
+      "glerl_we13_wind_speed_mean_mean": {
+        "missing": 1301,
+        "non_null": 187,
+        "records": 1488
+      },
+      "glerl_we13_wind_speed_mean_valid_count": {
+        "missing": 1301,
+        "non_null": 187,
+        "records": 1488
+      },
+      "ndbc_apd_mean": {
+        "missing": 1428,
+        "non_null": 60,
+        "records": 1488
+      },
+      "ndbc_apd_valid_count": {
+        "missing": 1428,
+        "non_null": 60,
+        "records": 1488
+      },
+      "ndbc_atmp_mean": {
+        "missing": 1428,
+        "non_null": 60,
+        "records": 1488
+      },
+      "ndbc_atmp_valid_count": {
+        "missing": 1428,
+        "non_null": 60,
+        "records": 1488
+      },
+      "ndbc_dewp_mean": {
+        "missing": 1428,
+        "non_null": 60,
+        "records": 1488
+      },
+      "ndbc_dewp_valid_count": {
+        "missing": 1428,
+        "non_null": 60,
+        "records": 1488
+      },
+      "ndbc_dpd_mean": {
+        "missing": 1429,
+        "non_null": 59,
+        "records": 1488
+      },
+      "ndbc_dpd_valid_count": {
+        "missing": 1428,
+        "non_null": 60,
+        "records": 1488
+      },
+      "ndbc_gst_mean": {
+        "missing": 1428,
+        "non_null": 60,
+        "records": 1488
+      },
+      "ndbc_gst_valid_count": {
+        "missing": 1428,
+        "non_null": 60,
+        "records": 1488
+      },
+      "ndbc_mwd_circular_mean": {
+        "missing": 1429,
+        "non_null": 59,
+        "records": 1488
+      },
+      "ndbc_mwd_valid_count": {
+        "missing": 1428,
+        "non_null": 60,
+        "records": 1488
+      },
+      "ndbc_pres_mean": {
+        "missing": 1428,
+        "non_null": 60,
+        "records": 1488
+      },
+      "ndbc_pres_valid_count": {
+        "missing": 1428,
+        "non_null": 60,
+        "records": 1488
+      },
+      "ndbc_sample_count": {
+        "missing": 1428,
+        "non_null": 60,
+        "records": 1488
+      },
+      "ndbc_tide_mean": {
+        "missing": 1488,
+        "non_null": 0,
+        "records": 1488
+      },
+      "ndbc_tide_valid_count": {
+        "missing": 1428,
+        "non_null": 60,
+        "records": 1488
+      },
+      "ndbc_vis_mean": {
+        "missing": 1488,
+        "non_null": 0,
+        "records": 1488
+      },
+      "ndbc_vis_valid_count": {
+        "missing": 1428,
+        "non_null": 60,
+        "records": 1488
+      },
+      "ndbc_wdir_circular_mean": {
+        "missing": 1428,
+        "non_null": 60,
+        "records": 1488
+      },
+      "ndbc_wdir_valid_count": {
+        "missing": 1428,
+        "non_null": 60,
+        "records": 1488
+      },
+      "ndbc_wspd_mean": {
+        "missing": 1428,
+        "non_null": 60,
+        "records": 1488
+      },
+      "ndbc_wspd_valid_count": {
+        "missing": 1428,
+        "non_null": 60,
+        "records": 1488
+      },
+      "ndbc_wtmp_mean": {
+        "missing": 1428,
+        "non_null": 60,
+        "records": 1488
+      },
+      "ndbc_wtmp_valid_count": {
+        "missing": 1428,
+        "non_null": 60,
+        "records": 1488
+      },
+      "ndbc_wvht_mean": {
+        "missing": 1428,
+        "non_null": 60,
+        "records": 1488
+      },
+      "ndbc_wvht_valid_count": {
+        "missing": 1428,
+        "non_null": 60,
+        "records": 1488
+      },
+      "observation_date": {
+        "missing": 0,
+        "non_null": 1488,
+        "records": 1488
+      },
+      "predictor_date": {
+        "missing": 708,
+        "non_null": 780,
+        "records": 1488
+      },
+      "usgs_maumee_discharge_cfs": {
+        "missing": 708,
+        "non_null": 780,
+        "records": 1488
+      },
+      "usgs_maumee_discharge_estimated": {
+        "missing": 708,
+        "non_null": 780,
+        "records": 1488
+      }
+    },
+    "horizons": {
+      "1": {
+        "feature_lag_max_days": 1,
+        "feature_lag_min_days": 1,
+        "predictor_matches": 195,
+        "predictor_missing": 177,
+        "records": 372
+      },
+      "14": {
+        "feature_lag_max_days": 14,
+        "feature_lag_min_days": 14,
+        "predictor_matches": 195,
+        "predictor_missing": 177,
+        "records": 372
+      },
+      "3": {
+        "feature_lag_max_days": 3,
+        "feature_lag_min_days": 3,
+        "predictor_matches": 195,
+        "predictor_missing": 177,
+        "records": 372
+      },
+      "7": {
+        "feature_lag_max_days": 7,
+        "feature_lag_min_days": 7,
+        "predictor_matches": 195,
+        "predictor_missing": 177,
+        "records": 372
+      }
+    },
+    "records": 1488
+  },
+  "retrieved_at": "2026-08-17T23:03:01.708074+00:00",
+  "source_id": "algal_bloom_aligned_dataset_quality",
+  "validation": "all predictor dates satisfy target_date minus forecast_horizon_days"
+}
