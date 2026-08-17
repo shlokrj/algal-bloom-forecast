@@ -5,13 +5,12 @@ from __future__ import annotations
 
 import argparse
 import csv
-from datetime import datetime, timezone
 import json
+from datetime import UTC, datetime
 from pathlib import Path
 
 from algal_bloom_forecast.data.manifest import ArtifactManifest
 from algal_bloom_forecast.data.satellite import build_daily_target_records
-
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_URL = "https://app.coastalscience.noaa.gov/habs_explorer/"
@@ -31,7 +30,7 @@ FIELDNAMES = [
 def run(input_paths: list[Path], output_path: Path | None = None) -> Path:
     if not input_paths:
         raise ValueError("At least one GeoTIFF input is required")
-    run_timestamp = datetime.now(timezone.utc)
+    run_timestamp = datetime.now(UTC)
     run_id = run_timestamp.strftime("%Y%m%dT%H%M%SZ")
     records = build_daily_target_records(input_paths)
     target_path = output_path or (

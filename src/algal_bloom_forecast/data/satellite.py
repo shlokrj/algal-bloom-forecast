@@ -2,11 +2,11 @@
 
 from __future__ import annotations
 
+import math
+import re
 from dataclasses import asdict, dataclass
 from datetime import date, timedelta
-import math
 from pathlib import Path
-import re
 from typing import Any
 
 VALID_DN_MIN = 1
@@ -16,7 +16,8 @@ DN_OFFSET = -4.2
 FILENAME_PATTERN = re.compile(
     r"^sentinel-3\.(?P<year>\d{4})(?P<day_of_year>\d{3})\."
     r"(?P<month>\d{2})(?P<day>\d{2})\."
-    r"(?P<window_start>\d{4})_(?P<window_end>\d{4})(?P<window_suffix>[A-Za-z])\."
+    r"(?P<window_start>\d{4})(?:_(?P<window_end>\d{4}))?"
+    r"(?P<window_suffix>[A-Za-z])\."
 )
 
 
@@ -67,7 +68,9 @@ def parse_satellite_filename(filename: str) -> SatelliteFilenameMetadata:
     return SatelliteFilenameMetadata(
         observation_date=observation.isoformat(),
         acquisition_window=(
-            f"{fields['window_start']}_{fields['window_end']}{fields['window_suffix']}"
+            f"{fields['window_start']}"
+            f"{'_' + fields['window_end'] if fields['window_end'] else ''}"
+            f"{fields['window_suffix']}"
         ),
     )
 
@@ -76,7 +79,7 @@ def _as_rows(data_numbers: Any) -> list[list[Any]]:
     """Convert a two-dimensional sequence or array to plain Python rows."""
     values = data_numbers.tolist() if hasattr(data_numbers, "tolist") else data_numbers
     if not isinstance(values, (list, tuple)):
-        raise ValueError("raster data must be a two-dimensional sequence")
+        raise TypeError("raster data must be a two-dimensional sequence")
     if not values:
         return []
     if not all(isinstance(row, (list, tuple)) for row in values):

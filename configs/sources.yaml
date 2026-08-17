@@ -11,6 +11,7 @@ sources:
     product_family: CI-CIcyano.WesternLErie GeoTIFF
     sample_filename_pattern: '^sentinel-3\..*\.CI-CIcyano\.WesternLErie\.tif$'
     timestamp_semantics: filename calendar date validated; acquisition timezone unconfirmed
+    target_missing_rule: no_valid_pixels becomes a missing target; do not interpolate
     notes: Confirm a stable historical target product, valid-pixel rules, and missing-image handling before feature generation.
 
   noaa_glerl_ciglr_water_quality:
@@ -19,6 +20,10 @@ sources:
     status: inspect
     landing_url: https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:GLERL-CIGLR-HAB-LakeErie-water-qual
     doi: https://doi.org/10.25921/11da-3x54
+    sample_accession: 0303633
+    sample_subset: fluoroprobe_depth_profiles
+    sample_ftp_root: ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0231/0303633/1.1/data/0-data/
+    time_basis: Eastern Daylight Time as documented by the data dictionary
     earliest_date: 2012-05-15
     seasonal_coverage: May-October
     notes: Profile discrete sampling and moored-buoy subsets separately; do not treat them as one homogeneous series.

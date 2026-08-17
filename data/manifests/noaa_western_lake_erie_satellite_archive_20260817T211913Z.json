@@ -1,0 +1,666 @@
+{
+  "artifact_count": 47,
+  "artifacts": [
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026176.0625.1510_1548C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026176.0625.1510_1548C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "105.2 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "9a16eea6847763b0865732f5436db4bad612f0be9469823cd134f323f44a4f6b",
+      "size_bytes": 107730,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbWlCbTJVb01HRG1KL0c4L3MvYy9qTjFEekI3S1NpOExXWDdZN0lXdkJHL2dRZjNXU0FnRnZwR25Pd1dra090eEVjOU1uSE03NnhSTDhjMzZsZ2dyUXNNcHFjUmxYbitzUlNLTzgxcTBVaVQ0PQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpIS0xNR3JUaXhsUmdRRGpPVktxT2JTQW81dU54YWdpS0F2QzBsVUplUnU1cXkvOExlYmZhWFl1dmI2K3R4dUp6SEgwTVhaanYvR2xvQUtoeG9RYkNNR2Nnb2t4azMyRjBOazNWWElDY2VMTmoxYXVBc0R3U3k1clN4NDllYnp5YQ==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpIS0xNR3JUaXhsUmdRRGpPVktxT2JTQW81dU54YWdpS0F2QzBsVUplUnU1cXkvOExlYmZhWFl1dmI2K3R4dUp6SEgwTVhaanYvR2xvQUtoeG9RYkNNR2Nnb2t4azMyRjBOazNWWElDY2VMTzl4UFo2MmN0cWFWeFBmK3gzMXZrRw=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026177.0626.1522_1624C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026177.0626.1522_1624C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "105.2 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "40de519b8c336056879144d1f1f9301f515ed77511c72b0345538c0f7baab2c3",
+      "size_bytes": 107730,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbXA1SXZOaW9tSDRBUUQ0cEZLYVppVCtTL25kR1VWWTBpdHEwY3JsZjJoUExob0EwaEhvNEc2Ym52RzlhNWJIUjlqbnNNUjdWWFlwb2lmeENQdWozdVhLZTZUNEluUmJGeGVnaldnaDRyRUhBPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpXWXpMQ2F3d2JWK04vOHZMWkxMVjNHbnMyUE13bVhpM3FUZU81S0xUeEd5S0ZnTHF5ZG1TVitKNlMxSU9jUTJRaDFUYVBaWGh6aFJyUXlidGxZVzN0SVRNZjhFMFRqZTV5ZnZzTEE4MXpsckVBanZRNlNlemEvQjMvT28ycGNnbg==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpXWXpMQ2F3d2JWK04vOHZMWkxMVjNHbnMyUE13bVhpM3FUZU81S0xUeEd5S0ZnTHF5ZG1TVitKNlMxSU9jUTJRaDFUYVBaWGh6aFJyUXlidGxZVzN0SVRNZjhFMFRqZTV5ZnZzTEE4MXpscjFWbHRxaFh2aitZQWwxM0hYZUd3TQ=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026178.0627.1558C.b.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026178.0627.1558C.b.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "104.9 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "2b02d66ad54a6f6c3cc4733d066b1e7f8e2e045290ea5fcc84d8a5a1fb7687fa",
+      "size_bytes": 107432,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbXdrTW9BYS9XTy82bG9MWGUwSmtPUURDZ054SWNKYVVYM1RBU2hGVHd1UDNTdmlhajJjVEEwUlg3MlVYdW5KL1RMb3NrdnljVXFkZEp3T1IrYmpmRE9WdGxTRVQrQ0FlSG5scU03U3VBWlJjPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpwellJMmFlLzFWRUZGT3JoNXBWNlpIKy9FM21xNlBhZCtvODJVUjgrMDdRL3owc0RXTnFKVHM5ejBhcU5YRWwrV0RTYWQySnZRMmcxampFMW4wQ1Rhc3VGZDNWaVlOYmdMY0MrZnlSUHRjST0=&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpwellJMmFlLzFWRUZGT3JoNXBWNlpIKy9FM21xNlBhZCtvODJVUjgrMDdRL3owc0RXTnFKVHM5ejBhcU5YRWwrV0RTYWQySnZRMmcxampFMW4wQ1Rhb1JZTTUyYnh2MHFlaEg5QURiUVZNbnBydzVHbUZzbGQySHl1VUIxU2tZRA=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026179.0628.1532_1610C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026179.0628.1532_1610C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "105.2 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "8e7fed021e091bc2830f542bcb4a9909ca61595822925fc9335495fdffbf4cfb",
+      "size_bytes": 107730,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbU42ekErZDRnSElVTys5L0VKYVRTRWlCeGlvK1pKT2pZRWZVcmVlWk9kS0d5WXhqdGpTUjhibDBGNGlhTFI1cUZXZGZTa2svbGFXZnZEdWJ0cHJKUW4rNi94NWhZVE5IcngzcVB4ODdVWjZvPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpSaUNtWk5wK0w3Z1YwVUViU1NSeEdpRTF2WXpmd3ZVR2RkZzh4S3p6U2lyTkQ0R1VzMmF2aElDbFlTNXBTZlhMYy9DYktHYyt6RE9vWGF4OGRGNExwTUFBcW41NkVTK0FPTmpXZDdZMm45dDBLMVRlMTd5T0J0MFVKdWpwbEJINw==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpSaUNtWk5wK0w3Z1YwVUViU1NSeEdpRTF2WXpmd3ZVR2RkZzh4S3p6U2lyTkQ0R1VzMmF2aElDbFlTNXBTZlhMYy9DYktHYyt6RE9vWGF4OGRGNExwTUFBcW41NkVTK0FPTmpXZDdZMm45dnF0ZHhwSjNyUXdvQmM2ZUhhQkFrMg=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026180.0629.1506_1545C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026180.0629.1506_1545C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "105.2 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "c52fe342e4a8e083d1682a1dd773cc8ed22257eb4ba7eb460fd4b35030914db6",
+      "size_bytes": 107730,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbXFWK05VUjhqZ2ZZU1ZaeEdEbVlMR2tzSUxFQStFdk1PSDZsTkhFdDJIeHp2N2FXeHJ0WCtjZnlOdVdqdmg1WE1LdllkaC8wUStTYURrUlpMTU9SS2JZc1puNVcxR0VnL3AwVWVJM3ZEU1NBPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpYZjg4bVZ0Uk9jMTVsYVJTMGdlQ2F0clUvWGhJRm5WSDFCb0lhUG9vdmpvM3gvS2ZKM2gzTXMvWkpJc2hMNXVMcWhBMUNUWVg1Ri8vNzUrWWZ4S0l3RUdsV1JvQXZFb1NyaTJqdXVadThmajBqUktEdTUzSW16eUw3Tnh4TUNaYg==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpYZjg4bVZ0Uk9jMTVsYVJTMGdlQ2F0clUvWGhJRm5WSDFCb0lhUG9vdmpvM3gvS2ZKM2gzTXMvWkpJc2hMNXVMcWhBMUNUWVg1Ri8vNzUrWWZ4S0l3RUdsV1JvQXZFb1NyaTJqdXVadThmZ0VTUHJSdm1qamR6Q2JhR2ROVjNSVw=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026181.0630.1519_1620C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026181.0630.1519_1620C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "105.2 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "eb7301266292fc0d49ed6b4734b17e35fdd44597ef86be16a100aca242493032",
+      "size_bytes": 107730,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbTQyTjNwb1pCRnpPY0pSOW1YRW9mTjc0aWx0andsRWVlOHlqSUhtekpYUnM5TzltNEJGQURjczNQdXVqTFJibjN5WnA3YVJWQnVFT1ZHSGs0RDM4VDJyUGszLzNqbjBVMU9jZnUvSm1FZXNzPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpJa3FackpUTkVwaUh1ajJBR1lMb0d0anBCM2lvMlpDQk02aHlETFBtZHpYSU01UU8xQ2JFR29pVVluZEFuaVJCT3hyQUx0QnJDMmZ4RkxmUGcwN25XZWhxcGN6ZisvMDFad3Q0NGdQS1R2ZUxMMVhYVkJyYmJ1OWdOSHpxWmNOOQ==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpJa3FackpUTkVwaUh1ajJBR1lMb0d0anBCM2lvMlpDQk02aHlETFBtZHpYSU01UU8xQ2JFR29pVVluZEFuaVJCT3hyQUx0QnJDMmZ4RkxmUGcwN25XZWhxcGN6ZisvMDFad3Q0NGdQS1R2ZW9XMWg4dDVid25jck45aWh4UDV4WA=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026182.0701.1554C.b.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026182.0701.1554C.b.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "104.9 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "8121ad17d4bca9d73e3029f1496595ea51c2f494393479d03d4da525f607587d",
+      "size_bytes": 107432,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbVE0OWNJVFF3clBzMzR1WWUvU1FmWWd1YStYOTdRNUx1blN5UW1QaTdCMTkycHcxUFcvcWErV3dWVXhDb3NOTnB1enR5bmg0YmJLREtYaThxUkRQYzF2OEx3MjU1RHArY1J1M3NZZGZMMFF3PQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpwN2Y1K1N5VHdnWFlWbm92QkRXWUpMWWZhS3l6Z0lTUG8rckpUOSsrUnQxVWFlU2ZKN1pVZVNaV29TMlFwNHNFQkFJSnJXSnJ4dnBWSWNRclRHby9xMWlObEl5dVNpcTVTYy9CQmhjRk50QT0=&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpwN2Y1K1N5VHdnWFlWbm92QkRXWUpMWWZhS3l6Z0lTUG8rckpUOSsrUnQxVWFlU2ZKN1pVZVNaV29TMlFwNHNFQkFJSnJXSnJ4dnBWSWNRclRHby9xeWJkRTJaWkRyWTRDbkJ1UWN2bE13aitrZkxzRHN4UnBqRnB6UUJ0RjlrdA=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026183.0702.1529_1607C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026183.0702.1529_1607C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "105.2 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "9afaa3877c8a2b271871ac75c01c9e2a1cb9851b43c8d797413cb31fd247e0a5",
+      "size_bytes": 107730,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbVNTak5zeUV4UWs0TjFqMTZwNko3aWRQNW5DbUlNWnYwcjBockxlUXk5UWpJVUJHeXMwODNVZmVYNWN1a3JjU012YWY1YXozZnJUdmFmT1ViUjNJUDQzNWpoMVQ0dHM3NldBMFN6c2RLdndnPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpnSnhCK0NHcVBOeEhWeVQ5TUtYcWdaZUpvN2UvODZQMmpuZEF3MWpnSnNRZm9jWWp6RkJBZUFSRmRlWk15Nk4zLzlFN3dJNlU1ZVVJWWlSOUdxRXRxeDQ0Rm1DS0Q5MWllcTdncVl2OTlrdVFYVXFUbzVoelNiWHBoMCtMc1VZag==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpnSnhCK0NHcVBOeEhWeVQ5TUtYcWdaZUpvN2UvODZQMmpuZEF3MWpnSnNRZm9jWWp6RkJBZUFSRmRlWk15Nk4zLzlFN3dJNlU1ZVVJWWlSOUdxRXRxeDQ0Rm1DS0Q5MWllcTdncVl2OTlrdG9JR2ZQU3dJc2c1SEhiOW9lL2JhWg=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026184.0703.1503_1541C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026184.0703.1503_1541C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "105.2 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "27d969a8c4fb872ab970576b3d37509d1f581ec457ed5573bc8510d8b67b31de",
+      "size_bytes": 107730,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbUdzMXdiaFprZTRxRDBRRlZYQVBpNjFmdWYyaktNT0J1THRkU3c5UlUyUjBKcWtUU05KTklCUzdJa3A3blhHSVZndUV3OGV3KzJrNnVqbXQwa29qa29nR05BTDVXM05YM2dHMWFHMkJoK2tJPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVp3eFB4ZEduKys4WjVXWEdFUUFHQWQyYUtQc2c0UUJxZjNnMU9xL3lkbGM4R0VHY2xkU2FmMXhCbWNhZXRHYmtKNEZZVE1hd0NVV1dTSWc4bk1kclYvOG5pdFZGM2E2TlF1OXNKeTZ5Mk5KK0RSSmJmdGhjeU5DcFlwcFlZTHpnRw==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVp3eFB4ZEduKys4WjVXWEdFUUFHQWQyYUtQc2c0UUJxZjNnMU9xL3lkbGM4R0VHY2xkU2FmMXhCbWNhZXRHYmtKNEZZVE1hd0NVV1dTSWc4bk1kclYvOG5pdFZGM2E2TlF1OXNKeTZ5Mk5KOTNQWmc0QXZVUHVCWGhOejVFVkg0dQ=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026185.0704.1515_1617C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026185.0704.1515_1617C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "105.2 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "5c69bf73903207c95f7ddf858b50a6e091b3562ed44890d16c042697c789899b",
+      "size_bytes": 107730,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbUNHT1IwdGJIeFZIZXk5M21qYS9sbjYwblFnQWVKaGU4bTZFcWsyVXk4MXE2aGU5V1o0aVl2ZVlpcUhaS0dNWE12ZEVrT3hDbDU0MTF2VUYrUm1wbHl5dVdLSEdsWjl0VmhUSVJ3cC9QM1FZPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVprbmFXclMzUUhaM213dGNXejI0ck0wakxRVDdkbGxtamdGUFM3QnZISW14VnFQaG84NWhXYnhmKzVOeHNGSXFZM2JJZmFJMmJ0U01neWhWRlBWWnNKcXNhclRmTUZKbHVDcHZFbDVrWkcvdHR6VTgyNEpyTkh3TStKNkFFZElCaA==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVprbmFXclMzUUhaM213dGNXejI0ck0wakxRVDdkbGxtamdGUFM3QnZISW14VnFQaG84NWhXYnhmKzVOeHNGSXFZM2JJZmFJMmJ0U01neWhWRlBWWnNKcXNhclRmTUZKbHVDcHZFbDVrWkcvc1pZanp2c0tkcC8yU2dWNklHK1VzOQ=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026188.0707.1537_1538C.a.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026188.0707.1537_1538C.a.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "104.9 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "c72ff5cd15ec8fb9ae787b467625e37353bd778c02b4eb1033bb832666853478",
+      "size_bytes": 107442,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbVdUTjZ5dlRIZmVQVWlBcm4vZlpQSmljUTRXMDhNbzhacDdpOUxEZkZXUFA2STB0TGNUTVlQenlIZEF2bjNPeFNxNGJZdm43c2VyZ0JqRU9mYkp4MmFyK0VZVmlvNlR1TnBEK3lpSkpKdGJzPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpTcUQxMVp5UnNNMVdBNkNoZk5YZ1hHMFBWdHhTRzEyck5RbFNURnRnc3o3eWJSREpxUTdCYkZydHVsTlU1QVhiNEVGN3ZGSC9vdUNDcmhVeFFKcGExRVQ2ZDdKUm44disxYTNTN2QyS1pkdGVqb1JUWHpCTW82ek5kd2VFUEJMZQ==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpTcUQxMVp5UnNNMVdBNkNoZk5YZ1hHMFBWdHhTRzEyck5RbFNURnRnc3o3eWJSREpxUTdCYkZydHVsTlU1QVhiNEVGN3ZGSC9vdUNDcmhVeFFKcGExRVQ2ZDdKUm44disxYTNTN2QyS1pkdVZqUkU0M0hNQUFubm5zYk1xTFlSUA=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026189.0708.1511_1613C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026189.0708.1511_1613C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "105.2 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "e6d4a4a8505b46122a56c258940bd0c0b2cd2db55ca8ad3765f3b127e5e5c7a5",
+      "size_bytes": 107738,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbVpEamxsOUpBRDB6a1VmMit2TCtabmVnMFpWV3Jxb0wwREdrc05EcG1xM21sUVdDM21PVks0eXdBalljS1dHRmN1aUNrSUJxUGV3bHBNT28vVFVURDkxSDNVUFROenhhSWNFV1FZU25EWlRvPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVprVWxVOFFGM2hFTzVDN3QyM3RmVWJUckpQYUVrYSs5eHlrSTlPRXhEaURaV3JUZEswWlNjZWx0RFFaOFJBQUJQNWdMdFQ2Tnc4MUpDK2xkd3FOT0NkY25PUjlUaVNnbVBBT3k4M0lSRWoyTzJUaW1Bc3JwdmVkbVo5NmFTWkpRdQ==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVprVWxVOFFGM2hFTzVDN3QyM3RmVWJUckpQYUVrYSs5eHlrSTlPRXhEaURaV3JUZEswWlNjZWx0RFFaOFJBQUJQNWdMdFQ2Tnc4MUpDK2xkd3FOT0NkY25PUjlUaVNnbVBBT3k4M0lSRWoyTkdvaXJ2YTVPc2pyVXM3dHhRV2ZCQw=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026190.0709.1547C.b.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026190.0709.1547C.b.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "104.9 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "282e298d90ae910b7a87db4a213422f1c952bb80070258f72dfd80c74714e689",
+      "size_bytes": 107440,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbUFPMUZJd0xTWFZOU21vdDF6cHhWdWpmZkdVZUw0cTNXZjNVMWUrMjF4L1FSTlFWR0cwNWNYbm5sRmpmNGNNcGhtM3hiZnVuazRaem40WmZPTWE0SzBZL1JmVTA5c3NVRnluTG9acm00WThzPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVp2ckw4alVTOHQ0MUdPOU15RVU5NktGaURqSkpndi95dThwVTBoZWlYMVVtRHJHdEhCWFIvbzcycjY2RS8vL0hOdzFkeHFMRUNYWFVZbUVJd3ZJUjcxU3JacWhpWWc4dUlwaE40d1F5K3o4VT0=&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVp2ckw4alVTOHQ0MUdPOU15RVU5NktGaURqSkpndi95dThwVTBoZWlYMVVtRHJHdEhCWFIvbzcycjY2RS8vL0hOdzFkeHFMRUNYWFVZbUVJd3ZJUjcxUmg4RFpsbDlsOEZYNXZvNVhqZTh5M0QzY2IydXcxNmFkOHp3Q1c4VXdTRA=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026191.0710.1521_1559C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026191.0710.1521_1559C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "105.2 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "36a5e5598724b1fbb3061d7048d8287c8ec1d7c508d9e8304aa50649c421e721",
+      "size_bytes": 107738,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbURuSGdEdDlMR0c4aXpncTJaQjVQZXlNbmdKdFlYd1pYcXN5elZGSFQzaWx5VXp3dWMxVFMrTXhKOFJJR21lUW1DRUFKZFNGb212REpIRy96ZmJkbFgzdWYvY1JKVGxyL0xITUY1eXhaamJNPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpBMjZKc3lqY2ZOUmk3OU51Sk85Um83UGRKVHJkZGpXRG5EbS8zZHJNVXhtQWFoaEZOTW52T3VReW93WTByRk54QVg0NjBQamp2V0dHclQrR0FsNGdXUTluTWxxOHlPeHZuRE9GWldVYy9qY0ZJN0drMDU0S0hNN01RdStHb282Mw==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpBMjZKc3lqY2ZOUmk3OU51Sk85Um83UGRKVHJkZGpXRG5EbS8zZHJNVXhtQWFoaEZOTW52T3VReW93WTByRk54QVg0NjBQamp2V0dHclQrR0FsNGdXUTluTWxxOHlPeHZuRE9GWldVYy9qY2Y0OTBLRkV1TE81czYxZThuSXEyWA=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026192.0711.1533_1534C.a.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026192.0711.1533_1534C.a.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "104.9 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "7307f9e37a7862291fae6b9c3d127b82ddbe1136e10c4c0e42ab3559ae4ead8d",
+      "size_bytes": 107450,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbVM5SEVoYW4vc1FVWlFBNUo2MEcwY0VNL0RseVJ5TnFDOFdLRjg4enY0TjRLNTEwMFJZOEpZTWdlYmgxY1J1Tm5XR2U3RHU2Vmw3b3dVb2pwUjVzWEtDQU11bFd2MkNvVnU0OXQ1dnlXK2IwPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpKdDF5QVF2TlRNMGRRODVLdlRaYVpqT1hSVWpnT2xtT2ZCU25RdkZKUmw0YlgwNjdYRVZqemlGTlA3M2Nib0xYQ0UxRng0WmdoSGNzQ3JTWm1qLzhoZXlQZGRMbTRlTFZoMEdnUzRLL3FSYXdhNlpsVE5DZ1F0VjhzLzduWjZtaA==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpKdDF5QVF2TlRNMGRRODVLdlRaYVpqT1hSVWpnT2xtT2ZCU25RdkZKUmw0YlgwNjdYRVZqemlGTlA3M2Nib0xYQ0UxRng0WmdoSGNzQ3JTWm1qLzhoZXlQZGRMbTRlTFZoMEdnUzRLL3FSWlhRTFExTUtoUTd0TlhoZmJJRnBwUQ=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026193.0712.1508_1609C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026193.0712.1508_1609C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "105.2 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "1c235d1f0378e4222e5513e5c21cc7234bb0ab4df8fd40187b0e8ad417cd9d95",
+      "size_bytes": 107738,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbUhTcVM5SC9pRk82K1lUb0xMNkpPMjFwcnFnWW0rTUZrcEd0Y1gwNFVvQkNqQ3NVdkxhRTV6WDRTK1JRVy9zZkIzVTJhaXBBZ0pFNktKc0dnVlhLRk40M0ZqNzV6M0Y0T3daZVNqRTJYdFh3PQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpNbzNNSFJBcXJnWmFqQUN6bDljMENxYytta3FYSGl6eTRxY29EblFkQ2RyN2phcnVuZ3RubTJZenM0UlJDVHJKNUJHQjNBZTJ6QnpGcy9LUWcrWnl4VGJ1UEdSaWdqcVAvTCtpenZwWkFhbEJSdHIrTnhac05pb0VqdmFIZzVrSw==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpNbzNNSFJBcXJnWmFqQUN6bDljMENxYytta3FYSGl6eTRxY29EblFkQ2RyN2phcnVuZ3RubTJZenM0UlJDVHJKNUJHQjNBZTJ6QnpGcy9LUWcrWnl4VGJ1UEdSaWdqcVAvTCtpenZwWkFha2FzMFlHY3dhZ1JvRElmaXMrSGVBcg=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026194.0713.1543_1622C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026194.0713.1543_1622C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "105.2 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "90d5accbbbb6b252dc8dca85e440fb077e4b712a5310462191fc24fd804eb599",
+      "size_bytes": 107738,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbStNS0lSUjllTVYxOXdTQk5CUVdWVTl0UFFVNDFYYzBsUkFLUldNcU4yTG9ZZTdHWkk2cHdqWGN2RGlROXdUU3JMSmdOL2NZNE5adDNRYVlCNkdJYitmWENoVHNiNG9BS1BrSTU5ek54cVlRPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpTZ3RzRGVRWnRHNUtDbXh2Y2tOR0Eyc3ZoMUdQekV0clNDaG1xLzBXN2dGVThDNWZkM0ZFWGRYVU81czE4Z3NlcjV3L3ZEZFhOVmw3TTIrU0xtQTJtbktId0NZcFdGMnJVdzAranA0elB4MzFsMVdXdCs5WmF2T3NkY3czazZwVA==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpTZ3RzRGVRWnRHNUtDbXh2Y2tOR0Eyc3ZoMUdQekV0clNDaG1xLzBXN2dGVThDNWZkM0ZFWGRYVU81czE4Z3NlcjV3L3ZEZFhOVmw3TTIrU0xtQTJtbktId0NZcFdGMnJVdzAranA0elB4MnRjT1lVbU56RWVhZmhxNkkyR0hwcw=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026195.0714.1517_1556C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026195.0714.1517_1556C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "105.2 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "a714e3bd74e1996137d0718acc0e878e1f4ccf668dac047396c529ecfabc59a2",
+      "size_bytes": 107738,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbUdlT1NXT0ZDNEJhMmVhTjVEM0U0T2V5SE9GUFF2QVNITzlsVy93V2V3Zzg4ZmxJdUwrVWNHbGtQSTh5eDdBam1QazcwRjdhcEVGYUFXenpyMWxucGV2YXYzR0lZMjZnVVhLK09tYk1tcmUwPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVo1cWRQcG9wVHNqOTAxeU8yRzZnMWdnTndrZG16NXNhSVJHZEVnVXkzc1lCaFNqR0p1MkVJYU1MS1ZXNks5SmZ0OHNCcnlzTHRCNTFpcHJ4RGdDckxTWDVoVENuYzl6NXRYeFUxK2FQbmpUM2NkRnFjdGI3QWNCUS9NMXVpSHJ1Ng==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVo1cWRQcG9wVHNqOTAxeU8yRzZnMWdnTndrZG16NXNhSVJHZEVnVXkzc1lCaFNqR0p1MkVJYU1MS1ZXNks5SmZ0OHNCcnlzTHRCNTFpcHJ4RGdDckxTWDVoVENuYzl6NXRYeFUxK2FQbmpUMTJBSmdURTI2emVrdUhRWXhJcSthdQ=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026196.0715.1530C.a.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026196.0715.1530C.a.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "104.9 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "97e0a8b137656c1c1efb89da2dac338fd61770ae7708084638218195828b1c6d",
+      "size_bytes": 107440,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbSswSkREaFluZHJyVy9iNG1WZ2huQkl6MFA0R3lQWS9oWHhPaEJvUVJidWt3cTIyNkZValBNU0dqbUM1QXNLYitsQkRJNjBOZFVkRTZic3hTNTlaYUxxSmtadWlxUnlVdzJEazV6VUNiLzRnPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpTM3hENjlmb2EzRy9lb0FkR0UvYUtRdSs2TDZQdWVmRnZvMDNmVTVVRmJoTXgxYnNTSkwvdUJlN255OWkralpRTldrWkVHd3J5dEJ1UGNaeEs0OVlqQW1mNndkUmlsM0k0RnFYdFhhTXVxRT0=&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpTM3hENjlmb2EzRy9lb0FkR0UvYUtRdSs2TDZQdWVmRnZvMDNmVTVVRmJoTXgxYnNTSkwvdUJlN255OWkralpRTldrWkVHd3J5dEJ1UGNaeEs0OVlqUFhlNmdXTTlnUDJFc0ZlM2FKSVlZalBRT3ZsRWhnNlRyeXVzK3cwU1JRWg=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026197.0716.1504_1605C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026197.0716.1504_1605C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "105.2 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "93993fb3f86269ad1e3aa634f1ce65c2aa5fd01482bf1b5fa30b3e30c0e56e0e",
+      "size_bytes": 107738,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbXJIN0RQVXFFU2hpWTMrUzl0dVAwZis5cUErYzBpdURjTWZIcU0rZE0vSzV3Z0J0VGkxaXhFRS9pTU9TK3VtK0tHM2lJNk12YXhibDhkNDA4ajNqM25JckVhWG5waTlGVVNsVFR6YTFOQ25FPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpzRHJlSE0zYjRDY0xWWHhmOXkyeHE4TitRSVg0dUZ0bmZUQzlBRmkzSDcrNVp3OHFqTmtNekcrTmxsZXVnOU5nUGJqeUpXSGVIcUZ5eEsvLy9VNllQcnA3VjRZaUdBQkIrdVl1ZWdxOUdmZTl1NnpTeks3c0Y5a2pwM0tKVUxGaw==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpzRHJlSE0zYjRDY0xWWHhmOXkyeHE4TitRSVg0dUZ0bmZUQzlBRmkzSDcrNVp3OHFqTmtNekcrTmxsZXVnOU5nUGJqeUpXSGVIcUZ5eEsvLy9VNllQcnA3VjRZaUdBQkIrdVl1ZWdxOUdmZEV2d2pBSkZOSzNBL0ZBUHVhZm11bw=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026198.0717.1540_1618C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026198.0717.1540_1618C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "105.2 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "fe8316db406a8893987b58ad7e74a8b6009051f02e2da01c2f2b56a3a3f04425",
+      "size_bytes": 107738,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbUxWN2lKMGMxeG9zY3FXcTdsVTNudDdGN3pIT2QxclJsUGlGZlo3U0NRMjhLZUZEQ1F0eEZIZmpDWmJtQmdNZzVuZmI0bnhtUEpWWkkrTy83bEw0K3liQVBGTXYvaVZFY0hLTHVyZ01aNUdZPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpDcTdhbTVFaTQ3U1hHSVlCM2JJL05TWXZ3NmpuQm11SUZsUVNQL2dDOWZsQW9qOElka1d3L3NORmVCdnoxL1BNbk04VlNnVVQ2Y0ZqMFd0ZlllTDZmVFlxZmgwQitMNWlzOEp5SkFhQ0ZOYlcrY04vZDBWalN0bHl5eWlHSVhsUQ==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpDcTdhbTVFaTQ3U1hHSVlCM2JJL05TWXZ3NmpuQm11SUZsUVNQL2dDOWZsQW9qOElka1d3L3NORmVCdnoxL1BNbk04VlNnVVQ2Y0ZqMFd0ZlllTDZmVFlxZmgwQitMNWlzOEp5SkFhQ0ZOWlJpTnJDS242Sko2MDFqRngxMW95Rg=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026199.0718.1514_1552C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026199.0718.1514_1552C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "105.2 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "c1cce85b38bca6a8a68540a36a350f63603e1f92b6823458524df6639a02c53a",
+      "size_bytes": 107738,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbUhIZkNPbVRVMVg3NjQ3VmxWQUkzNUpsTDhPdFh5eE12c050NkdxZGs1eERPQ3RwUzlBRHYzYTVqbnRGaWsxOFc0MEZDKzBTeXlNTUEwVTRXYkFua01xQ1J5ZWxjcTIrLzdKakY2NEh2QVg4PQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVo3U1YxbGhDK2VHTThPY3ZValplRTRoUW95Qm1jWlFrS3JNVGVHdUZWVTl3QUQwWUQxeklIS1lPWFQrMkJjY1ZyYmRmMmI5OTRKY1kyZ2tOcERjamdoNmllRWoyUnJJdkZsTkFpQjNPTjU4NkUzR1M5b2NXWEJmNGI1Nm5HaG5YVA==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVo3U1YxbGhDK2VHTThPY3ZValplRTRoUW95Qm1jWlFrS3JNVGVHdUZWVTl3QUQwWUQxeklIS1lPWFQrMkJjY1ZyYmRmMmI5OTRKY1kyZ2tOcERjamdoNmllRWoyUnJJdkZsTkFpQjNPTjU4NS84Q29LMFg3ZW1VcDR2RDNOVDNMRQ=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026200.0719.1526_1527C.a.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026200.0719.1526_1527C.a.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "104.9 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "4332d1d396bbf99244ef1fe1de04cb9e6f781f8c7e26a7ee09a7fe7d8cfdd423",
+      "size_bytes": 107450,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbWZpWnZuZFg3VStlTnV5WUJlajlpNXRnUm5pcmpHMndyZ1JnZy9VZ2hqRWF4UlUvM29rU0VNR21CUGlydm1XVFIwVSs0d2sveTNlOFlaeFpXcXF3WGU3OEdjU3V2ZzJHSHNid3IvdFlTWTFNPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVoyUmZOUkkwZWFYb2VLWm5PRUJIeG1CcUdJM3l3aXlTS0JBZGowWVZzTStuRWZPbjVlNmxRazc3MHZoOS9NNit6SmtzbW1QVGV5cVNGRFRSYzBOdDQ3Qkw4MFJ0bERDOXpCbDhTbHBEbndhMlVkWUhkRUlXNDVCN1U0WGRyUVh2YQ==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVoyUmZOUkkwZWFYb2VLWm5PRUJIeG1CcUdJM3l3aXlTS0JBZGowWVZzTStuRWZPbjVlNmxRazc3MHZoOS9NNit6SmtzbW1QVGV5cVNGRFRSYzBOdDQ3Qkw4MFJ0bERDOXpCbDhTbHBEbndhMFZsNW9zRHBzalF6TWZGNFdMODRmbw=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026201.0720.1602C.b.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026201.0720.1602C.b.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "104.9 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "52769028775aab7c68022c265baa8326b97e30b786e35bde9857bfd67531ed2f",
+      "size_bytes": 107440,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbWtPY2RGZ2JDMkVFWFFjblMzcTV0RDBRUGFkcm1tNzhaOGNhbTJoQjJjZWpZTGJmNmp6cGpDTTVZUEx0cWk5b0hxemFBUm9oUVc1c01iQ3ptaUdReDNBMFFTR2MzTHhLdDh4RWRMbjA2Uno4PQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpIRDl5dHFEQjY4b200cXkrQU1pbit4NEFWZmZnZXZpWS9EY0swU1cvMGJ2Nzd4c3R2REJGZjhnYzE3WUFhUWM2d1RlajdvSlVBQWx1N1E3MHU1dno3OFlXNEREMmFSVHNaV1gxc0JVUE1XND0=&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpIRDl5dHFEQjY4b200cXkrQU1pbit4NEFWZmZnZXZpWS9EY0swU1cvMGJ2Nzd4c3R2REJGZjhnYzE3WUFhUWM2d1RlajdvSlVBQWx1N1E3MHU1dno3N3k5OW8vVEV6Q0haWmcxMXZMQTRTQmRzbFRjUGQ1RkVYRFc5U1U4Z3NWZg=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026202.0721.1536_1614C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026202.0721.1536_1614C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "105.2 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "df1a151b2dfe8b72f44c5b2943752a4529c05a695af32ad569d5a5322abd8a94",
+      "size_bytes": 107738,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbXR2UDkwaXVyRDZ6T1hJK3o4dzY1RVk1UFRXWmIvZHI3UWcvUHZUUWlDVm5UVDYrZXdXT1BjY1JIMmdtdFJDazNlb1NKUWhLclM1eTN5S0ovNVpVZzVoWTVJc2M4WHB5TlVIdUxEcGJsUXNNPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpsUExVZjg5UmMvMHh0d3I4UUZSOWc2QjBtNDZDek1KWlRpNERJZVZLZmZPWjFYSHZhR3F3NWNPOGpObXpSeWZQZG9KdEJPR1RqZ2hvbXJURExTMHMwdzVnYmpzSWVXdjNYNHBGODdEWkRHOTBvenpMTGN2YzhrSjlGUlRhVDlDVw==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpsUExVZjg5UmMvMHh0d3I4UUZSOWc2QjBtNDZDek1KWlRpNERJZVZLZmZPWjFYSHZhR3F3NWNPOGpObXpSeWZQZG9KdEJPR1RqZ2hvbXJURExTMHMwdzVnYmpzSWVXdjNYNHBGODdEWkRHL3lDSXI2NURkUEZLSDVCSjJ2b2tyVg=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026203.0722.1510_1548C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026203.0722.1510_1548C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "105.2 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "cc651e9ed31f5736012141913eb4540f1b31c4746feac9e98a9fa266f1358ca2",
+      "size_bytes": 107738,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbThEemFKM1VOTmF5WEZwL1RCRTVXYUtYR0dDV3VsUFFHOWNBTVY3eDRpYnFCbUpIdUpyeitVSkVOa0E4MDQ1c01vVGIySFlWYU40WFhLMmJqVUV5N093TWdqTTgvME1TUzRwcTlkbzByY2NjPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpBeDFnblMyb2tqZzd5eFJvRit1dWJJdUVqRUJvc2w2WWpQMDhKei9KNmRoUkEyQXJFOHU1TWV5Q0VXUE5UTFBrUHJtdlg1QjBNYnFCMXcvcjlDcVJlbExocEZiM25DeklveUIycVptRjFPdmVDNlBERUFSenUxYktLalkrcUFyTA==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpBeDFnblMyb2tqZzd5eFJvRit1dWJJdUVqRUJvc2w2WWpQMDhKei9KNmRoUkEyQXJFOHU1TWV5Q0VXUE5UTFBrUHJtdlg1QjBNYnFCMXcvcjlDcVJlbExocEZiM25DeklveUIycVptRjFPdlBjTUlQTUN5Unh6NzFlZjVzaEpGRw=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026204.0723.1522_1624C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026204.0723.1522_1624C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "105.2 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "93efc6266558f333e60309f87daf4c66a48289c08a449ef02ddced86e311be36",
+      "size_bytes": 107738,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbW84aldRM3BWNlJGRjFNMVVwa1o5T3Z0UWg4REVXTWJ2YTd1ZktzbGFrcThqWFdpSno1dEJHRTBKWHA4WS91d2QyVDZubDVkZnkzUDVBL21sVEpTa3pqUENIMnRGKytCc3J1RUdDcDdMK0tFPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVo4Qks2SFplb3pGb0FjYURPZjdMdzByVERCb3hMc2Jtc0dkQkJoWkJhZTdobURKTEJ1UHJzbVFHWjdIbUVzMUVtSkIxNlNiVEoxT1VKWXNZWGxLTUpkWWdkdnhFVzNlNUpwYUg5KzRIZmZ1MFZoQjdSdCtVVk50eFQwRGd5OHFUNA==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVo4Qks2SFplb3pGb0FjYURPZjdMdzByVERCb3hMc2Jtc0dkQkJoWkJhZTdobURKTEJ1UHJzbVFHWjdIbUVzMUVtSkIxNlNiVEoxT1VKWXNZWGxLTUpkWWdkdnhFVzNlNUpwYUg5KzRIZmZ1Mm8zMEV1aDkwM1NMUnlpL1B5dzREQw=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026205.0724.1558C.b.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026205.0724.1558C.b.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "104.9 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "0bef0722921dde2ee15b7c48eef8c0c2c87c129a50f42eaa3ffb141a3ca856ae",
+      "size_bytes": 107440,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbVhORHZHS2wwbC9aRUw0bmEwMTBCQ1FlaVFkbVE0WU9BNTUwS2dSWTN3QmpkeVQ1bXEzTktabFN1Q3NGTzMwWmRDWWlIUVBpeFZEaG1lUjBNSkNuKzZMdFpFdGkxdHRFZGhCdmZXdjU1RUc0PQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVo5eHg4NmxlanUrczJPS2I3ZjNLb1duTzhDN3dZdkV4RHlGYnRWM0Y3OU5TUWhhMFlCaEJwdFo3NTRHeDBKV1pEdE9pZWcxOVF0eGg3UUpPRmtMeWdxcHAvbDVxRGtSaE1ZZ1ZwakcwTzZVdz0=&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVo5eHg4NmxlanUrczJPS2I3ZjNLb1duTzhDN3dZdkV4RHlGYnRWM0Y3OU5TUWhhMFlCaEJwdFo3NTRHeDBKV1pEdE9pZWcxOVF0eGg3UUpPRmtMeWdxcG5wNXJlazdYL2RSQnJOMVcxVG5oM2JBL2VQVlZOYnpleG9HNXJuR2Q3YQ=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026206.0725.1532_1610C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026206.0725.1532_1610C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "105.2 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "67472f964e50c9d5914f1b3b24d4b0c33e51dbbe97d6c632a33d03956403f05b",
+      "size_bytes": 107738,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbVk0dElmalhZU0RHc3VKNFlrTG1wNlA5RXZBOWRka0ZOOWp1UE1kK2lueTROdTZSeWRCbURDN3F4dC9qYyt3Ukltbm9FcDBHR1kvaVV3ZEVhOWRoSDNmaUpjZzdzeWNCQyt3ZDhXUTl5R2IwPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpkUnhnYlVjMmluZjV0S24rWTVSb1FzSzFTYXdUdzJYcnY0L3FqeUd3S3RoSVZGUjJyRDU1QVJMcWxFVllITjNkVERIUG1EclpvOXppSWZEYXRVSHR6d21nb1JTNGpEVndHZEZMenRhRUdyV3lRbDdrN1RXYkpFS2xNdWRvbld2RA==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpkUnhnYlVjMmluZjV0S24rWTVSb1FzSzFTYXdUdzJYcnY0L3FqeUd3S3RoSVZGUjJyRDU1QVJMcWxFVllITjNkVERIUG1EclpvOXppSWZEYXRVSHR6d21nb1JTNGpEVndHZEZMenRhRUdyVWdBU1BpSi9GSEhjZ2t0NVFYZWs4UQ=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026207.0726.1506_1545C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026207.0726.1506_1545C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "105.2 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "ead23e5e3ec31310fe043a667a33fa1fc77d18461ba0e656a565fe75059bc336",
+      "size_bytes": 107738,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbUxRaE5lYWJxakFxNGdjVElnNUhmOXU0TmRKUjkzdThBbVUvdUhpdW95SEtleGJXem9vYnE2elN1UzJQcnU2MmNyYU52KzQ2MHZJakZackNpZjY3NEh5cE5jMzJBSlBTbUdKa1NscytYeVpNPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVo3ZVJ2NmhVT21NTjliTTVIWi9BNzFRZnhhY05neGtQWm54d3NKQ3J1Y0Z5SU9iTDl4UFFlOG5XU0Vsdko3cWpXemNrcU9xVTVLd2RNVGJGSkphMGN0S3o3b2Y0T1pyTy9ZNDRSSXNiNXZKMDhEMlFDTVpzM1d3djVQYkd2UGRqMg==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVo3ZVJ2NmhVT21NTjliTTVIWi9BNzFRZnhhY05neGtQWm54d3NKQ3J1Y0Z5SU9iTDl4UFFlOG5XU0Vsdko3cWpXemNrcU9xVTVLd2RNVGJGSkphMGN0S3o3b2Y0T1pyTy9ZNDRSSXNiNXZKMm43RHpaYkxobUpSNm5KN3k5dWZkcw=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026208.0727.1519_1620C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026208.0727.1519_1620C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "105.2 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "b221f6453d45d8b8a747e1c24eeafe7ef8950d6959417c9c65388370a6441405",
+      "size_bytes": 107738,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbUw0a1hLRXA5a3VBbUF2aVVVNGU5RVVVVWYxaXNkUWtIWkRYOGNpWXlpVUlBc05FVDIzb3lRYitvMjNLNTVaS3dvUWExcEdQZHNobkJ2OXNtZmNvRk0vSS9NTHgwRmIzblJUWGttVmcyZVY4PQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpYOWNIVXZoWkZzQWJ4RHpnL2hvQ25NMlhiRDVPMjlYRHNnTmtvUWhlV1QyK09GamhGdDJ5K2E3NHZlLzdiaE9ualUxZnJlMlBna2dUeGpZcmJqaHpGOGh6S2gvSndPMUFQYkJ4YjB3YjZCSzBiUHNBUlNaVHlVQU9jZ281cmg5YQ==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpYOWNIVXZoWkZzQWJ4RHpnL2hvQ25NMlhiRDVPMjlYRHNnTmtvUWhlV1QyK09GamhGdDJ5K2E3NHZlLzdiaE9ualUxZnJlMlBna2dUeGpZcmJqaHpGOGh6S2gvSndPMUFQYkJ4YjB3YjZCSTdtUWt2djdkTm9KZXN2MmZydElVNg=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026209.0728.1554C.b.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026209.0728.1554C.b.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "104.9 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "9c70ec2fb1184089d1ed6d67034b31b1a0f3f069e698f4ee83c259dde9275b58",
+      "size_bytes": 107440,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbXdVR0lSREZiOUpXSGM2d0kzZUFURGQxb2FGK1kxTm5kUWpQYUsxNTZWTVIxemZBc21ESEhlNVNKNklPaVdBd05xSkVyTHI1T0ZvYU9IOGhqZG1FaGtRZXdjT1FCaFJYQjZmWjJ6VW5UZGRRPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpJZDYxdE9mYjJXZSs2K0N1SHA3SnYvZ3JHbE43MWdJVEx0akdhV2tiL1ViV2xmb3p0VjNpNnYvbmRvSW11TERHNFE1YU9vL3RydnZraUlVYjlVTlNqSkR6MXB0QndqMk91NkFyK0U2V21uMD0=&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpJZDYxdE9mYjJXZSs2K0N1SHA3SnYvZ3JHbE43MWdJVEx0akdhV2tiL1ViV2xmb3p0VjNpNnYvbmRvSW11TERHNFE1YU9vL3RydnZraUlVYjlVTlNqSDU1dnRFT09mWjF5STcycnJEMGpKTEdwUlY5dWN4V1hUSllsWFFMTVdQZw=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026210.0729.1528_1607C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026210.0729.1528_1607C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "105.2 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "f955e2a07da9cfd1842644b1a45f3e210c9e0cd723144d339afcb807eb03ff09",
+      "size_bytes": 107738,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbW15Wk42dGhOVDVwb2p1b3BJZ1N4cEdjbm50Qm9FNW9EVktoQ2JkWHF3SWdUK0RGTUxCSHovTFp6eWZ5aDJqYUcvbXlGTFk0U2NkamxhNERJUm1IRklVOC9ndC9TR3hjVmZla1VEVlV6ZmpNPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpWK2FSbE9HTWhoamF4dGR6QlNyRGV4ZE1iTjdVRzF3SitPMkpUK2grNURpWTRzaDVvanBDdkhjbkhPL2ZQZjVKMW9rMGN3Z2pBQnp0c0s1WE1JRm1ZZTR0OGh5VFJCRGVyZ20xKy93NnhJMEZvSjIxMzUzanFXTUpaK0hQTllSZg==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpWK2FSbE9HTWhoamF4dGR6QlNyRGV4ZE1iTjdVRzF3SitPMkpUK2grNURpWTRzaDVvanBDdkhjbkhPL2ZQZjVKMW9rMGN3Z2pBQnp0c0s1WE1JRm1ZZTR0OGh5VFJCRGVyZ20xKy93NnhJMnc1ak1zNU5sNHRta0hXSm5JOE9jQQ=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026211.0730.1503_1541C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026211.0730.1503_1541C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "105.2 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "76602313c710d5024d7c481dfa66d49e226230d13b2ea26a30c7d6f66c6b06d9",
+      "size_bytes": 107738,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbVB0U1JiazBtWVo2bEtqUUgvL0gxcGdoRmRraDdEVDY3VkY1ZENpcDlTb0lvV1V3bUN1Zld2VXlwS3lQYzRhWnNhcDVCcW1XcmJoNEFCWVNHdVp6RWZna1M5ZDVhcS9MTFN3NDIyVnJTNUlVPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpuYzdyRW5sSUZKeUFqM2tDWEVUSjBmM2FQOERCQXQ5NExIZGowRkRnT3dEMjZ1NFNyRWhlbWQ2TFZXMk5jbHBCU2k3OHMwTWxLS3pqa2RaeW02S001R3JkRFhTKzR6U1JaSURwTkl1Zk5HWXMxRG03VVREUCtOKytOREttY1BwRw==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpuYzdyRW5sSUZKeUFqM2tDWEVUSjBmM2FQOERCQXQ5NExIZGowRkRnT3dEMjZ1NFNyRWhlbWQ2TFZXMk5jbHBCU2k3OHMwTWxLS3pqa2RaeW02S001R3JkRFhTKzR6U1JaSURwTkl1Zk5HYXZBNzJwZVo2c1Z1RHFaSm9nN0s2Tw=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026212.0731.1515_1617C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026212.0731.1515_1617C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "105.2 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "89e5d22094b22f43da5a204ae5b59e2acdc3099e3f50e66f4dc6c719c53240d0",
+      "size_bytes": 107738,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbXIxS29vSzN3Tjh1VEg5bUsxdjR4dlo0RGpmd3hEdW1GVEs2cVI0V1NJeEhieUw5RXhVSSs0Q1VIS1lTVWhKeFhyZzgvbmREME12aU9uUDh3MjJ3WCtmbjVVenkrd0xlaGJRVFdEZU13R1FNPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpDVDNWbEZzbzZXcFNiRXJsMy9yWExwNzVDRlRLcFUzTU9mcERrdFBEQmlaRDBDbzVJWGRlcmRDdERpcXlhdUN5RzN6NkhhZ29vdkthY1pmRFRCU2EwMWVHTW4yUklDRWZLaThtc3FpZGVvejVFRkJJdWZGVy9aNTBDNWt5VDJKaQ==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpDVDNWbEZzbzZXcFNiRXJsMy9yWExwNzVDRlRLcFUzTU9mcERrdFBEQmlaRDBDbzVJWGRlcmRDdERpcXlhdUN5RzN6NkhhZ29vdkthY1pmRFRCU2EwMWVHTW4yUklDRWZLaThtc3FpZGVveFdMQzhCd2pIYlN0Z2hwd0UyUTJSMQ=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026214.0802.1525_1603C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026214.0802.1525_1603C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "105.2 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "bc5df24ab36f06cf2660f1c908c7a755b6537c139824ab011592a3aa5a076f3b",
+      "size_bytes": 107738,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbVBacVBIcFpWenMzRU1LSVFiRnIrRXFLOFRlTGtGZm1pZmZPTmtESjMrQXBVRk5jOVlYZTQ2ZFBCTWJtTy9rOXozRmVqMHlydlRoZW95RlI0YmdUZE5MYnN4ZWxvUm1QeUFYbWk0enJncmhBPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpWTHZ0Y0xHWHRrMkF6OE5ZRVJESlZkSHRYOVBCSU1Zb25IUHhRcGNVK0UvVndWTS9qN1BOMXNSVFpQN3Z2TkpwZGlyMElZMnJpWUUwTmhBNEdBb1crWXRhNDd0dnRmY3ZmQk5lM3k4bzZTR1FOTmh3MTIzby9ySVk0ckExOWQ1Ng==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpWTHZ0Y0xHWHRrMkF6OE5ZRVJESlZkSHRYOVBCSU1Zb25IUHhRcGNVK0UvVndWTS9qN1BOMXNSVFpQN3Z2TkpwZGlyMElZMnJpWUUwTmhBNEdBb1crWXRhNDd0dnRmY3ZmQk5lM3k4bzZTSDRLZlFrNmVCZ045V0FiN2lNaEFFWA=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026215.0803.1537_1538C.a.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026215.0803.1537_1538C.a.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "104.9 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "5111186c6ca2c137e60b158d677cb9093a3a7665495de1edaa0bc0fb38499c1f",
+      "size_bytes": 107450,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbVhGbEJTQkwzbysrMnNvZm9iM1BuQ094aFkvc2dYYVVXRVJrMU5CMm5MdHZKQkhtS2dMUTM1aEUvSTFYRXFyTjcxUXZGMmVKNzNCcnVDVWlvVHNJZ09Kd0hHRVMzSWluZVBxUlBrWjdsM0JvPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVp2UVh6cnRRL1JZb3RieWduMkdMcExXZ2pTcGVIRE45M2NzN3RpZ1lIRlBndVQyemgzMktnaDNwVDlsd3FiYkZiSm5zTWNRMlBiVjZmcGlFNmtld29OLys4STE5YnJuZUl0bTA2dzdubkJ3Qi8wMjlQQVhtSXJheVZpbnpMZVQ2Mw==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVp2UVh6cnRRL1JZb3RieWduMkdMcExXZ2pTcGVIRE45M2NzN3RpZ1lIRlBndVQyemgzMktnaDNwVDlsd3FiYkZiSm5zTWNRMlBiVjZmcGlFNmtld29OLys4STE5YnJuZUl0bTA2dzdubkJ3QXRVeUVMNFgwVnNtWHVnQk1GeXJjdA=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026216.0804.1511_1613C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026216.0804.1511_1613C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "105.2 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "6bbee5a8e330381db63178c2416d26afc21a0fcf70fc34fe037b4eca42efb91c",
+      "size_bytes": 107738,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbXRod0pVQ0ZWY1BITmhDQnhvdUVxRFhHOHZiM0x5bGtMVE04MzUxdm9Mc0VXSDh6cnlXODJhdC9IMGxZQlZVSWxqWHJWZFcwMTZySVJBMVNJZmdwcjBoMGUwWVJDSTNGenpDb2xhRnQ1cXZzPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVo4am84S0k1UWRmMzNaY3pxU0pFZlVudzRrODE3ZDNzNEQrZFhjT2RjZFNCVnRsdGtPUjFHYnVpNEt3T2J5c3YvRzRUQkVkTUZjYTl4M3pLL1RrYnF1aEYwT3VQKzZMUW4vTk8wUis1d0MyajNZMDhuNDkvVzFJNjNkbHNhYmQzTA==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVo4am84S0k1UWRmMzNaY3pxU0pFZlVudzRrODE3ZDNzNEQrZFhjT2RjZFNCVnRsdGtPUjFHYnVpNEt3T2J5c3YvRzRUQkVkTUZjYTl4M3pLL1RrYnF1aEYwT3VQKzZMUW4vTk8wUis1d0MyaHo4N2dMUUloOXNYRmJaNmh2S0tkWg=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026217.0805.1547C.b.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026217.0805.1547C.b.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "104.9 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "75c496a266546e052028390f77967b8a4f55eeb24ffde0c0b945be9d087b5007",
+      "size_bytes": 107440,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbWRaeCtRK2NsdkI1N3I3c1FEN3VybkVtU1VDMGVyRXA3bThrNHhFcWN3OUdDWm5nbXREVnNoVVRZWkk5RkRvdmxBRkE3WVBaVllSd3IvQ0d3SGFoMXdlMk1FeVZGanl0Vk9PallIR1o3U2dvPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpHQ1gySG11N1ZYNlJGN1diMEZPdmpRMnYwRUptd2NITHc0VWpSR1ZacmJzNGg3K2trTUtNYUJ6NnV2bVNUSnBvM1MwbzhFRVJnN1hGRVhYVVRFWjRadVlRUVkxK0Nna1NNZEpKczFIRWorND0=&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpHQ1gySG11N1ZYNlJGN1diMEZPdmpRMnYwRUptd2NITHc0VWpSR1ZacmJzNGg3K2trTUtNYUJ6NnV2bVNUSnBvM1MwbzhFRVJnN1hGRVhYVVRFWjRabklEQ0pIbkNrUGJiOTlLbFRPYVY0Q1AzcDIwNUlDQjVVb0I3YytpNlEwZw=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026218.0806.1521_1559C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026218.0806.1521_1559C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "105.2 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "859c4f58529d2f9970ab045030a2a96edd5a21b3ecf496033387b3a94ac0c911",
+      "size_bytes": 107738,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbXZvcTBGVFpqTWRBempUcTNaMEt3RitubzZwQnJ0N3FVZGFFaVhnYTc4bTJhSXF0R3A1eVNFejJ0aWxhSmhhNTJkZGsyRTAwaklXTmVSWTU2amtxaXhWYysxWkozbzE3NHZqWHRrUi9QUHpNPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpUcHViak9NNkFuWTdubnB1L0oyUGRUd3RJSjM4dXlTSWdScXZKUFdJZVBOdWhBNXhiSkhEMk5ONVpqd3Q5MkQyTXlpNFVQMTI3QmZBcHYwc05NeHA3TkxRQmVQWmlwUVBoRVN4c3Y1T0tLdDNBVHQzMndFYXlENy80aTVWRGd0aA==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpUcHViak9NNkFuWTdubnB1L0oyUGRUd3RJSjM4dXlTSWdScXZKUFdJZVBOdWhBNXhiSkhEMk5ONVpqd3Q5MkQyTXlpNFVQMTI3QmZBcHYwc05NeHA3TkxRQmVQWmlwUVBoRVN4c3Y1T0tLc2h2a3JwTFBOQUtGS3ArYk9BL2V1WQ=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026220.0808.1507_1609C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026220.0808.1507_1609C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "105.2 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "c5cf61b39c711a3440963f81ed73ed3e4d4c0f3d70c7b6973245fe9e9a03d47e",
+      "size_bytes": 107738,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbXN6TUpmRk9VVXB1ZyszQTZNa1hiZWRoVTdJR2EzOFo1ZmhSV2Y2a3NUdDZldnVJV1l4dlJ1eFlBbzhSN2xNWnhxYjRqLzVuV0d1NThLaWtYOG1Obkh5aklLVFR6RHhtaDhEd211V0wvUWRBPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpmek9rUCsxc1M2RVJtTmhtNjNCb0FzNWVlM1NWc0lhbjNkZ0x3VGRVaHczOGJWQjVNYk1hSWt5YXEvbTVWR0F3TmlsZDRzNG9hUU96dkVRSUVaRi8rVTkvWWY1bkwzS3l1bUZrU1NaVUJ3M25FREdoTU83alkvYngxRHJLSGFUcQ==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpmek9rUCsxc1M2RVJtTmhtNjNCb0FzNWVlM1NWc0lhbjNkZ0x3VGRVaHczOGJWQjVNYk1hSWt5YXEvbTVWR0F3TmlsZDRzNG9hUU96dkVRSUVaRi8rVTkvWWY1bkwzS3l1bUZrU1NaVUJ3MmpkaU5iZDM4eTlxV0FmNHRUTDJYKw=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026221.0809.1543_1622C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026221.0809.1543_1622C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "105.2 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "07d71394a4ca4ef8a8334d534ac864a8e82950ccf24048bc113b21ec04701b86",
+      "size_bytes": 107738,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbUx1cWJBR0FwM1RQWWNTa0p0blh0SVpZYkltL3M3UDY0c1J3NUl5a2JvZ3BiMm4wK0FCbElEZGZaZ2FJYUR2alJGaVN4KzBaWmZyRXRFQStVNTJjRkFUemhhdzZLNVZxQVh6cVJodkV1a2prPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpocm5nbGJVYUZZeXZ1d0dldlByRFl3TWprZ1Q5dWxvMjNKc1hvSU90aUYrOTVRbVpYT2dmcitqMG8wOXRGblJhQzJBMk9wTFJQaHdnWFh2bUdlczFlWCtTVDk1clZQVk43MnFaVUQ4K0NWN0xiWWFCaXltcjFrS0oxaE9abDFPZw==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpocm5nbGJVYUZZeXZ1d0dldlByRFl3TWprZ1Q5dWxvMjNKc1hvSU90aUYrOTVRbVpYT2dmcitqMG8wOXRGblJhQzJBMk9wTFJQaHdnWFh2bUdlczFlWCtTVDk1clZQVk43MnFaVUQ4K0NWNmFFVGMxUGEwM1hUSXVOUEJsTy9jcA=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026222.0810.1517_1556C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026222.0810.1517_1556C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "105.2 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "11b453ee33e677325aca3b5a230cee6ab485068d0fb445aeb7a1150ca1aad655",
+      "size_bytes": 107738,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbW1hVkh0anduc3RGSElPdjJHQ01NWUJUOE9mckF6bWtxRWcvQVdaajhUNUVLNEZCNE9RQ0JWQ25pWWZ6eGlueWI2ZFZ6L29aMEREVC9SSDJNelZtT09qMGVNVG9oeDN3UVZZT2ZSQ2xNeFZJPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpOZTMwR1QwU21uRVJmbEN3VytxOVg4UE5qakRZdDZ1eU5hNlZVTkxxSHNzeWNhWEdKVmZSRWxUVTNvakcrU2pKQkNqZk4ycWhta2x3d25NaWd5MlNNZ0JaVmkrck9YMHJ4cnJ3V3FTT0EvQ1dXM3FTcWNJcnFUMis0dVVMa3BpeQ==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpOZTMwR1QwU21uRVJmbEN3VytxOVg4UE5qakRZdDZ1eU5hNlZVTkxxSHNzeWNhWEdKVmZSRWxUVTNvakcrU2pKQkNqZk4ycWhta2x3d25NaWd5MlNNZ0JaVmkrck9YMHJ4cnJ3V3FTT0EvQWRMZGIxanVSOUgyVFVFb1prNXhNRQ=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026224.0812.1504_1605C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026224.0812.1504_1605C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "105.2 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "5d5f96ff46bdee17be5f1f375a5822c1beb27716792c9fcbf043edb1c685c8b7",
+      "size_bytes": 107738,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbWNNYkdGVENxb3h4NGJUVDFKNjVOWjd6Q3RlQlpZKzV4Rzd4bjNqd09OOEhtcDlodm9Kb3UrOWhiNFl3U09kZ3U3OTM5cUREYkF5K201VzYvM0VVMEM1RVR1eDNGOHRvMnNwbVhZQU92Zm00PQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpoaGdOZkNMblFqd2JxOEVNTGtJc3NSVFJ1QWlUT1NObThNZVJXcEN2YXhOWWNqbDFjbjl5cmNNbzZxbDIzTmxZWUhtNGExalNJNzVpY1I0TzdzRzhTRGhleWtNWFUrWEJJN2ZKUWpkSWRZMElsbTkvMEQ4bmo4ZE1ucWQ2ZzI2Vw==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpoaGdOZkNMblFqd2JxOEVNTGtJc3NSVFJ1QWlUT1NObThNZVJXcEN2YXhOWWNqbDFjbjl5cmNNbzZxbDIzTmxZWUhtNGExalNJNzVpY1I0TzdzRzhTRGhleWtNWFUrWEJJN2ZKUWpkSWRZMUt0Z0FaU3pyNUtMcXNkNnRJK2lYMQ=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026226.0814.1514_1552C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026226.0814.1514_1552C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "105.2 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "3cd11cf80558274bdce02813a1d0af5d8bf873a77c917f93a4c8529d8130838d",
+      "size_bytes": 107738,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbVJKWDZJaHRzSThsSUtCckExZ1VzYUI3aU0xTDJ0a3gyQ21Md0RqZHdBV1lUK1E3aCtvbmxjZFRlRWE0bC9QQXcweGpqWGovNGtKdEwvUjRXYkpYZVV3MlRxTkZ2eGdTUmVhVy9hcmhnd2w4PQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpPclFTanNWY09rUHBIb0tXOHFuOVJ2RFVsdG1HamRlVFU1Wmd5aDBiTmY2SisvdlJVODYrYm1BMjBaWno0NEZXTlFydC9ORkpQdE9ZMmVleFRtSURpUENhZklOclFDM3BRWVJ2eWdtQWRvWlpUMWFxYkxBdmwyaE9tNURlNVphMg==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVpPclFTanNWY09rUHBIb0tXOHFuOVJ2RFVsdG1HamRlVFU1Wmd5aDBiTmY2SisvdlJVODYrYm1BMjBaWno0NEZXTlFydC9ORkpQdE9ZMmVleFRtSURpUENhZklOclFDM3BRWVJ2eWdtQWRvWWxXTWJ0RXhLbmUxZ0xHTnJIWit1Yg=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026228.0816.1602C.b.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026228.0816.1602C.b.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "104.9 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "bcb87496cc5fe6856138253cc0c580e7ed0012df0c60f1f31894567be271d9ad",
+      "size_bytes": 107440,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbWYva2hDbDBjNVZvbmpJMUVuV3dQVFBCQ2pMUURibW1aTDR3aFc5YXlBWXVnQVh1TW5LclZEdlNabmFYYnpkd0IrNnY5dHUyRHZCUWoyRmlWL1FBOHNKam9WTXA3d0Y4a0pSZCt3WmllcW9zPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVprM1JtVjZKN2Myc2JycjZQUGN5U3R2czNDcWVEem9hSlBOdWl3OXRUOUV1QVFyQ2Jtcm85dkQ5TEwrb2xwNGFab0RCQklJUzR0OW9yZUhPdEtOZXA2Y3BXc2wvZnp0eHY5ZEVKN2FMbFI3Yz0=&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVprM1JtVjZKN2Myc2JycjZQUGN5U3R2czNDcWVEem9hSlBOdWl3OXRUOUV1QVFyQ2Jtcm85dkQ5TEwrb2xwNGFab0RCQklJUzR0OW9yZUhPdEtOZXA2ZGczVTRTb1FaN0JQUWpTSElKTW91c1E2R1dWZTBYWXNJaUxSUzhTSzdWQg=="
+    },
+    {
+      "local_path": "data/raw/noaa/satellite/sentinel-3.2026229.0817.1536_1614C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+      "metadata": {
+        "filename": "sentinel-3.2026229.0817.1536_1614C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+        "listed_size": "105.2 KB",
+        "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+        "product_family": "CI-CIcyano.WesternLErie GeoTIFF"
+      },
+      "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+      "sha256": "abaa5722489aeea46fb76dd8dc5e4fb33b2621c8bda62ebbcbc5ba438396359d",
+      "size_bytes": 107738,
+      "source_id": "noaa_western_lake_erie_satellite",
+      "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbU4zNlNBWUk3QWhCbHBhbUIwdmRlUDE2YzJkdmtJTHMybzBZQldIZVlBa0ZHb0ROVmdIRjc1anRXbjBsalFhUEpqa0EwdTEzRE10ZzcvZXMva0hSSzg5dzlGeUttQ2RJWHBYNWpJZlJIdWZVPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVplS0YvZUJDempYTVpqb2g0TDFJS09NMVFEL3U2Q2Q3QVB2UzdWZmVUbnE0NW5UVURMRWFkbFFVRmE4bGdUbUJjVUpXS3FOalVPUTRuRm9wOFpMTjlNcGQ0L3k4WlFpa2dvMUJySDF6TkxHRU10YXpNb1c3eTIrQUtsSzBPbURLRg==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVplS0YvZUJDempYTVpqb2g0TDFJS09NMVFEL3U2Q2Q3QVB2UzdWZmVUbnE0NW5UVURMRWFkbFFVRmE4bGdUbUJjVUpXS3FOalVPUTRuRm9wOFpMTjlNcGQ0L3k4WlFpa2dvMUJySDF6TkxHRW0rSU1zTGsrQTdXVUVIZXppUjhadQ=="
+    }
+  ],
+  "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+  "retrieved_at": "2026-08-17T21:19:13.836893+00:00",
+  "source_id": "noaa_western_lake_erie_satellite_archive"
+}

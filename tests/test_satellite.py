@@ -1,5 +1,5 @@
-import unittest
 import math
+import unittest
 from pathlib import Path
 from unittest.mock import patch
 
@@ -27,6 +27,13 @@ class SatelliteTargetTests(unittest.TestCase):
             parse_satellite_filename(
                 "sentinel-3.2026229.0816.1536_1614C.ab.L3.LE3.CI-CIcyano.WesternLErie.tif"
             )
+
+    def test_filename_accepts_single_acquisition_time(self):
+        metadata = parse_satellite_filename(
+            "sentinel-3.2026178.0627.1558C.b.L3.LE3.CI-CIcyano.WesternLErie.tif"
+        )
+        self.assertEqual(metadata.observation_date, "2026-06-27")
+        self.assertEqual(metadata.acquisition_window, "1558C")
 
     def test_valid_data_numbers_are_scaled(self):
         decoded, valid = decode_ci_cyano([[1, 125, 249]])

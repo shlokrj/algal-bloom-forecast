@@ -1,0 +1,208 @@
+{
+  "artifacts": [
+    {
+      "local_path": "data/raw/noaa/glerl_fluoroprobe/lake_erie_habs_fluoroprobe_data_dictionary_2017-2022.csv",
+      "metadata": {
+        "listed_size_bytes": 1133,
+        "subset": "fluoroprobe_depth_profiles",
+        "time_basis": "Eastern Daylight Time as documented by the data dictionary"
+      },
+      "retrieved_at": "2026-08-17T21:18:58.444167+00:00",
+      "sha256": "0a22da9d0314a0ceb51bd4228ba48bafd07ad7f1bac200273f7d052039d972ec",
+      "size_bytes": 1133,
+      "source_id": "noaa_glerl_ciglr_fluoroprobe",
+      "source_url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0231/0303633/1.1/data/0-data/lake_erie_habs_fluoroprobe_data_dictionary_2017-2022.csv"
+    },
+    {
+      "local_path": "data/raw/noaa/glerl_fluoroprobe/lake_erie_habs_fluoroprobe_master_coordinates_2017-2022.csv",
+      "metadata": {
+        "listed_size_bytes": 1466,
+        "subset": "fluoroprobe_depth_profiles",
+        "time_basis": "Eastern Daylight Time as documented by the data dictionary"
+      },
+      "retrieved_at": "2026-08-17T21:18:58.444167+00:00",
+      "sha256": "23ec543d5b9eba9fec96337f9ba4e5a5da56fcbc19ef4e580b760980aa6a2c94",
+      "size_bytes": 1466,
+      "source_id": "noaa_glerl_ciglr_fluoroprobe",
+      "source_url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0231/0303633/1.1/data/0-data/lake_erie_habs_fluoroprobe_master_coordinates_2017-2022.csv"
+    },
+    {
+      "local_path": "data/raw/noaa/glerl_fluoroprobe/noaa-glerl-fluoroprobe-WE12-20170711.csv",
+      "metadata": {
+        "listed_size_bytes": 7326,
+        "subset": "fluoroprobe_depth_profiles",
+        "time_basis": "Eastern Daylight Time as documented by the data dictionary"
+      },
+      "retrieved_at": "2026-08-17T21:18:58.444167+00:00",
+      "sha256": "243d11bce6f10aa5537ce66ca9e5a446b25f8b8ae8de9837ae0c15dc02d51383",
+      "size_bytes": 7326,
+      "source_id": "noaa_glerl_ciglr_fluoroprobe",
+      "source_url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0231/0303633/1.1/data/0-data/profiles/noaa-glerl-fluoroprobe-WE12-20170711.csv"
+    },
+    {
+      "local_path": "data/raw/noaa/glerl_fluoroprobe/noaa-glerl-fluoroprobe-WE12-20200713.csv",
+      "metadata": {
+        "listed_size_bytes": 9840,
+        "subset": "fluoroprobe_depth_profiles",
+        "time_basis": "Eastern Daylight Time as documented by the data dictionary"
+      },
+      "retrieved_at": "2026-08-17T21:18:58.444167+00:00",
+      "sha256": "2d5c3d82e05c1327ace781a2369fa47eb5fa3d828dad4207973af3c43124a8a3",
+      "size_bytes": 9840,
+      "source_id": "noaa_glerl_ciglr_fluoroprobe",
+      "source_url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0231/0303633/1.1/data/0-data/profiles/noaa-glerl-fluoroprobe-WE12-20200713.csv"
+    },
+    {
+      "local_path": "data/raw/noaa/glerl_fluoroprobe/noaa-glerl-fluoroprobe-WE12-20220817.csv",
+      "metadata": {
+        "listed_size_bytes": 5935,
+        "subset": "fluoroprobe_depth_profiles",
+        "time_basis": "Eastern Daylight Time as documented by the data dictionary"
+      },
+      "retrieved_at": "2026-08-17T21:18:58.444167+00:00",
+      "sha256": "642b3e1c221c7f1302f897163232694a82273384c44b2f54f7f611a0ee615a2b",
+      "size_bytes": 5935,
+      "source_id": "noaa_glerl_ciglr_fluoroprobe",
+      "source_url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0231/0303633/1.1/data/0-data/profiles/noaa-glerl-fluoroprobe-WE12-20220817.csv"
+    }
+  ],
+  "coordinate_count": 9,
+  "dictionary_fields": {
+    "bluegreen": "The concentration of blue-green algae in micrograms chlorophyll-a per liter (ug/L)",
+    "cryptophyta": "The concentration of cryptophyta in micrograms chlorophyll-a per liter (ug/L)",
+    "datetime": "The date and time of the measurement collected in MM/DD/YYYY HH:MM format. Time is in Eastern Daylight Time.",
+    "depth": "The depth of the measurement in meters (m).",
+    "diatoms": "The concentration of diatoms in micrograms chlorophyll-a per liter (ug/L)",
+    "green_algae": "The concentration of green algae in micrograms chlorophyll-a per liter (ug/L)",
+    "key": "File name of downcast to be used as reference if merge files.",
+    "station": "Station name were downcast was collected.",
+    "temperature": "The temperature in degrees Celsius (\u00baC).",
+    "total_concentration": "The sum of all detected concentrations of algae classes in micrograms chlorophyll-a per liter (ug/L)",
+    "transmission": "The transmission of light at the given depth (%)",
+    "yellow_substances": "The measurement of background yellow substances (chromophoric dissolved organic matter) in relative units (r.u.)"
+  },
+  "profiles": [
+    {
+      "depth_max_m": 7.39,
+      "depth_min_m": 0.52,
+      "fields": [
+        "measurement_number",
+        "datetime",
+        "green_algae",
+        "bluegreen",
+        "diatoms",
+        "cryptophyta",
+        "yellow_substances",
+        "total_concentration",
+        "transmission",
+        "depth",
+        "temperature",
+        "station",
+        "key"
+      ],
+      "missing_counts": {
+        "bluegreen": 0,
+        "cryptophyta": 0,
+        "depth": 0,
+        "diatoms": 0,
+        "green_algae": 0,
+        "temperature": 0,
+        "total_concentration": 0,
+        "transmission": 0,
+        "yellow_substances": 0
+      },
+      "observed_end": "2017-07-11 11:50",
+      "observed_start": "2017-07-11 11:48",
+      "records": 65,
+      "source_filename": "noaa-glerl-fluoroprobe-WE12-20170711.csv",
+      "source_kind": "fluoroprobe_depth_profile",
+      "stations": [
+        "WE12"
+      ],
+      "time_basis": "Eastern Daylight Time as documented by the data dictionary"
+    },
+    {
+      "depth_max_m": 7.59,
+      "depth_min_m": 0.5,
+      "fields": [
+        "measurement_number",
+        "datetime",
+        "green_algae",
+        "bluegreen",
+        "diatoms",
+        "cryptophyta",
+        "yellow_substances",
+        "total_concentration",
+        "transmission",
+        "depth",
+        "temperature",
+        "station",
+        "key"
+      ],
+      "missing_counts": {
+        "bluegreen": 0,
+        "cryptophyta": 0,
+        "depth": 0,
+        "diatoms": 0,
+        "green_algae": 0,
+        "temperature": 0,
+        "total_concentration": 0,
+        "transmission": 0,
+        "yellow_substances": 0
+      },
+      "observed_end": "2020-07-13 09:03:27",
+      "observed_start": "2020-07-13 09:01:35",
+      "records": 85,
+      "source_filename": "noaa-glerl-fluoroprobe-WE12-20200713.csv",
+      "source_kind": "fluoroprobe_depth_profile",
+      "stations": [
+        "WE12"
+      ],
+      "time_basis": "Eastern Daylight Time as documented by the data dictionary"
+    },
+    {
+      "depth_max_m": 6.71,
+      "depth_min_m": 1.02,
+      "fields": [
+        "measurement_number",
+        "datetime",
+        "green_algae",
+        "bluegreen",
+        "diatoms",
+        "cryptophyta",
+        "yellow_substances",
+        "total_concentration",
+        "transmission",
+        "depth",
+        "temperature",
+        "station",
+        "key"
+      ],
+      "missing_counts": {
+        "bluegreen": 0,
+        "cryptophyta": 0,
+        "depth": 0,
+        "diatoms": 0,
+        "green_algae": 0,
+        "temperature": 0,
+        "total_concentration": 0,
+        "transmission": 0,
+        "yellow_substances": 0
+      },
+      "observed_end": "2022-08-17 11:18:58",
+      "observed_start": "2022-08-17 11:16:58",
+      "records": 51,
+      "source_filename": "noaa-glerl-fluoroprobe-WE12-20220817.csv",
+      "source_kind": "fluoroprobe_depth_profile",
+      "stations": [
+        "WE12"
+      ],
+      "time_basis": "Eastern Daylight Time as documented by the data dictionary"
+    }
+  ],
+  "retrieved_at": "2026-08-17T21:18:58.444167+00:00",
+  "source_id": "noaa_glerl_ciglr_fluoroprobe_sample",
+  "source_url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0231/0303633/1.1/data/0-data/",
+  "subset": "fluoroprobe_depth_profiles",
+  "time_basis": "Eastern Daylight Time as documented by the data dictionary"
+}
