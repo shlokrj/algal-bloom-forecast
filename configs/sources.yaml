@@ -12,6 +12,15 @@ sources:
     sample_filename_pattern: '^sentinel-3\..*\.CI-CIcyano\.WesternLErie\.tif$'
     timestamp_semantics: filename calendar date validated; acquisition timezone unconfirmed
     target_missing_rule: no_valid_pixels becomes a missing target; do not interpolate
+    historical_accessions:
+      - '0172375'
+      - '0183933'
+      - '0209038'
+      - '0239146'
+      - '0279234'
+      - '0279446'
+      - '0288351'
+      - '0299571'
     notes: Confirm a stable historical target product, valid-pixel rules, and missing-image handling before feature generation.
 
   noaa_glerl_ciglr_water_quality:
@@ -24,6 +33,19 @@ sources:
     sample_subset: fluoroprobe_depth_profiles
     sample_ftp_root: ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0231/0303633/1.1/data/0-data/
     time_basis: Eastern Daylight Time as documented by the data dictionary
+    collection_accessions:
+      - '0187718'
+      - '0190201'
+      - '0190729'
+      - '0194301'
+      - '0194302'
+      - '0209116'
+      - '0254720'
+      - '0276355'
+      - '0292222'
+      - '0293514'
+      - '0303633'
+    listed_moored_series_status: no moored or continuous series filenames found in the accession inventory; verify collection metadata before treating this as absence
     earliest_date: 2012-05-15
     seasonal_coverage: May-October
     notes: Profile discrete sampling and moored-buoy subsets separately; do not treat them as one homogeneous series.
