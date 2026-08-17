@@ -1,0 +1,19 @@
+project: algal-bloom-forecast
+region: western_lake_erie
+
+forecast:
+  horizons_days: [1, 3, 7, 14]
+  target: bloom_intensity
+  forecast_origin_rule: feature_timestamp
+
+data:
+  raw_dir: data/raw
+  interim_dir: data/interim
+  processed_dir: data/processed
+  timezone: UTC
+
+evaluation:
+  split_strategy: held_out_year
+  validation_years: []
+  test_years: []
+  random_seed: 42
