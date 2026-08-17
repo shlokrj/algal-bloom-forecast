@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """List a small, reproducible sample of NOAA western Lake Erie products."""
 
 from __future__ import annotations

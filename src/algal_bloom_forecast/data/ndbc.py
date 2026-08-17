@@ -2,11 +2,10 @@
 
 from __future__ import annotations
 
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from gzip import open as gzip_open
 from pathlib import Path
 from typing import Any, TextIO
-
 
 NDBC_STD_MET_URL = "https://www.ndbc.noaa.gov/data/historical/stdmet/{station}h{year}.txt.gz"
 
@@ -69,7 +68,7 @@ def parse_standard_meteorology(file_path: Path) -> list[dict[str, Any]]:
                 parsed.pop("DD"),
                 parsed.pop("hh"),
                 parsed.pop("mm"),
-                tzinfo=timezone.utc,
+                tzinfo=UTC,
             )
             records.append({"timestamp": timestamp.isoformat(), **parsed})
     return records

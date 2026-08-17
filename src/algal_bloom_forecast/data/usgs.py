@@ -2,12 +2,11 @@
 
 from __future__ import annotations
 
-from dataclasses import dataclass
 import json
+from dataclasses import dataclass
 from pathlib import Path
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
-
 
 DAILY_VALUES_URL = "https://api.waterdata.usgs.gov/ogcapi/v0/collections/daily/items"
 

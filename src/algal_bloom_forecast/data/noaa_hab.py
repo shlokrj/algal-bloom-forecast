@@ -2,14 +2,13 @@
 
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass
 from html.parser import HTMLParser
 from pathlib import Path
-import re
-from typing import Pattern
+from re import Pattern
 from urllib.parse import urljoin
 from urllib.request import Request, urlopen
-
 
 EXPLORER_ROOT_URL = "https://app.coastalscience.noaa.gov/habs_explorer/index.php"
 USER_AGENT = "algal-bloom-forecast/0.1"

@@ -2,10 +2,10 @@
 
 from __future__ import annotations
 
-from dataclasses import asdict, dataclass, field
-from datetime import datetime, timezone
 import hashlib
 import json
+from dataclasses import asdict, dataclass, field
+from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
@@ -32,17 +32,17 @@ class ArtifactManifest:
         local_path: str,
         metadata: dict[str, Any] | None = None,
         retrieved_at: datetime | None = None,
-    ) -> "ArtifactManifest":
+    ) -> ArtifactManifest:
         digest = hashlib.sha256()
         with file_path.open("rb") as handle:
             for chunk in iter(lambda: handle.read(1024 * 1024), b""):
                 digest.update(chunk)
 
-        timestamp = retrieved_at or datetime.now(timezone.utc)
+        timestamp = retrieved_at or datetime.now(UTC)
         return cls(
             source_id=source_id,
             source_url=source_url,
-            retrieved_at=timestamp.astimezone(timezone.utc).isoformat(),
+            retrieved_at=timestamp.astimezone(UTC).isoformat(),
             local_path=local_path,
             sha256=digest.hexdigest(),
             size_bytes=file_path.stat().st_size,

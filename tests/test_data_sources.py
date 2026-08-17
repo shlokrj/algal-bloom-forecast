@@ -1,7 +1,7 @@
 import gzip
-from pathlib import Path
 import tempfile
 import unittest
+from pathlib import Path
 
 from algal_bloom_forecast.data.ndbc import (
     build_standard_meteorology_url,

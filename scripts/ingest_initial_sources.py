@@ -4,8 +4,8 @@
 from __future__ import annotations
 
 import argparse
-from datetime import datetime, timezone
 import json
+from datetime import UTC, datetime
 from pathlib import Path
 from urllib.request import Request, urlopen
 
@@ -15,7 +15,6 @@ from algal_bloom_forecast.data.ndbc import (
     parse_standard_meteorology,
 )
 from algal_bloom_forecast.data.usgs import DailyValuesQuery, fetch_daily_values
-
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -28,7 +27,7 @@ def download_file(url: str, destination: Path) -> None:
 
 
 def run(start_date: str, end_date: str, ndbc_year: int) -> list[Path]:
-    run_timestamp = datetime.now(timezone.utc)
+    run_timestamp = datetime.now(UTC)
     run_id = run_timestamp.strftime("%Y%m%dT%H%M%SZ")
     manifest_paths: list[Path] = []
 

@@ -7,7 +7,6 @@ from algal_bloom_forecast.data.noaa_hab import (
     parse_explorer_listing,
 )
 
-
 LISTING_HTML = """
 <a href="/habs_explorer/index.php?path=data">data</a>
 <div class="row">

@@ -4,8 +4,8 @@
 from __future__ import annotations
 
 import argparse
-from datetime import datetime, timezone
 import json
+from datetime import UTC, datetime
 from pathlib import Path
 
 from algal_bloom_forecast.data.manifest import ArtifactManifest
@@ -17,13 +17,12 @@ from algal_bloom_forecast.data.noaa_hab import (
     matching_downloads,
 )
 
-
 ROOT = Path(__file__).resolve().parents[1]
 WESTERN_CI_CYANO_PATTERN = r"^sentinel-3\..*\.CI-CIcyano\.WesternLErie\.tif$"
 
 
 def run(filename: str | None = None) -> Path:
-    run_timestamp = datetime.now(timezone.utc)
+    run_timestamp = datetime.now(UTC)
     run_id = run_timestamp.strftime("%Y%m%dT%H%M%SZ")
     listing_url = find_directory_url(
         EXPLORER_ROOT_URL,
