@@ -1,0 +1,15 @@
+{
+  "local_path": "data/raw/noaa/satellite/sentinel-3.2026229.0817.1536_1614C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+  "metadata": {
+    "filename": "sentinel-3.2026229.0817.1536_1614C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif",
+    "listed_size": "105.2 KB",
+    "listing_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyQmJYMjVpQ2NmUzk5eVllQlVQd1ZiTw==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2E4dDVNRzVZNmt2TjBVMHF5dUtha2s=&type=bllEUXA3TmhSK21RVDlqbFYxMmEwdz09",
+    "product_family": "CI-CIcyano.WesternLErie GeoTIFF",
+    "target_semantics": "pending_pixel_profile"
+  },
+  "retrieved_at": "2026-08-17T20:39:46.142252+00:00",
+  "sha256": "abaa5722489aeea46fb76dd8dc5e4fb33b2621c8bda62ebbcbc5ba438396359d",
+  "size_bytes": 107738,
+  "source_id": "noaa_western_lake_erie_satellite",
+  "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/index.php?path=RUIvWnB3dWJmS3RvNXlWcjF4a1hLM1B0eERkak1wT2hueTFPRjFMSzVyRGRleCtSQnNVWlQ0VkdRZ1lrWjhzbU4zNlNBWUk3QWhCbHBhbUIwdmRlUDE2YzJkdmtJTHMybzBZQldIZVlBa0ZHb0ROVmdIRjc1anRXbjBsalFhUEpqa0EwdTEzRE10ZzcvZXMva0hSSzg5dzlGeUttQ2RJWHBYNWpJZlJIdWZVPQ==&uri=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVplS0YvZUJDempYTVpqb2g0TDFJS09NMVFEL3U2Q2Q3QVB2UzdWZmVUbnE0NW5UVURMRWFkbFFVRmE4bGdUbUJjVUpXS3FOalVPUTRuRm9wOFpMTjlNcGQ0L3k4WlFpa2dvMUJySDF6TkxHRU10YXpNb1c3eTIrQUtsSzBPbURLRg==&type=NmUrTmJ1emtkL050a1piaEtOMU1ueHl4V0hjUmZ4VnduNHJISzN3ajZLTT0=&action=VWtuM1UzbVNVN0RsZzJMeTJvNlNpM29OalF0WTFQQjVZVnpuS3o5bnh1Ym0vYWhtWEh4ck1hREVUamE4SDZ0M2tsd1M1OWg3UDJ0djIrNEkvbXliRUpBLzVSc3NaMVRvY3I5TG9ISjNTM2JhampTbmRMUktMUUhacEtzdXZDdVplS0YvZUJDempYTVpqb2g0TDFJS09NMVFEL3U2Q2Q3QVB2UzdWZmVUbnE0NW5UVURMRWFkbFFVRmE4bGdUbUJjVUpXS3FOalVPUTRuRm9wOFpMTjlNcGQ0L3k4WlFpa2dvMUJySDF6TkxHRW0rSU1zTGsrQTdXVUVIZXppUjhadQ=="
+}

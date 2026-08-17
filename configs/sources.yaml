@@ -7,7 +7,9 @@ sources:
     status: inspect
     catalog_url: https://coastalscience.noaa.gov/science-areas/habs/hab-monitoring-system/cyanobacteria-algal-bloom-from-satellite-in-western-lake-erie-basin/
     explorer_url: https://app.coastalscience.noaa.gov/habs_explorer/
+    explorer_directory: data/web/olci_western_le/tif_archive
     product_family: CI-CIcyano.WesternLErie GeoTIFF
+    sample_filename_pattern: '^sentinel-3\..*\.CI-CIcyano\.WesternLErie\.tif$'
     notes: Confirm a stable historical target product, valid-pixel rules, and missing-image handling before feature generation.
 
   noaa_glerl_ciglr_water_quality:
