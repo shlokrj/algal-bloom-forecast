@@ -10,6 +10,7 @@ sources:
     explorer_directory: data/web/olci_western_le/tif_archive
     product_family: CI-CIcyano.WesternLErie GeoTIFF
     sample_filename_pattern: '^sentinel-3\..*\.CI-CIcyano\.WesternLErie\.tif$'
+    timestamp_semantics: filename calendar date validated; acquisition timezone unconfirmed
     notes: Confirm a stable historical target product, valid-pixel rules, and missing-image handling before feature generation.
 
   noaa_glerl_ciglr_water_quality:

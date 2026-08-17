@@ -1,0 +1,17 @@
+{
+  "local_path": "data/processed/noaa_western_lake_erie_daily_target_20260817T205759Z.csv",
+  "metadata": {
+    "input_filenames": [
+      "sentinel-3.2026229.0817.1536_1614C.ab.L3.LE3.v9110V20255_2_4.CI-CIcyano.WesternLErie.tif"
+    ],
+    "observation_end": "2026-08-17",
+    "observation_start": "2026-08-17",
+    "records": 1,
+    "timestamp_semantics": "filename_calendar_date_only; acquisition_timezone_unconfirmed"
+  },
+  "retrieved_at": "2026-08-17T20:57:59.696005+00:00",
+  "sha256": "35b5d9b21fbb3399ee2958f5cef7cc4faff8f8c96126f75df735e81f004fdf73",
+  "size_bytes": 390,
+  "source_id": "noaa_western_lake_erie_daily_target",
+  "source_url": "https://app.coastalscience.noaa.gov/habs_explorer/"
+}
