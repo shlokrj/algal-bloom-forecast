@@ -11,6 +11,10 @@ data:
   interim_dir: data/interim
   processed_dir: data/processed
   timezone: UTC
+  alignment:
+    predictor_cutoff: target_date_minus_horizon
+    missing_target_policy: preserve_null
+    interpolation: disabled
 
 evaluation:
   split_strategy: held_out_year
