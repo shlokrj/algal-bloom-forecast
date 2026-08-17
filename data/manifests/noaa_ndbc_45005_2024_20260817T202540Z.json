@@ -1,0 +1,16 @@
+{
+  "local_path": "data/raw/ndbc/45005_stdmet_2024_20260817T202540Z.txt.gz",
+  "metadata": {
+    "observed_end": "2024-12-03T16:10:00+00:00",
+    "observed_start": "2024-04-15T16:40:00+00:00",
+    "records": 33386,
+    "station": "45005",
+    "time_basis": "UTC",
+    "year": 2024
+  },
+  "retrieved_at": "2026-08-17T20:25:40.966652+00:00",
+  "sha256": "8bb9968bf1517ba62903bd72aefd30d25184772798bfedd38c1c07adefebe62d",
+  "size_bytes": 493670,
+  "source_id": "noaa_ndbc_45005_standard_meteorology",
+  "source_url": "https://www.ndbc.noaa.gov/data/historical/stdmet/45005h2024.txt.gz"
+}

@@ -1,0 +1,43 @@
+project: algal-bloom-forecast
+
+sources:
+  noaa_western_lake_erie_satellite:
+    role: target
+    provider: NOAA NCCOS
+    status: inspect
+    catalog_url: https://coastalscience.noaa.gov/science-areas/habs/hab-monitoring-system/cyanobacteria-algal-bloom-from-satellite-in-western-lake-erie-basin/
+    explorer_url: https://app.coastalscience.noaa.gov/habs_explorer/
+    product_family: CI-CIcyano.WesternLErie GeoTIFF
+    notes: Confirm a stable historical target product, valid-pixel rules, and missing-image handling before feature generation.
+
+  noaa_glerl_ciglr_water_quality:
+    role: predictors
+    provider: NOAA GLERL and University of Michigan CIGLR via NCEI
+    status: inspect
+    landing_url: https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:GLERL-CIGLR-HAB-LakeErie-water-qual
+    doi: https://doi.org/10.25921/11da-3x54
+    earliest_date: 2012-05-15
+    seasonal_coverage: May-October
+    notes: Profile discrete sampling and moored-buoy subsets separately; do not treat them as one homogeneous series.
+
+  usgs_maumee_daily_discharge:
+    role: predictors
+    provider: USGS
+    status: ready
+    api_url: https://api.waterdata.usgs.gov/ogcapi/v0/collections/daily/items
+    monitoring_location_id: USGS-04193500
+    parameter_code: '00060'
+    statistic_id: '00003'
+    expected_unit: ft^3/s
+    coverage_start: 2012-01-01
+    coverage_end: 2025-12-31
+
+  noaa_ndbc_45005_standard_meteorology:
+    role: predictors
+    provider: NOAA National Data Buoy Center
+    status: ready
+    station: '45005'
+    station_name: WEST ERIE - 16 NM NW of Lorain, OH
+    historical_url_template: https://www.ndbc.noaa.gov/data/historical/stdmet/45005h{year}.txt.gz
+    time_basis: UTC
+    notes: Parse the raw ten-minute standard meteorological record and preserve NDBC missing-value sentinels as nulls.
