@@ -4,10 +4,10 @@ Research project for forecasting cyanobacterial harmful algal bloom intensity in
 
 ## Tech stack
 
-- Python
-- pandas, NumPy, xarray, GeoPandas, Rasterio
-- scikit-learn, XGBoost/LightGBM, PyTorch
-- Matplotlib and Plotly
-- pytest and Ruff
-
-The project is currently in the data and experiment-planning stage.
+| Area | Tools |
+| --- | --- |
+| Language | Python |
+| Data and geospatial | pandas, NumPy, xarray, GeoPandas, Rasterio |
+| Machine learning | scikit-learn, XGBoost/LightGBM, PyTorch |
+| Visualization | Matplotlib, Plotly |
+| Development | pytest, Ruff |
