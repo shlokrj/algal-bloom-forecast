@@ -103,8 +103,14 @@ def _fit_linear(
             ],
             dtype=float,
         )
-        medians = np.nanmedian(matrix, axis=0)
-        medians = np.where(np.isnan(medians), 0.0, medians)
+        medians = np.array(
+            [
+                float(np.nanmedian(matrix[:, index]))
+                if np.any(~np.isnan(matrix[:, index]))
+                else 0.0
+                for index in range(matrix.shape[1])
+            ]
+        )
         matrix = np.where(np.isnan(matrix), medians, matrix)
         design = np.column_stack([np.ones(len(rows)), matrix])
         target = np.array([_number(record.get(target_field)) for record in rows], dtype=float)

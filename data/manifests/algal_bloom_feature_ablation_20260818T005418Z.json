@@ -1,0 +1,442 @@
+{
+  "feature_path": "data/processed/algal_bloom_feature_table_20260818T002702Z.csv",
+  "fit_policy": "one linear model per horizon and feature group, fitted on train rows only",
+  "groups": {
+    "buoy_weather": [
+      "usgs_maumee_discharge_m3s",
+      "seasonal_day_of_year_sin",
+      "seasonal_day_of_year_cos",
+      "ndbc_wspd_mean",
+      "ndbc_gst_mean",
+      "ndbc_wvht_mean",
+      "ndbc_atmp_mean",
+      "ndbc_wtmp_mean",
+      "ndbc_pres_mean"
+    ],
+    "combined_core": [
+      "usgs_maumee_discharge_m3s",
+      "seasonal_day_of_year_sin",
+      "seasonal_day_of_year_cos",
+      "ndbc_wspd_mean",
+      "ndbc_gst_mean",
+      "ndbc_wvht_mean",
+      "ndbc_atmp_mean",
+      "ndbc_wtmp_mean",
+      "ndbc_pres_mean",
+      "glerl_we02_chlorophylla_mean",
+      "glerl_we02_phycocyanin_mean",
+      "glerl_we02_turbidity_mean",
+      "glerl_we02_water_temperature_mean",
+      "glerl_we04_chlorophylla_mean",
+      "glerl_we04_phycocyanin_mean",
+      "glerl_we04_turbidity_mean",
+      "glerl_we04_water_temperature_mean",
+      "glerl_we08_chlorophylla_mean",
+      "glerl_we08_phycocyanin_mean",
+      "glerl_we08_turbidity_mean",
+      "glerl_we08_water_temperature_mean",
+      "glerl_we13_chlorophylla_mean",
+      "glerl_we13_phycocyanin_mean",
+      "glerl_we13_turbidity_mean",
+      "glerl_we13_water_temperature_mean"
+    ],
+    "discharge_seasonal": [
+      "usgs_maumee_discharge_m3s",
+      "seasonal_day_of_year_sin",
+      "seasonal_day_of_year_cos"
+    ],
+    "seasonal_only": [
+      "seasonal_day_of_year_sin",
+      "seasonal_day_of_year_cos"
+    ],
+    "water_quality": [
+      "usgs_maumee_discharge_m3s",
+      "seasonal_day_of_year_sin",
+      "seasonal_day_of_year_cos",
+      "glerl_we02_chlorophylla_mean",
+      "glerl_we02_phycocyanin_mean",
+      "glerl_we02_turbidity_mean",
+      "glerl_we02_water_temperature_mean",
+      "glerl_we04_chlorophylla_mean",
+      "glerl_we04_phycocyanin_mean",
+      "glerl_we04_turbidity_mean",
+      "glerl_we04_water_temperature_mean",
+      "glerl_we08_chlorophylla_mean",
+      "glerl_we08_phycocyanin_mean",
+      "glerl_we08_turbidity_mean",
+      "glerl_we08_water_temperature_mean",
+      "glerl_we13_chlorophylla_mean",
+      "glerl_we13_phycocyanin_mean",
+      "glerl_we13_turbidity_mean",
+      "glerl_we13_water_temperature_mean"
+    ]
+  },
+  "metrics": [
+    {
+      "feature_group": "seasonal_only",
+      "forecast_horizon_days": 1,
+      "mae": 3.6387797342924286,
+      "model": "linear",
+      "n": 15,
+      "rmse": 4.178161265849292,
+      "split": "test"
+    },
+    {
+      "feature_group": "seasonal_only",
+      "forecast_horizon_days": 3,
+      "mae": 3.6387797342924286,
+      "model": "linear",
+      "n": 15,
+      "rmse": 4.178161265849292,
+      "split": "test"
+    },
+    {
+      "feature_group": "seasonal_only",
+      "forecast_horizon_days": 7,
+      "mae": 3.6387797342924286,
+      "model": "linear",
+      "n": 15,
+      "rmse": 4.178161265849292,
+      "split": "test"
+    },
+    {
+      "feature_group": "seasonal_only",
+      "forecast_horizon_days": 14,
+      "mae": 3.6387797342924286,
+      "model": "linear",
+      "n": 15,
+      "rmse": 4.178161265849292,
+      "split": "test"
+    },
+    {
+      "feature_group": "seasonal_only",
+      "forecast_horizon_days": 1,
+      "mae": 2.9716341648839517,
+      "model": "linear",
+      "n": 14,
+      "rmse": 3.8331248215157134,
+      "split": "validation"
+    },
+    {
+      "feature_group": "seasonal_only",
+      "forecast_horizon_days": 3,
+      "mae": 2.9716341648839517,
+      "model": "linear",
+      "n": 14,
+      "rmse": 3.8331248215157134,
+      "split": "validation"
+    },
+    {
+      "feature_group": "seasonal_only",
+      "forecast_horizon_days": 7,
+      "mae": 2.9716341648839517,
+      "model": "linear",
+      "n": 14,
+      "rmse": 3.8331248215157134,
+      "split": "validation"
+    },
+    {
+      "feature_group": "seasonal_only",
+      "forecast_horizon_days": 14,
+      "mae": 2.9716341648839517,
+      "model": "linear",
+      "n": 14,
+      "rmse": 3.8331248215157134,
+      "split": "validation"
+    },
+    {
+      "feature_group": "discharge_seasonal",
+      "forecast_horizon_days": 1,
+      "mae": 3.791025494373676,
+      "model": "linear",
+      "n": 15,
+      "rmse": 4.319919143031334,
+      "split": "test"
+    },
+    {
+      "feature_group": "discharge_seasonal",
+      "forecast_horizon_days": 3,
+      "mae": 3.668620701474437,
+      "model": "linear",
+      "n": 15,
+      "rmse": 4.20327212060997,
+      "split": "test"
+    },
+    {
+      "feature_group": "discharge_seasonal",
+      "forecast_horizon_days": 7,
+      "mae": 3.6458560690302915,
+      "model": "linear",
+      "n": 15,
+      "rmse": 4.1845339171602465,
+      "split": "test"
+    },
+    {
+      "feature_group": "discharge_seasonal",
+      "forecast_horizon_days": 14,
+      "mae": 3.522013577060413,
+      "model": "linear",
+      "n": 15,
+      "rmse": 4.078315775031161,
+      "split": "test"
+    },
+    {
+      "feature_group": "discharge_seasonal",
+      "forecast_horizon_days": 1,
+      "mae": 3.0285733979673246,
+      "model": "linear",
+      "n": 14,
+      "rmse": 3.9197711389251846,
+      "split": "validation"
+    },
+    {
+      "feature_group": "discharge_seasonal",
+      "forecast_horizon_days": 3,
+      "mae": 2.9876091645849967,
+      "model": "linear",
+      "n": 14,
+      "rmse": 3.8479751162528855,
+      "split": "validation"
+    },
+    {
+      "feature_group": "discharge_seasonal",
+      "forecast_horizon_days": 7,
+      "mae": 2.976289810327357,
+      "model": "linear",
+      "n": 14,
+      "rmse": 3.837515458503506,
+      "split": "validation"
+    },
+    {
+      "feature_group": "discharge_seasonal",
+      "forecast_horizon_days": 14,
+      "mae": 2.8910768095937054,
+      "model": "linear",
+      "n": 14,
+      "rmse": 3.7693814321156127,
+      "split": "validation"
+    },
+    {
+      "feature_group": "buoy_weather",
+      "forecast_horizon_days": 1,
+      "mae": 3.791025494373676,
+      "model": "linear",
+      "n": 15,
+      "rmse": 4.319919143031334,
+      "split": "test"
+    },
+    {
+      "feature_group": "buoy_weather",
+      "forecast_horizon_days": 3,
+      "mae": 3.668620701474437,
+      "model": "linear",
+      "n": 15,
+      "rmse": 4.20327212060997,
+      "split": "test"
+    },
+    {
+      "feature_group": "buoy_weather",
+      "forecast_horizon_days": 7,
+      "mae": 3.6458560690302915,
+      "model": "linear",
+      "n": 15,
+      "rmse": 4.1845339171602465,
+      "split": "test"
+    },
+    {
+      "feature_group": "buoy_weather",
+      "forecast_horizon_days": 14,
+      "mae": 3.5220135770604135,
+      "model": "linear",
+      "n": 15,
+      "rmse": 4.078315775031161,
+      "split": "test"
+    },
+    {
+      "feature_group": "buoy_weather",
+      "forecast_horizon_days": 1,
+      "mae": 3.0285733979673246,
+      "model": "linear",
+      "n": 14,
+      "rmse": 3.9197711389251846,
+      "split": "validation"
+    },
+    {
+      "feature_group": "buoy_weather",
+      "forecast_horizon_days": 3,
+      "mae": 2.9876091645849967,
+      "model": "linear",
+      "n": 14,
+      "rmse": 3.8479751162528855,
+      "split": "validation"
+    },
+    {
+      "feature_group": "buoy_weather",
+      "forecast_horizon_days": 7,
+      "mae": 2.976289810327357,
+      "model": "linear",
+      "n": 14,
+      "rmse": 3.837515458503506,
+      "split": "validation"
+    },
+    {
+      "feature_group": "buoy_weather",
+      "forecast_horizon_days": 14,
+      "mae": 2.8910768095937054,
+      "model": "linear",
+      "n": 14,
+      "rmse": 3.769381432115613,
+      "split": "validation"
+    },
+    {
+      "feature_group": "water_quality",
+      "forecast_horizon_days": 1,
+      "mae": 3.082373695559441,
+      "model": "linear",
+      "n": 15,
+      "rmse": 3.5505617081533947,
+      "split": "test"
+    },
+    {
+      "feature_group": "water_quality",
+      "forecast_horizon_days": 3,
+      "mae": 2.9970237534343007,
+      "model": "linear",
+      "n": 15,
+      "rmse": 3.4828261048911493,
+      "split": "test"
+    },
+    {
+      "feature_group": "water_quality",
+      "forecast_horizon_days": 7,
+      "mae": 2.9512632105826344,
+      "model": "linear",
+      "n": 15,
+      "rmse": 3.4152235988925166,
+      "split": "test"
+    },
+    {
+      "feature_group": "water_quality",
+      "forecast_horizon_days": 14,
+      "mae": 3.084378217513657,
+      "model": "linear",
+      "n": 15,
+      "rmse": 3.6105116336399448,
+      "split": "test"
+    },
+    {
+      "feature_group": "water_quality",
+      "forecast_horizon_days": 1,
+      "mae": 2.4595557513076516,
+      "model": "linear",
+      "n": 14,
+      "rmse": 3.2002917475637953,
+      "split": "validation"
+    },
+    {
+      "feature_group": "water_quality",
+      "forecast_horizon_days": 3,
+      "mae": 2.4338834027523375,
+      "model": "linear",
+      "n": 14,
+      "rmse": 3.159314157244002,
+      "split": "validation"
+    },
+    {
+      "feature_group": "water_quality",
+      "forecast_horizon_days": 7,
+      "mae": 2.372531753165025,
+      "model": "linear",
+      "n": 14,
+      "rmse": 3.018928082378679,
+      "split": "validation"
+    },
+    {
+      "feature_group": "water_quality",
+      "forecast_horizon_days": 14,
+      "mae": 2.514065051485709,
+      "model": "linear",
+      "n": 14,
+      "rmse": 3.2569897453811936,
+      "split": "validation"
+    },
+    {
+      "feature_group": "combined_core",
+      "forecast_horizon_days": 1,
+      "mae": 3.0823736955437537,
+      "model": "linear",
+      "n": 15,
+      "rmse": 3.5505617081384035,
+      "split": "test"
+    },
+    {
+      "feature_group": "combined_core",
+      "forecast_horizon_days": 3,
+      "mae": 2.9970237534098447,
+      "model": "linear",
+      "n": 15,
+      "rmse": 3.482826104868179,
+      "split": "test"
+    },
+    {
+      "feature_group": "combined_core",
+      "forecast_horizon_days": 7,
+      "mae": 2.951263210578496,
+      "model": "linear",
+      "n": 15,
+      "rmse": 3.4152235988887125,
+      "split": "test"
+    },
+    {
+      "feature_group": "combined_core",
+      "forecast_horizon_days": 14,
+      "mae": 3.0843782175295007,
+      "model": "linear",
+      "n": 15,
+      "rmse": 3.6105116336559164,
+      "split": "test"
+    },
+    {
+      "feature_group": "combined_core",
+      "forecast_horizon_days": 1,
+      "mae": 2.459555751307596,
+      "model": "linear",
+      "n": 14,
+      "rmse": 3.2002917475637123,
+      "split": "validation"
+    },
+    {
+      "feature_group": "combined_core",
+      "forecast_horizon_days": 3,
+      "mae": 2.433883402752356,
+      "model": "linear",
+      "n": 14,
+      "rmse": 3.159314157244029,
+      "split": "validation"
+    },
+    {
+      "feature_group": "combined_core",
+      "forecast_horizon_days": 7,
+      "mae": 2.3725317531650267,
+      "model": "linear",
+      "n": 14,
+      "rmse": 3.0189280823786806,
+      "split": "validation"
+    },
+    {
+      "feature_group": "combined_core",
+      "forecast_horizon_days": 14,
+      "mae": 2.5140650514856726,
+      "model": "linear",
+      "n": 14,
+      "rmse": 3.2569897453811536,
+      "split": "validation"
+    }
+  ],
+  "metrics_path": "results/tables/algal_bloom_feature_ablation_metrics_20260818T005418Z.csv",
+  "predictions_path": "results/tables/algal_bloom_feature_ablation_predictions_20260818T005418Z.csv",
+  "retrieved_at": "2026-08-18T00:54:18.784669+00:00",
+  "source_id": "algal_bloom_feature_ablation_results",
+  "split_path": "data/processed/algal_bloom_temporal_splits_20260818T003528Z.csv",
+  "target_field": "ci_sum"
+}

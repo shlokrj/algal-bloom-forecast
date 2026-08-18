@@ -32,6 +32,7 @@ evaluation:
     - usgs_maumee_discharge_m3s
     - seasonal_day_of_year_sin
     - seasonal_day_of_year_cos
+  feature_ablation_groups: [seasonal_only, discharge_seasonal, buoy_weather, water_quality, combined_core]
   event_definition:
     target_field: ci_sum
     threshold_policy: train_quantile
