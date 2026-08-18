@@ -28,6 +28,13 @@ evaluation:
   random_seed: 42
   target_field: ci_sum
   baselines: [climatology, persistence, trend, linear]
+  gradient_boosted:
+    learning_rate: 0.05
+    max_iter: 100
+    max_leaf_nodes: 7
+    l2_regularization: 1.0
+    early_stopping: false
+    random_state: 42
   linear_features:
     - usgs_maumee_discharge_m3s
     - seasonal_day_of_year_sin
