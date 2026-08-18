@@ -1,0 +1,249 @@
+{
+  "best_by_split_and_horizon": {
+    "continuous_best_mae": {
+      "test/1": {
+        "forecast_horizon_days": 1,
+        "model": "gradient_boosted",
+        "n": 15,
+        "split": "test",
+        "value": 1.427016677763614
+      },
+      "test/14": {
+        "forecast_horizon_days": 14,
+        "model": "gradient_boosted",
+        "n": 15,
+        "split": "test",
+        "value": 1.9929609195667024
+      },
+      "test/3": {
+        "forecast_horizon_days": 3,
+        "model": "persistence",
+        "n": 15,
+        "split": "test",
+        "value": 1.582723506
+      },
+      "test/7": {
+        "forecast_horizon_days": 7,
+        "model": "persistence",
+        "n": 15,
+        "split": "test",
+        "value": 1.582723506
+      },
+      "validation/1": {
+        "forecast_horizon_days": 1,
+        "model": "persistence",
+        "n": 14,
+        "split": "validation",
+        "value": 1.5633704467142857
+      },
+      "validation/14": {
+        "forecast_horizon_days": 14,
+        "model": "gradient_boosted",
+        "n": 14,
+        "split": "validation",
+        "value": 2.2887825150101535
+      },
+      "validation/3": {
+        "forecast_horizon_days": 3,
+        "model": "persistence",
+        "n": 14,
+        "split": "validation",
+        "value": 1.5633704467142857
+      },
+      "validation/7": {
+        "forecast_horizon_days": 7,
+        "model": "persistence",
+        "n": 14,
+        "split": "validation",
+        "value": 1.5633704467142857
+      }
+    },
+    "continuous_best_rmse": {
+      "test/1": {
+        "forecast_horizon_days": 1,
+        "model": "gradient_boosted",
+        "n": 15,
+        "split": "test",
+        "value": 2.564716062055755
+      },
+      "test/14": {
+        "forecast_horizon_days": 14,
+        "model": "gradient_boosted",
+        "n": 15,
+        "split": "test",
+        "value": 2.717819362141684
+      },
+      "test/3": {
+        "forecast_horizon_days": 3,
+        "model": "gradient_boosted",
+        "n": 15,
+        "split": "test",
+        "value": 2.307696064950903
+      },
+      "test/7": {
+        "forecast_horizon_days": 7,
+        "model": "persistence",
+        "n": 15,
+        "split": "test",
+        "value": 3.099204333685601
+      },
+      "validation/1": {
+        "forecast_horizon_days": 1,
+        "model": "persistence",
+        "n": 14,
+        "split": "validation",
+        "value": 2.168104196461424
+      },
+      "validation/14": {
+        "forecast_horizon_days": 14,
+        "model": "gradient_boosted",
+        "n": 14,
+        "split": "validation",
+        "value": 3.0685129871644303
+      },
+      "validation/3": {
+        "forecast_horizon_days": 3,
+        "model": "persistence",
+        "n": 14,
+        "split": "validation",
+        "value": 2.168104196461424
+      },
+      "validation/7": {
+        "forecast_horizon_days": 7,
+        "model": "persistence",
+        "n": 14,
+        "split": "validation",
+        "value": 2.168104196461424
+      }
+    },
+    "event_best_f1": {
+      "test/1": {
+        "forecast_horizon_days": 1,
+        "model": "trend",
+        "n": 15,
+        "split": "test",
+        "value": 0.6666666666666666
+      },
+      "test/14": {
+        "forecast_horizon_days": 14,
+        "model": "gradient_boosted",
+        "n": 15,
+        "split": "test",
+        "value": 0.6666666666666666
+      },
+      "test/3": {
+        "forecast_horizon_days": 3,
+        "model": "gradient_boosted",
+        "n": 15,
+        "split": "test",
+        "value": 0.6666666666666666
+      },
+      "test/7": {
+        "forecast_horizon_days": 7,
+        "model": "trend",
+        "n": 15,
+        "split": "test",
+        "value": 0.6666666666666666
+      },
+      "validation/1": {
+        "forecast_horizon_days": 1,
+        "model": "persistence",
+        "n": 14,
+        "split": "validation",
+        "value": 0.75
+      },
+      "validation/14": {
+        "forecast_horizon_days": 14,
+        "model": "trend",
+        "n": 14,
+        "split": "validation",
+        "value": 0.75
+      },
+      "validation/3": {
+        "forecast_horizon_days": 3,
+        "model": "persistence",
+        "n": 14,
+        "split": "validation",
+        "value": 0.75
+      },
+      "validation/7": {
+        "forecast_horizon_days": 7,
+        "model": "persistence",
+        "n": 14,
+        "split": "validation",
+        "value": 0.75
+      }
+    },
+    "event_best_pr_auc": {
+      "test/1": {
+        "forecast_horizon_days": 1,
+        "model": "gradient_boosted",
+        "n": 15,
+        "split": "test",
+        "value": 0.8333333333333333
+      },
+      "test/14": {
+        "forecast_horizon_days": 14,
+        "model": "linear",
+        "n": 15,
+        "split": "test",
+        "value": 0.8333333333333333
+      },
+      "test/3": {
+        "forecast_horizon_days": 3,
+        "model": "linear",
+        "n": 15,
+        "split": "test",
+        "value": 0.8333333333333333
+      },
+      "test/7": {
+        "forecast_horizon_days": 7,
+        "model": "linear",
+        "n": 15,
+        "split": "test",
+        "value": 0.8333333333333333
+      },
+      "validation/1": {
+        "forecast_horizon_days": 1,
+        "model": "trend",
+        "n": 14,
+        "split": "validation",
+        "value": 0.8041666666666667
+      },
+      "validation/14": {
+        "forecast_horizon_days": 14,
+        "model": "trend",
+        "n": 14,
+        "split": "validation",
+        "value": 0.6875
+      },
+      "validation/3": {
+        "forecast_horizon_days": 3,
+        "model": "trend",
+        "n": 14,
+        "split": "validation",
+        "value": 0.8041666666666667
+      },
+      "validation/7": {
+        "forecast_horizon_days": 7,
+        "model": "trend",
+        "n": 14,
+        "split": "validation",
+        "value": 0.8041666666666667
+      }
+    }
+  },
+  "caveat": "held-out validation and test samples are small and event probabilities are hard threshold diagnostics",
+  "inputs": {
+    "baseline_event_metrics": "results/tables/algal_bloom_event_metrics_20260818T004424Z.csv",
+    "baseline_metrics": "results/tables/algal_bloom_baseline_metrics_20260818T004044Z.csv",
+    "feature_ablation_metrics": "results/tables/algal_bloom_feature_ablation_metrics_20260818T005418Z.csv",
+    "gradient_event_metrics": "results/tables/algal_bloom_gradient_event_metrics_20260818T005646Z.csv",
+    "gradient_metrics": "results/tables/algal_bloom_gradient_metrics_20260818T005646Z.csv"
+  },
+  "retrieved_at": "2026-08-18T00:58:55.950096+00:00",
+  "rows": 400,
+  "selection_policy": "report best values descriptively; do not tune or select on the test split",
+  "source_id": "algal_bloom_horizon_summary",
+  "summary_path": "results/tables/algal_bloom_horizon_summary_20260818T005855Z.csv"
+}
