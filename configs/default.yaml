@@ -61,3 +61,6 @@ training:
     l2_regularization: 1.0
     early_stopping: false
     random_state: 42
+  selection_policy: validation_mae_per_horizon
+  refit_scope: train_plus_validation
+  final_test_policy: evaluate_once_after_selection
