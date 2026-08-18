@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from collections.abc import Mapping, Sequence
+from pathlib import Path
 from typing import Any
 
 import joblib
@@ -92,6 +93,7 @@ def train_horizon_models(
 
 def save_horizon_model(model_bundle: Mapping[str, Any], path: str) -> None:
     """Persist one fitted model bundle for later reproducible inference."""
+    Path(path).parent.mkdir(parents=True, exist_ok=True)
     joblib.dump(dict(model_bundle), path)
 
 
