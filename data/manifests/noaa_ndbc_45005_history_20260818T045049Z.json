@@ -1,0 +1,302 @@
+{
+  "available_years": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "download_policy": "reuse the latest local file for each year; never overwrite raw artifacts",
+  "requested_years": [
+    2012,
+    2024
+  ],
+  "retrieved_at": "2026-08-18T04:50:49.268881+00:00",
+  "source_id": "noaa_ndbc_45005_history",
+  "station": "45005",
+  "time_basis": "UTC",
+  "unavailable_years": [],
+  "year_results": [
+    {
+      "artifact": {
+        "local_path": "data/raw/ndbc/45005_stdmet_2012_20260818T045049Z.txt.gz",
+        "metadata": {
+          "observed_end": "2012-11-30T22:50:00+00:00",
+          "observed_start": "2012-03-01T03:50:00+00:00",
+          "records": 6481,
+          "station": "45005",
+          "time_basis": "UTC",
+          "year": 2012
+        },
+        "retrieved_at": "2026-08-18T04:50:49.268881+00:00",
+        "sha256": "c2b28ddd41976579e2b18fad32b5a4cd2ee25e56ab7c5ffa5cb5eff0a7633095",
+        "size_bytes": 118511,
+        "source_id": "noaa_ndbc_45005_standard_meteorology",
+        "source_url": "https://www.ndbc.noaa.gov/data/historical/stdmet/45005h2012.txt.gz"
+      },
+      "source": "downloaded",
+      "status": "available",
+      "year": 2012
+    },
+    {
+      "artifact": {
+        "local_path": "data/raw/ndbc/45005_stdmet_2013_20260818T045049Z.txt.gz",
+        "metadata": {
+          "observed_end": "2013-12-31T22:50:00+00:00",
+          "observed_start": "2013-03-31T23:50:00+00:00",
+          "records": 6590,
+          "station": "45005",
+          "time_basis": "UTC",
+          "year": 2013
+        },
+        "retrieved_at": "2026-08-18T04:50:49.268881+00:00",
+        "sha256": "b76d8ae1edc051bfe78edd07974d9ff111e9c7d7dbf876880fbba8ae21da34b4",
+        "size_bytes": 117733,
+        "source_id": "noaa_ndbc_45005_standard_meteorology",
+        "source_url": "https://www.ndbc.noaa.gov/data/historical/stdmet/45005h2013.txt.gz"
+      },
+      "source": "downloaded",
+      "status": "available",
+      "year": 2013
+    },
+    {
+      "artifact": {
+        "local_path": "data/raw/ndbc/45005_stdmet_2014_20260818T045049Z.txt.gz",
+        "metadata": {
+          "observed_end": "2014-11-30T22:50:00+00:00",
+          "observed_start": "2014-05-01T00:50:00+00:00",
+          "records": 4975,
+          "station": "45005",
+          "time_basis": "UTC",
+          "year": 2014
+        },
+        "retrieved_at": "2026-08-18T04:50:49.268881+00:00",
+        "sha256": "40f5f3c7a5685bcbeb9b10f915db5ce0c4cdacf9cd5c379cae54e7c24110dbd1",
+        "size_bytes": 90630,
+        "source_id": "noaa_ndbc_45005_standard_meteorology",
+        "source_url": "https://www.ndbc.noaa.gov/data/historical/stdmet/45005h2014.txt.gz"
+      },
+      "source": "downloaded",
+      "status": "available",
+      "year": 2014
+    },
+    {
+      "artifact": {
+        "local_path": "data/raw/ndbc/45005_stdmet_2015_20260818T045049Z.txt.gz",
+        "metadata": {
+          "observed_end": "2015-12-15T16:50:00+00:00",
+          "observed_start": "2015-04-30T23:50:00+00:00",
+          "records": 5482,
+          "station": "45005",
+          "time_basis": "UTC",
+          "year": 2015
+        },
+        "retrieved_at": "2026-08-18T04:50:49.268881+00:00",
+        "sha256": "bd02c6e6fbcd6cc95f88532b6fe1320d11143db7b7b4a3e1c42a9a8f5ed68ff5",
+        "size_bytes": 96570,
+        "source_id": "noaa_ndbc_45005_standard_meteorology",
+        "source_url": "https://www.ndbc.noaa.gov/data/historical/stdmet/45005h2015.txt.gz"
+      },
+      "source": "downloaded",
+      "status": "available",
+      "year": 2015
+    },
+    {
+      "artifact": {
+        "local_path": "data/raw/ndbc/45005_stdmet_2016_20260818T045049Z.txt.gz",
+        "metadata": {
+          "observed_end": "2016-12-13T15:20:00+00:00",
+          "observed_start": "2016-04-12T03:30:00+00:00",
+          "records": 35309,
+          "station": "45005",
+          "time_basis": "UTC",
+          "year": 2016
+        },
+        "retrieved_at": "2026-08-18T04:50:49.268881+00:00",
+        "sha256": "348e5dbbf09e282fb8a772378002e65985aa293da94f1bb3b4f136f35bcc5d81",
+        "size_bytes": 483705,
+        "source_id": "noaa_ndbc_45005_standard_meteorology",
+        "source_url": "https://www.ndbc.noaa.gov/data/historical/stdmet/45005h2016.txt.gz"
+      },
+      "source": "downloaded",
+      "status": "available",
+      "year": 2016
+    },
+    {
+      "artifact": {
+        "local_path": "data/raw/ndbc/45005_stdmet_2017_20260818T045049Z.txt.gz",
+        "metadata": {
+          "observed_end": "2017-11-29T20:50:00+00:00",
+          "observed_start": "2017-04-18T14:10:00+00:00",
+          "records": 32245,
+          "station": "45005",
+          "time_basis": "UTC",
+          "year": 2017
+        },
+        "retrieved_at": "2026-08-18T04:50:49.268881+00:00",
+        "sha256": "f7f48628d86077ae377accc20f2ef549faa8c194f36dd040d57f02bb0aec85f1",
+        "size_bytes": 444420,
+        "source_id": "noaa_ndbc_45005_standard_meteorology",
+        "source_url": "https://www.ndbc.noaa.gov/data/historical/stdmet/45005h2017.txt.gz"
+      },
+      "source": "downloaded",
+      "status": "available",
+      "year": 2017
+    },
+    {
+      "artifact": {
+        "local_path": "data/raw/ndbc/45005_stdmet_2018_20260818T045049Z.txt.gz",
+        "metadata": {
+          "observed_end": "2018-11-29T14:40:00+00:00",
+          "observed_start": "2018-05-15T21:30:00+00:00",
+          "records": 27681,
+          "station": "45005",
+          "time_basis": "UTC",
+          "year": 2018
+        },
+        "retrieved_at": "2026-08-18T04:50:49.268881+00:00",
+        "sha256": "ba8ffd2b7407aefc69990acb930ba2272ed574598a5c727315bc49bea86374c8",
+        "size_bytes": 358453,
+        "source_id": "noaa_ndbc_45005_standard_meteorology",
+        "source_url": "https://www.ndbc.noaa.gov/data/historical/stdmet/45005h2018.txt.gz"
+      },
+      "source": "downloaded",
+      "status": "available",
+      "year": 2018
+    },
+    {
+      "artifact": {
+        "local_path": "data/raw/ndbc/45005_stdmet_2019_20260818T045049Z.txt.gz",
+        "metadata": {
+          "observed_end": "2019-11-25T23:40:00+00:00",
+          "observed_start": "2019-05-24T15:50:00+00:00",
+          "records": 26387,
+          "station": "45005",
+          "time_basis": "UTC",
+          "year": 2019
+        },
+        "retrieved_at": "2026-08-18T04:50:49.268881+00:00",
+        "sha256": "647cad0a14c05c2d2dfeb264f36de7b8f98f7486629c029f6e923266b7a54b3a",
+        "size_bytes": 362334,
+        "source_id": "noaa_ndbc_45005_standard_meteorology",
+        "source_url": "https://www.ndbc.noaa.gov/data/historical/stdmet/45005h2019.txt.gz"
+      },
+      "source": "downloaded",
+      "status": "available",
+      "year": 2019
+    },
+    {
+      "artifact": {
+        "local_path": "data/raw/ndbc/45005_stdmet_2020_20260818T045049Z.txt.gz",
+        "metadata": {
+          "observed_end": "2020-11-27T20:00:00+00:00",
+          "observed_start": "2020-07-17T04:30:00+00:00",
+          "records": 18991,
+          "station": "45005",
+          "time_basis": "UTC",
+          "year": 2020
+        },
+        "retrieved_at": "2026-08-18T04:50:49.268881+00:00",
+        "sha256": "222d6c8cf6f5e71acb92d16bf9dc70c2304d7bd94cf59b5d5f4a7f01acb937a6",
+        "size_bytes": 262926,
+        "source_id": "noaa_ndbc_45005_standard_meteorology",
+        "source_url": "https://www.ndbc.noaa.gov/data/historical/stdmet/45005h2020.txt.gz"
+      },
+      "source": "downloaded",
+      "status": "available",
+      "year": 2020
+    },
+    {
+      "artifact": {
+        "local_path": "data/raw/ndbc/45005_stdmet_2021_20260818T045049Z.txt.gz",
+        "metadata": {
+          "observed_end": "2021-11-29T16:40:00+00:00",
+          "observed_start": "2021-06-15T18:30:00+00:00",
+          "records": 24020,
+          "station": "45005",
+          "time_basis": "UTC",
+          "year": 2021
+        },
+        "retrieved_at": "2026-08-18T04:50:49.268881+00:00",
+        "sha256": "1eb7b178ded00e50c5a3ee58dbff3d2a155be8131a249cced32f053560d3d511",
+        "size_bytes": 330970,
+        "source_id": "noaa_ndbc_45005_standard_meteorology",
+        "source_url": "https://www.ndbc.noaa.gov/data/historical/stdmet/45005h2021.txt.gz"
+      },
+      "source": "downloaded",
+      "status": "available",
+      "year": 2021
+    },
+    {
+      "artifact": {
+        "local_path": "data/raw/ndbc/45005_stdmet_2022_20260818T045049Z.txt.gz",
+        "metadata": {
+          "observed_end": "2022-12-15T16:00:00+00:00",
+          "observed_start": "2022-05-09T21:30:00+00:00",
+          "records": 31626,
+          "station": "45005",
+          "time_basis": "UTC",
+          "year": 2022
+        },
+        "retrieved_at": "2026-08-18T04:50:49.268881+00:00",
+        "sha256": "83a4106c447c3df4c02ae8546b42300eb6ba84857786b44293955eff14d6fd85",
+        "size_bytes": 438624,
+        "source_id": "noaa_ndbc_45005_standard_meteorology",
+        "source_url": "https://www.ndbc.noaa.gov/data/historical/stdmet/45005h2022.txt.gz"
+      },
+      "source": "downloaded",
+      "status": "available",
+      "year": 2022
+    },
+    {
+      "artifact": {
+        "local_path": "data/raw/ndbc/45005_stdmet_2023_20260818T045049Z.txt.gz",
+        "metadata": {
+          "observed_end": "2023-12-01T15:00:00+00:00",
+          "observed_start": "2023-03-30T16:40:00+00:00",
+          "records": 35379,
+          "station": "45005",
+          "time_basis": "UTC",
+          "year": 2023
+        },
+        "retrieved_at": "2026-08-18T04:50:49.268881+00:00",
+        "sha256": "45616e71a65d3aea06a96c2c4e6dbed16e9158ac1122331e18fea6263aaeab56",
+        "size_bytes": 520148,
+        "source_id": "noaa_ndbc_45005_standard_meteorology",
+        "source_url": "https://www.ndbc.noaa.gov/data/historical/stdmet/45005h2023.txt.gz"
+      },
+      "source": "downloaded",
+      "status": "available",
+      "year": 2023
+    },
+    {
+      "artifact": {
+        "local_path": "data/raw/ndbc/45005_stdmet_2024_20260817T202540Z.txt.gz",
+        "metadata": {
+          "observed_end": "2024-12-03T16:10:00+00:00",
+          "observed_start": "2024-04-15T16:40:00+00:00",
+          "records": 33386,
+          "station": "45005",
+          "time_basis": "UTC",
+          "year": 2024
+        },
+        "retrieved_at": "2026-08-18T04:50:49.268881+00:00",
+        "sha256": "8bb9968bf1517ba62903bd72aefd30d25184772798bfedd38c1c07adefebe62d",
+        "size_bytes": 493670,
+        "source_id": "noaa_ndbc_45005_standard_meteorology",
+        "source_url": "https://www.ndbc.noaa.gov/data/historical/stdmet/45005h2024.txt.gz"
+      },
+      "source": "existing",
+      "status": "available",
+      "year": 2024
+    }
+  ]
+}
