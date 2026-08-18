@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import re
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
@@ -25,6 +26,21 @@ def _latest(paths: list[Path], label: str) -> Path:
     if not paths:
         raise FileNotFoundError(f"no {label} source found")
     return max(paths)
+
+
+def _latest_ndbc_paths(paths: list[Path]) -> list[Path]:
+    """Select one immutable raw file per station-year without double counting."""
+    grouped: dict[tuple[str, int], Path] = {}
+    pattern = re.compile(r"^(?P<station>\d+)_stdmet_(?P<year>\d{4})_.+\.txt\.gz$")
+    for path in paths:
+        match = pattern.match(path.name)
+        if not match:
+            raise ValueError(f"NDBC path does not encode station and year: {path.name}")
+        key = (match.group("station"), int(match.group("year")))
+        grouped[key] = max(path, grouped.get(key, path))
+    if not grouped:
+        raise FileNotFoundError("no NDBC source found")
+    return [grouped[key] for key in sorted(grouped)]
 
 
 def _coverage(records: list[dict[str, Any]]) -> dict[str, Any]:
@@ -48,17 +64,34 @@ def _write_csv(path: Path, records: list[dict[str, Any]]) -> list[str]:
     return fields
 
 
-def run(*, usgs_path: Path | None = None, ndbc_path: Path | None = None) -> Path:
+def run(
+    *,
+    usgs_path: Path | None = None,
+    ndbc_paths: list[Path] | None = None,
+    ndbc_path: Path | None = None,
+) -> Path:
     retrieved_at = datetime.now(UTC)
     run_id = retrieved_at.strftime("%Y%m%dT%H%M%SZ")
     usgs_path = usgs_path or _latest(list((ROOT / "data/raw/usgs").glob("*.json")), "USGS")
-    ndbc_path = ndbc_path or _latest(list((ROOT / "data/raw/ndbc").glob("*.txt.gz")), "NDBC")
+    if ndbc_path is not None:
+        ndbc_paths = [ndbc_path]
+    ndbc_paths = _latest_ndbc_paths(
+        ndbc_paths or list((ROOT / "data/raw/ndbc").glob("*.txt.gz"))
+    )
     glerl_paths = sorted((ROOT / "data/raw/noaa/glerl_observations").rglob("*_annual_summary.csv"))
     if not glerl_paths:
         raise FileNotFoundError("no GLERL annual-summary sources found")
 
     usgs_records = parse_daily_values_payload(json.loads(usgs_path.read_text(encoding="utf-8")))
-    ndbc_raw_records = parse_standard_meteorology(ndbc_path)
+    ndbc_raw_records = [
+        record
+        for path in ndbc_paths
+        for record in parse_standard_meteorology(path)
+    ]
+    timestamps = [str(record["timestamp"]) for record in ndbc_raw_records]
+    if len(timestamps) != len(set(timestamps)):
+        raise ValueError("NDBC source files contain duplicate timestamps")
+    ndbc_raw_records.sort(key=lambda record: str(record["timestamp"]))
     ndbc_records = aggregate_standard_meteorology(ndbc_raw_records)
     glerl_records = aggregate_glerl_continuous(glerl_paths)
     records = merge_daily_predictor_records(
@@ -80,7 +113,8 @@ def run(*, usgs_path: Path | None = None, ndbc_path: Path | None = None) -> Path
                 **_coverage(usgs_records),
             },
             "ndbc": {
-                "local_path": str(ndbc_path.relative_to(ROOT)),
+                "local_paths": [str(path.relative_to(ROOT)) for path in ndbc_paths],
+                "years": sorted({int(path.name.split("_", 3)[2]) for path in ndbc_paths}),
                 "raw_records": len(ndbc_raw_records),
                 **_coverage(ndbc_records),
                 "time_basis": "UTC",
@@ -107,9 +141,9 @@ def run(*, usgs_path: Path | None = None, ndbc_path: Path | None = None) -> Path
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--usgs", type=Path)
-    parser.add_argument("--ndbc", type=Path)
+    parser.add_argument("--ndbc", type=Path, action="append")
     args = parser.parse_args()
-    run(usgs_path=args.usgs, ndbc_path=args.ndbc)
+    run(usgs_path=args.usgs, ndbc_paths=args.ndbc)
 
 
 if __name__ == "__main__":

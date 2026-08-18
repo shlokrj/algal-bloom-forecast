@@ -74,4 +74,5 @@ sources:
     station_name: WEST ERIE - 16 NM NW of Lorain, OH
     historical_url_template: https://www.ndbc.noaa.gov/data/historical/stdmet/45005h{year}.txt.gz
     time_basis: UTC
+    historical_coverage: 2012-2024 requested; unavailable years are recorded in the immutable history manifest
     notes: Parse the raw ten-minute standard meteorological record and preserve NDBC missing-value sentinels as nulls.
