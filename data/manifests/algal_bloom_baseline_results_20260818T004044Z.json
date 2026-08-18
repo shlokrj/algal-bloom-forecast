@@ -1,0 +1,280 @@
+{
+  "feature_path": "data/processed/algal_bloom_feature_table_20260818T002702Z.csv",
+  "history_policy": "latest target observations at or before target_date_minus_horizon",
+  "linear_features": [
+    "usgs_maumee_discharge_m3s",
+    "seasonal_day_of_year_sin",
+    "seasonal_day_of_year_cos"
+  ],
+  "linear_policy": "fit per horizon on train rows, median-impute selected features, clamp predictions at zero",
+  "metrics": [
+    {
+      "forecast_horizon_days": 1,
+      "mae": 4.078810645340287,
+      "model": "climatology",
+      "n": 15,
+      "rmse": 4.306035744980245,
+      "split": "test"
+    },
+    {
+      "forecast_horizon_days": 1,
+      "mae": 3.791025494373676,
+      "model": "linear",
+      "n": 15,
+      "rmse": 4.319919143031334,
+      "split": "test"
+    },
+    {
+      "forecast_horizon_days": 1,
+      "mae": 1.582723506,
+      "model": "persistence",
+      "n": 15,
+      "rmse": 3.099204333685601,
+      "split": "test"
+    },
+    {
+      "forecast_horizon_days": 1,
+      "mae": 2.1805882005333337,
+      "model": "trend",
+      "n": 15,
+      "rmse": 4.732441739923186,
+      "split": "test"
+    },
+    {
+      "forecast_horizon_days": 3,
+      "mae": 4.078810645340287,
+      "model": "climatology",
+      "n": 15,
+      "rmse": 4.306035744980245,
+      "split": "test"
+    },
+    {
+      "forecast_horizon_days": 3,
+      "mae": 3.668620701474437,
+      "model": "linear",
+      "n": 15,
+      "rmse": 4.20327212060997,
+      "split": "test"
+    },
+    {
+      "forecast_horizon_days": 3,
+      "mae": 1.582723506,
+      "model": "persistence",
+      "n": 15,
+      "rmse": 3.099204333685601,
+      "split": "test"
+    },
+    {
+      "forecast_horizon_days": 3,
+      "mae": 2.1805882005333337,
+      "model": "trend",
+      "n": 15,
+      "rmse": 4.732441739923186,
+      "split": "test"
+    },
+    {
+      "forecast_horizon_days": 7,
+      "mae": 4.078810645340287,
+      "model": "climatology",
+      "n": 15,
+      "rmse": 4.306035744980245,
+      "split": "test"
+    },
+    {
+      "forecast_horizon_days": 7,
+      "mae": 3.6458560690302915,
+      "model": "linear",
+      "n": 15,
+      "rmse": 4.1845339171602465,
+      "split": "test"
+    },
+    {
+      "forecast_horizon_days": 7,
+      "mae": 1.582723506,
+      "model": "persistence",
+      "n": 15,
+      "rmse": 3.099204333685601,
+      "split": "test"
+    },
+    {
+      "forecast_horizon_days": 7,
+      "mae": 2.1805882005333337,
+      "model": "trend",
+      "n": 15,
+      "rmse": 4.732441739923186,
+      "split": "test"
+    },
+    {
+      "forecast_horizon_days": 14,
+      "mae": 4.078810645340287,
+      "model": "climatology",
+      "n": 15,
+      "rmse": 4.306035744980245,
+      "split": "test"
+    },
+    {
+      "forecast_horizon_days": 14,
+      "mae": 3.522013577060413,
+      "model": "linear",
+      "n": 15,
+      "rmse": 4.078315775031161,
+      "split": "test"
+    },
+    {
+      "forecast_horizon_days": 14,
+      "mae": 2.467545331933333,
+      "model": "persistence",
+      "n": 15,
+      "rmse": 3.987614820337025,
+      "split": "test"
+    },
+    {
+      "forecast_horizon_days": 14,
+      "mae": 3.5157653820666663,
+      "model": "trend",
+      "n": 15,
+      "rmse": 7.993283305626064,
+      "split": "test"
+    },
+    {
+      "forecast_horizon_days": 1,
+      "mae": 3.2039249406209467,
+      "model": "climatology",
+      "n": 14,
+      "rmse": 3.580209609598065,
+      "split": "validation"
+    },
+    {
+      "forecast_horizon_days": 1,
+      "mae": 3.0285733979673246,
+      "model": "linear",
+      "n": 14,
+      "rmse": 3.9197711389251846,
+      "split": "validation"
+    },
+    {
+      "forecast_horizon_days": 1,
+      "mae": 1.5633704467142857,
+      "model": "persistence",
+      "n": 14,
+      "rmse": 2.168104196461424,
+      "split": "validation"
+    },
+    {
+      "forecast_horizon_days": 1,
+      "mae": 1.7477530455317463,
+      "model": "trend",
+      "n": 14,
+      "rmse": 2.3948714550480332,
+      "split": "validation"
+    },
+    {
+      "forecast_horizon_days": 3,
+      "mae": 3.2039249406209467,
+      "model": "climatology",
+      "n": 14,
+      "rmse": 3.580209609598065,
+      "split": "validation"
+    },
+    {
+      "forecast_horizon_days": 3,
+      "mae": 2.9876091645849967,
+      "model": "linear",
+      "n": 14,
+      "rmse": 3.8479751162528855,
+      "split": "validation"
+    },
+    {
+      "forecast_horizon_days": 3,
+      "mae": 1.5633704467142857,
+      "model": "persistence",
+      "n": 14,
+      "rmse": 2.168104196461424,
+      "split": "validation"
+    },
+    {
+      "forecast_horizon_days": 3,
+      "mae": 1.7477530455317463,
+      "model": "trend",
+      "n": 14,
+      "rmse": 2.3948714550480332,
+      "split": "validation"
+    },
+    {
+      "forecast_horizon_days": 7,
+      "mae": 3.2039249406209467,
+      "model": "climatology",
+      "n": 14,
+      "rmse": 3.580209609598065,
+      "split": "validation"
+    },
+    {
+      "forecast_horizon_days": 7,
+      "mae": 2.976289810327357,
+      "model": "linear",
+      "n": 14,
+      "rmse": 3.837515458503506,
+      "split": "validation"
+    },
+    {
+      "forecast_horizon_days": 7,
+      "mae": 1.5633704467142857,
+      "model": "persistence",
+      "n": 14,
+      "rmse": 2.168104196461424,
+      "split": "validation"
+    },
+    {
+      "forecast_horizon_days": 7,
+      "mae": 1.7477530455317463,
+      "model": "trend",
+      "n": 14,
+      "rmse": 2.3948714550480332,
+      "split": "validation"
+    },
+    {
+      "forecast_horizon_days": 14,
+      "mae": 3.2039249406209467,
+      "model": "climatology",
+      "n": 14,
+      "rmse": 3.580209609598065,
+      "split": "validation"
+    },
+    {
+      "forecast_horizon_days": 14,
+      "mae": 2.8910768095937054,
+      "model": "linear",
+      "n": 14,
+      "rmse": 3.7693814321156127,
+      "split": "validation"
+    },
+    {
+      "forecast_horizon_days": 14,
+      "mae": 2.5718255550714284,
+      "model": "persistence",
+      "n": 14,
+      "rmse": 3.254938025683774,
+      "split": "validation"
+    },
+    {
+      "forecast_horizon_days": 14,
+      "mae": 2.4450284537857145,
+      "model": "trend",
+      "n": 14,
+      "rmse": 4.24891232469137,
+      "split": "validation"
+    }
+  ],
+  "metrics_path": "results/tables/algal_bloom_baseline_metrics_20260818T004044Z.csv",
+  "models": [
+    "climatology",
+    "persistence",
+    "trend",
+    "linear"
+  ],
+  "prediction_path": "results/tables/algal_bloom_baseline_predictions_20260818T004044Z.csv",
+  "retrieved_at": "2026-08-18T00:40:44.635381+00:00",
+  "source_id": "algal_bloom_baseline_results",
+  "split_path": "data/processed/algal_bloom_temporal_splits_20260818T003528Z.csv",
+  "target_field": "ci_sum"
+}

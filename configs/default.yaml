@@ -26,3 +26,9 @@ evaluation:
   validation_years: [2023]
   test_years: [2024]
   random_seed: 42
+  target_field: ci_sum
+  baselines: [climatology, persistence, trend, linear]
+  linear_features:
+    - usgs_maumee_discharge_m3s
+    - seasonal_day_of_year_sin
+    - seasonal_day_of_year_cos
