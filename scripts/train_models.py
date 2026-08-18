@@ -85,8 +85,9 @@ def run(*, frame_path: Path | None = None, manifest_path: Path | None = None) ->
         list((ROOT / "data/manifests").glob("algal_bloom_training_ready_*.json")),
         "training-ready manifest",
     )
+    manifest_path = manifest_path.resolve()
     input_manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
-    frame_path = frame_path or ROOT / input_manifest["output_path"]
+    frame_path = (frame_path or ROOT / input_manifest["output_path"]).resolve()
     schema = input_manifest["schema"]
     target_field = str(schema["target"])
     feature_names = tuple(schema["feature_names"])
