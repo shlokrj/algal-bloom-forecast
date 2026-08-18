@@ -53,6 +53,8 @@ def run(
     baseline_event_metrics: Path | None = None,
     gradient_event_metrics: Path | None = None,
     training_event_metrics: Path | None = None,
+    selection_metrics: Path | None = None,
+    selection_event_metrics: Path | None = None,
 ) -> Path:
     retrieved_at = datetime.now(UTC)
     run_id = retrieved_at.strftime("%Y%m%dT%H%M%SZ")
@@ -84,17 +86,27 @@ def run(
         list((ROOT / "results/tables").glob("algal_bloom_trained_event_metrics_*.csv")),
         "trained model event metrics",
     )
+    selection_metrics = selection_metrics or _latest(
+        list((ROOT / "results/tables").glob("algal_bloom_selected_metrics_*.csv")),
+        "selected model metrics",
+    )
+    selection_event_metrics = selection_event_metrics or _latest(
+        list((ROOT / "results/tables").glob("algal_bloom_selected_event_metrics_*.csv")),
+        "selected model event metrics",
+    )
     rows = build_summary_rows(
         {
             "baseline": _read_csv(baseline_metrics),
             "feature_ablation": _read_csv(ablation_metrics),
             "gradient_boosted": _read_csv(gradient_metrics),
             "trained_model": _read_csv(training_metrics),
+            "selected_model": _read_csv(selection_metrics),
         },
         {
             "baseline_event": _read_csv(baseline_event_metrics),
             "gradient_event": _read_csv(gradient_event_metrics),
             "trained_event": _read_csv(training_event_metrics),
+            "selected_event": _read_csv(selection_event_metrics),
         },
     )
     summary_path = ROOT / "results/tables" / f"algal_bloom_horizon_summary_{run_id}.csv"
@@ -110,6 +122,8 @@ def run(
             "baseline_event_metrics": str(baseline_event_metrics.relative_to(ROOT)),
             "gradient_event_metrics": str(gradient_event_metrics.relative_to(ROOT)),
             "training_event_metrics": str(training_event_metrics.relative_to(ROOT)),
+            "selection_metrics": str(selection_metrics.relative_to(ROOT)),
+            "selection_event_metrics": str(selection_event_metrics.relative_to(ROOT)),
         },
         "summary_path": str(summary_path.relative_to(ROOT)),
         "rows": len(rows),
@@ -137,6 +151,8 @@ def main() -> None:
     parser.add_argument("--baseline-event-metrics", type=Path)
     parser.add_argument("--gradient-event-metrics", type=Path)
     parser.add_argument("--training-event-metrics", type=Path)
+    parser.add_argument("--selection-metrics", type=Path)
+    parser.add_argument("--selection-event-metrics", type=Path)
     args = parser.parse_args()
     run(
         baseline_metrics=args.baseline_metrics,
@@ -146,6 +162,8 @@ def main() -> None:
         baseline_event_metrics=args.baseline_event_metrics,
         gradient_event_metrics=args.gradient_event_metrics,
         training_event_metrics=args.training_event_metrics,
+        selection_metrics=args.selection_metrics,
+        selection_event_metrics=args.selection_event_metrics,
     )
 
 
