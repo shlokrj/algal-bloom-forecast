@@ -1,0 +1,146 @@
+{
+  "feature_count": 579,
+  "frame_path": "data/processed/algal_bloom_training_ready_20260818T045122Z.csv",
+  "interpretation_policy": "coverage diagnostics only; no feature removal or model tuning is performed here",
+  "output_path": "results/tables/algal_bloom_feature_coverage_20260818T210242Z.csv",
+  "retrieved_at": "2026-08-18T21:02:42.753576+00:00",
+  "source_id": "algal_bloom_feature_coverage",
+  "summary": [
+    {
+      "feature_count": 6,
+      "missing": 0,
+      "missing_rate": 0.0,
+      "rows": 360,
+      "source_family": "derived_other",
+      "split": "test",
+      "values": 360
+    },
+    {
+      "feature_count": 423,
+      "missing": 20880,
+      "missing_rate": 0.8226950354609929,
+      "rows": 25380,
+      "source_family": "glerl",
+      "split": "test",
+      "values": 25380
+    },
+    {
+      "feature_count": 126,
+      "missing": 136,
+      "missing_rate": 0.01798941798941799,
+      "rows": 7560,
+      "source_family": "ndbc",
+      "split": "test",
+      "values": 7560
+    },
+    {
+      "feature_count": 2,
+      "missing": 0,
+      "missing_rate": 0.0,
+      "rows": 120,
+      "source_family": "seasonal",
+      "split": "test",
+      "values": 120
+    },
+    {
+      "feature_count": 22,
+      "missing": 0,
+      "missing_rate": 0.0,
+      "rows": 1320,
+      "source_family": "usgs",
+      "split": "test",
+      "values": 1320
+    },
+    {
+      "feature_count": 6,
+      "missing": 0,
+      "missing_rate": 0.0,
+      "rows": 3912,
+      "source_family": "derived_other",
+      "split": "train",
+      "values": 3912
+    },
+    {
+      "feature_count": 423,
+      "missing": 161911,
+      "missing_rate": 0.5870679777806784,
+      "rows": 275796,
+      "source_family": "glerl",
+      "split": "train",
+      "values": 275796
+    },
+    {
+      "feature_count": 126,
+      "missing": 5205,
+      "missing_rate": 0.06335816535203039,
+      "rows": 82152,
+      "source_family": "ndbc",
+      "split": "train",
+      "values": 82152
+    },
+    {
+      "feature_count": 2,
+      "missing": 0,
+      "missing_rate": 0.0,
+      "rows": 1304,
+      "source_family": "seasonal",
+      "split": "train",
+      "values": 1304
+    },
+    {
+      "feature_count": 22,
+      "missing": 0,
+      "missing_rate": 0.0,
+      "rows": 14344,
+      "source_family": "usgs",
+      "split": "train",
+      "values": 14344
+    },
+    {
+      "feature_count": 6,
+      "missing": 0,
+      "missing_rate": 0.0,
+      "rows": 336,
+      "source_family": "derived_other",
+      "split": "validation",
+      "values": 336
+    },
+    {
+      "feature_count": 423,
+      "missing": 19488,
+      "missing_rate": 0.8226950354609929,
+      "rows": 23688,
+      "source_family": "glerl",
+      "split": "validation",
+      "values": 23688
+    },
+    {
+      "feature_count": 126,
+      "missing": 146,
+      "missing_rate": 0.020691609977324263,
+      "rows": 7056,
+      "source_family": "ndbc",
+      "split": "validation",
+      "values": 7056
+    },
+    {
+      "feature_count": 2,
+      "missing": 0,
+      "missing_rate": 0.0,
+      "rows": 112,
+      "source_family": "seasonal",
+      "split": "validation",
+      "values": 112
+    },
+    {
+      "feature_count": 22,
+      "missing": 0,
+      "missing_rate": 0.0,
+      "rows": 1232,
+      "source_family": "usgs",
+      "split": "validation",
+      "values": 1232
+    }
+  ],
+  "training_ready_manifest": "data/manifests/algal_bloom_training_ready_20260818T045122Z.json"
+}
