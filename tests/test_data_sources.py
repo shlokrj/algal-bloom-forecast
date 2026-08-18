@@ -8,6 +8,7 @@ from algal_bloom_forecast.data.ndbc import (
     parse_standard_meteorology,
 )
 from algal_bloom_forecast.data.usgs import DailyValuesQuery, build_daily_values_url
+from scripts.build_daily_predictor_snapshot import _latest_ndbc_paths
 
 
 class DataSourceTests(unittest.TestCase):
@@ -46,3 +47,20 @@ class DataSourceTests(unittest.TestCase):
         self.assertIsNone(records[0]["WDIR"])
         self.assertEqual(records[0]["WSPD"], 3.4)
         self.assertIsNone(records[0]["WTMP"])
+
+    def test_ndbc_snapshot_selects_one_latest_file_per_year(self):
+        paths = [
+            Path("45005_stdmet_2023_20260818T045049Z.txt.gz"),
+            Path("45005_stdmet_2024_20260817T202540Z.txt.gz"),
+            Path("45005_stdmet_2024_20260818T045049Z.txt.gz"),
+        ]
+
+        selected = _latest_ndbc_paths(paths)
+
+        self.assertEqual(
+            selected,
+            [
+                Path("45005_stdmet_2023_20260818T045049Z.txt.gz"),
+                Path("45005_stdmet_2024_20260818T045049Z.txt.gz"),
+            ],
+        )
