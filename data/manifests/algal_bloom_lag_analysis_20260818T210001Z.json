@@ -1,0 +1,9 @@
+{
+  "frame_path": "data/processed/algal_bloom_training_ready_coverage_pruned_20260818T205824Z.csv",
+  "output_path": "results/tables/algal_bloom_lag_analysis_20260818T210001Z.csv",
+  "policy": "availability profiling only; no model selection or imputation",
+  "retrieved_at": "2026-08-18T21:00:01.761640+00:00",
+  "rows": 288,
+  "source_id": "algal_bloom_lag_analysis",
+  "training_ready_manifest": "data/manifests/algal_bloom_training_ready_coverage_pruned_20260818T205824Z.json"
+}
