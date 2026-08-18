@@ -23,6 +23,6 @@ data:
 
 evaluation:
   split_strategy: held_out_year
-  validation_years: []
-  test_years: []
+  validation_years: [2023]
+  test_years: [2024]
   random_seed: 42
