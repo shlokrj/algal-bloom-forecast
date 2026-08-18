@@ -1,0 +1,30 @@
+{
+  "evaluation_years": [
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "feature_path": "data/processed/algal_bloom_feature_table_20260818T045116Z.csv",
+  "models": [
+    "climatology",
+    "persistence",
+    "trend",
+    "linear:combined_core",
+    "gradient_boosted"
+  ],
+  "output_path": "results/tables/algal_bloom_rolling_year_metrics_20260818T204541Z.csv",
+  "retrieved_at": "2026-08-18T20:45:41.217001+00:00",
+  "rows": 240,
+  "source_id": "algal_bloom_rolling_year_evaluation",
+  "split_path": "data/processed/algal_bloom_temporal_splits_20260818T045119Z.csv",
+  "training_policy": "expanding window; each evaluation year trains only on earlier years"
+}

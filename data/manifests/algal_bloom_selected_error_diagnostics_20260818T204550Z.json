@@ -1,0 +1,56 @@
+{
+  "case_path": "results/tables/algal_bloom_selected_error_cases_20260818T204550Z.csv",
+  "case_policy": "event cases use thresholds fit on train plus validation; no test labels influence selection",
+  "prediction_path": "results/tables/algal_bloom_selected_predictions_20260818T054347Z.csv",
+  "retrieved_at": "2026-08-18T20:45:50.060207+00:00",
+  "rows": 60,
+  "selection_manifest": "data/manifests/algal_bloom_model_selection_20260818T054347Z.json",
+  "source_id": "algal_bloom_selected_error_diagnostics",
+  "summary": [
+    {
+      "false_alarm": 1,
+      "forecast_horizon_days": 1,
+      "mae": 1.582723506,
+      "max_absolute_error": 10.032220558999999,
+      "missed_event": 1,
+      "n": 15,
+      "true_negative": 12,
+      "true_positive": 1,
+      "worst_observation_date": "2024-08-13"
+    },
+    {
+      "false_alarm": 1,
+      "forecast_horizon_days": 3,
+      "mae": 1.582723506,
+      "max_absolute_error": 10.032220558999999,
+      "missed_event": 1,
+      "n": 15,
+      "true_negative": 12,
+      "true_positive": 1,
+      "worst_observation_date": "2024-08-13"
+    },
+    {
+      "false_alarm": 1,
+      "forecast_horizon_days": 7,
+      "mae": 1.582723506,
+      "max_absolute_error": 10.032220558999999,
+      "missed_event": 1,
+      "n": 15,
+      "true_negative": 12,
+      "true_positive": 1,
+      "worst_observation_date": "2024-08-13"
+    },
+    {
+      "false_alarm": 3,
+      "forecast_horizon_days": 14,
+      "mae": 2.57392207502311,
+      "max_absolute_error": 6.415060148146487,
+      "missed_event": 0,
+      "n": 15,
+      "true_negative": 10,
+      "true_positive": 2,
+      "worst_observation_date": "2024-09-12"
+    }
+  ],
+  "summary_path": "results/tables/algal_bloom_selected_error_summary_20260818T204550Z.csv"
+}
