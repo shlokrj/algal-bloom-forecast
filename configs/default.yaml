@@ -32,3 +32,8 @@ evaluation:
     - usgs_maumee_discharge_m3s
     - seasonal_day_of_year_sin
     - seasonal_day_of_year_cos
+  event_definition:
+    target_field: ci_sum
+    threshold_policy: train_quantile
+    train_quantile: 0.75
+    probability_policy: hard_thresholded_score
