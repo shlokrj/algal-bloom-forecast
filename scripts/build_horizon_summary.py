@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build one long-form horizon-performance report from all baseline runs."""
+"""Build one long-form horizon-performance report from all model runs."""
 
 from __future__ import annotations
 
@@ -49,8 +49,10 @@ def run(
     baseline_metrics: Path | None = None,
     ablation_metrics: Path | None = None,
     gradient_metrics: Path | None = None,
+    training_metrics: Path | None = None,
     baseline_event_metrics: Path | None = None,
     gradient_event_metrics: Path | None = None,
+    training_event_metrics: Path | None = None,
 ) -> Path:
     retrieved_at = datetime.now(UTC)
     run_id = retrieved_at.strftime("%Y%m%dT%H%M%SZ")
@@ -66,6 +68,10 @@ def run(
         list((ROOT / "results/tables").glob("algal_bloom_gradient_metrics_*.csv")),
         "gradient metrics",
     )
+    training_metrics = training_metrics or _latest(
+        list((ROOT / "results/tables").glob("algal_bloom_trained_metrics_*.csv")),
+        "trained model metrics",
+    )
     baseline_event_metrics = baseline_event_metrics or _latest(
         list((ROOT / "results/tables").glob("algal_bloom_event_metrics_*.csv")),
         "baseline event metrics",
@@ -74,15 +80,21 @@ def run(
         list((ROOT / "results/tables").glob("algal_bloom_gradient_event_metrics_*.csv")),
         "gradient event metrics",
     )
+    training_event_metrics = training_event_metrics or _latest(
+        list((ROOT / "results/tables").glob("algal_bloom_trained_event_metrics_*.csv")),
+        "trained model event metrics",
+    )
     rows = build_summary_rows(
         {
             "baseline": _read_csv(baseline_metrics),
             "feature_ablation": _read_csv(ablation_metrics),
             "gradient_boosted": _read_csv(gradient_metrics),
+            "trained_model": _read_csv(training_metrics),
         },
         {
             "baseline_event": _read_csv(baseline_event_metrics),
             "gradient_event": _read_csv(gradient_event_metrics),
+            "trained_event": _read_csv(training_event_metrics),
         },
     )
     summary_path = ROOT / "results/tables" / f"algal_bloom_horizon_summary_{run_id}.csv"
@@ -94,8 +106,10 @@ def run(
             "baseline_metrics": str(baseline_metrics.relative_to(ROOT)),
             "feature_ablation_metrics": str(ablation_metrics.relative_to(ROOT)),
             "gradient_metrics": str(gradient_metrics.relative_to(ROOT)),
+            "training_metrics": str(training_metrics.relative_to(ROOT)),
             "baseline_event_metrics": str(baseline_event_metrics.relative_to(ROOT)),
             "gradient_event_metrics": str(gradient_event_metrics.relative_to(ROOT)),
+            "training_event_metrics": str(training_event_metrics.relative_to(ROOT)),
         },
         "summary_path": str(summary_path.relative_to(ROOT)),
         "rows": len(rows),
@@ -119,15 +133,19 @@ def main() -> None:
     parser.add_argument("--baseline-metrics", type=Path)
     parser.add_argument("--ablation-metrics", type=Path)
     parser.add_argument("--gradient-metrics", type=Path)
+    parser.add_argument("--training-metrics", type=Path)
     parser.add_argument("--baseline-event-metrics", type=Path)
     parser.add_argument("--gradient-event-metrics", type=Path)
+    parser.add_argument("--training-event-metrics", type=Path)
     args = parser.parse_args()
     run(
         baseline_metrics=args.baseline_metrics,
         ablation_metrics=args.ablation_metrics,
         gradient_metrics=args.gradient_metrics,
+        training_metrics=args.training_metrics,
         baseline_event_metrics=args.baseline_event_metrics,
         gradient_event_metrics=args.gradient_event_metrics,
+        training_event_metrics=args.training_event_metrics,
     )
 
 

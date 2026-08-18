@@ -47,7 +47,7 @@ evaluation:
     probability_policy: hard_thresholded_score
 
 training:
-  status: candidate_training_started
+  status: candidate_training_complete
   input: data/processed/algal_bloom_training_ready_*.csv
   target_field: target_ci_sum
   id_fields: [split, forecast_horizon_days, observation_date, predictor_date]
