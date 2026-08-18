@@ -14,6 +14,14 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def _base_training_ready_manifests() -> list[Path]:
+    return [
+        path
+        for path in (ROOT / "data/manifests").glob("algal_bloom_training_ready_*.json")
+        if "coverage_pruned" not in path.name
+    ]
+
+
 def _latest(paths: list[Path], label: str) -> Path:
     if not paths:
         raise FileNotFoundError(f"no {label} found")
@@ -41,11 +49,12 @@ def run(*, frame_path: Path | None = None, manifest_path: Path | None = None) ->
     retrieved_at = datetime.now(UTC)
     run_id = retrieved_at.strftime("%Y%m%dT%H%M%SZ")
     manifest_path = manifest_path or _latest(
-        list((ROOT / "data/manifests").glob("algal_bloom_training_ready_*.json")),
+        _base_training_ready_manifests(),
         "training-ready manifest",
     )
+    manifest_path = manifest_path.resolve()
     source_manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
-    frame_path = frame_path or ROOT / source_manifest["output_path"]
+    frame_path = (frame_path or ROOT / source_manifest["output_path"]).resolve()
     feature_names = tuple(source_manifest["schema"]["feature_names"])
     rows: list[dict[str, str]]
     with frame_path.open(newline="", encoding="utf-8") as handle:
