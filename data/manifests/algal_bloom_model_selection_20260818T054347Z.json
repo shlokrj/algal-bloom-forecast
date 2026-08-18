@@ -1,0 +1,137 @@
+{
+  "candidate_metrics_path": "results/tables/algal_bloom_model_selection_candidates_20260818T054347Z.csv",
+  "candidate_sources": {
+    "baseline": "data/manifests/algal_bloom_baseline_results_20260818T052149Z.json",
+    "feature_ablation": "data/manifests/algal_bloom_feature_ablation_20260818T052154Z.json",
+    "gradient_boosted": "data/manifests/algal_bloom_gradient_baseline_20260818T052201Z.json",
+    "hist_gradient_boosted": "data/manifests/algal_bloom_training_run_20260818T052135Z.json"
+  },
+  "event_metrics": [
+    {
+      "brier": 0.13333333333333333,
+      "calibration_abs_error": 0.0,
+      "event_threshold": 5.516971989,
+      "f1": 0.5,
+      "forecast_horizon_days": 1,
+      "model": "selected_model",
+      "n": 15,
+      "observed_event_rate": 0.13333333333333333,
+      "positive_events": 2,
+      "pr_auc": 0.7,
+      "precision": 0.5,
+      "predicted_event_rate": 0.13333333333333333,
+      "predicted_events": 2,
+      "recall": 0.5,
+      "split": "test"
+    },
+    {
+      "brier": 0.13333333333333333,
+      "calibration_abs_error": 0.0,
+      "event_threshold": 5.516971989,
+      "f1": 0.5,
+      "forecast_horizon_days": 3,
+      "model": "selected_model",
+      "n": 15,
+      "observed_event_rate": 0.13333333333333333,
+      "positive_events": 2,
+      "pr_auc": 0.7,
+      "precision": 0.5,
+      "predicted_event_rate": 0.13333333333333333,
+      "predicted_events": 2,
+      "recall": 0.5,
+      "split": "test"
+    },
+    {
+      "brier": 0.13333333333333333,
+      "calibration_abs_error": 0.0,
+      "event_threshold": 5.516971989,
+      "f1": 0.5,
+      "forecast_horizon_days": 7,
+      "model": "selected_model",
+      "n": 15,
+      "observed_event_rate": 0.13333333333333333,
+      "positive_events": 2,
+      "pr_auc": 0.7,
+      "precision": 0.5,
+      "predicted_event_rate": 0.13333333333333333,
+      "predicted_events": 2,
+      "recall": 0.5,
+      "split": "test"
+    },
+    {
+      "brier": 0.2,
+      "calibration_abs_error": 0.19999999999999998,
+      "event_threshold": 5.516971989,
+      "f1": 0.5714285714285715,
+      "forecast_horizon_days": 14,
+      "model": "selected_model",
+      "n": 15,
+      "observed_event_rate": 0.13333333333333333,
+      "positive_events": 2,
+      "pr_auc": 0.41666666666666663,
+      "precision": 0.4,
+      "predicted_event_rate": 0.3333333333333333,
+      "predicted_events": 5,
+      "recall": 1.0,
+      "split": "test"
+    }
+  ],
+  "event_metrics_path": "results/tables/algal_bloom_selected_event_metrics_20260818T054347Z.csv",
+  "event_thresholds": {
+    "1": 5.516971989,
+    "14": 5.516971989,
+    "3": 5.516971989,
+    "7": 5.516971989
+  },
+  "feature_path": "data/processed/algal_bloom_feature_table_20260818T045116Z.csv",
+  "fit_rows": 708,
+  "metrics_path": "results/tables/algal_bloom_selected_metrics_20260818T054347Z.csv",
+  "prediction_path": "results/tables/algal_bloom_selected_predictions_20260818T054347Z.csv",
+  "refit_policy": "refit selected rules/models on train plus validation rows, then score test once",
+  "regression_metrics": [
+    {
+      "forecast_horizon_days": 1,
+      "mae": 1.582723506,
+      "model": "selected_model",
+      "n": 15,
+      "rmse": 3.099204333685601,
+      "split": "test"
+    },
+    {
+      "forecast_horizon_days": 3,
+      "mae": 1.582723506,
+      "model": "selected_model",
+      "n": 15,
+      "rmse": 3.099204333685601,
+      "split": "test"
+    },
+    {
+      "forecast_horizon_days": 7,
+      "mae": 1.582723506,
+      "model": "selected_model",
+      "n": 15,
+      "rmse": 3.099204333685601,
+      "split": "test"
+    },
+    {
+      "forecast_horizon_days": 14,
+      "mae": 2.57392207502311,
+      "model": "selected_model",
+      "n": 15,
+      "rmse": 3.5064202322322706,
+      "split": "test"
+    }
+  ],
+  "retrieved_at": "2026-08-18T05:43:47.499292+00:00",
+  "selected_models": {
+    "1": "persistence",
+    "14": "linear:combined_core",
+    "3": "persistence",
+    "7": "persistence"
+  },
+  "selection_metric": "validation_mae",
+  "selection_policy": "select independently per horizon using validation only; do not inspect test metrics",
+  "source_id": "algal_bloom_model_selection",
+  "split_path": "data/processed/algal_bloom_temporal_splits_20260818T045119Z.csv",
+  "test_rows": 60
+}
