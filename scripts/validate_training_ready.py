@@ -14,9 +14,14 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def _latest(paths: list[Path], label: str) -> Path:
+    paths = [path for path in paths if "coverage_pruned" not in path.name]
     if not paths:
         raise FileNotFoundError(f"no {label} found")
     return max(paths)
+
+
+def _resolve(path: Path) -> Path:
+    return path if path.is_absolute() else ROOT / path
 
 
 def validate(manifest_path: Path, frame_path: Path) -> dict[str, object]:
@@ -77,12 +82,12 @@ def main() -> None:
     parser.add_argument("--manifest", type=Path)
     parser.add_argument("--frame", type=Path)
     args = parser.parse_args()
-    manifest_path = args.manifest or _latest(
+    manifest_path = _resolve(args.manifest) if args.manifest else _latest(
         list((ROOT / "data/manifests").glob("algal_bloom_training_ready_*.json")),
         "training-ready manifest",
     )
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
-    frame_path = args.frame or ROOT / manifest["output_path"]
+    frame_path = _resolve(args.frame) if args.frame else ROOT / manifest["output_path"]
     report = validate(manifest_path, frame_path)
     print(json.dumps(report, indent=2, sort_keys=True))
 
