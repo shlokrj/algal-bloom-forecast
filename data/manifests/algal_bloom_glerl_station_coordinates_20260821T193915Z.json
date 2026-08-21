@@ -1,0 +1,24 @@
+{
+  "bbox": {
+    "east": -83.009,
+    "north": 41.834,
+    "south": 41.617,
+    "west": -83.424
+  },
+  "normalization": {
+    "latitude_longitude": "validate decimal degrees and configured dataset bbox",
+    "model_usage": "keep as a separate metadata table; do not spatially interpolate predictors",
+    "station_id": "canonicalize WE2/WE02-style labels to zero-padded WE##"
+  },
+  "output_path": "data/processed/algal_bloom_glerl_station_coordinates_20260821T193915Z.csv",
+  "records": 9,
+  "retrieved_at": "2026-08-21T19:39:15.106184+00:00",
+  "source_id": "algal_bloom_glerl_station_coordinates",
+  "source_path": "data/raw/noaa/glerl_observations/0187718/2.2/lake_erie_habs_field_sampling_master_coordinates.csv",
+  "source_sha256": "23ec543d5b9eba9fec96337f9ba4e5a5da56fcbc19ef4e580b760980aa6a2c94",
+  "validation": {
+    "duplicate_stations_rejected": true,
+    "invalid_coordinates_rejected": true,
+    "outside_bbox_rejected": true
+  }
+}

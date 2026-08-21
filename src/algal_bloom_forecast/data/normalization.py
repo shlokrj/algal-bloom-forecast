@@ -8,7 +8,8 @@ from typing import Any
 _NORMALIZATION_CONTRACT: dict[str, dict[str, Any]] = {
     "target": {
         "timestamp_basis": "date-only fused composite center date; timezone not applicable",
-        "unit_status": "source unit is not explicitly provided; retain ci_sum metric name",
+        "unit_status": "CIcyano products are treated as dimensionless; this historical summed ci_sum aggregate has no explicit unit statement",
+        "unit_reference": "NOAA HAB-F ocean-color processing guidance; aggregate calibration remains pending",
         "location_scope": "western Lake Erie regional fused series; no coordinate fields",
         "missing_policy": "preserve nulls; no interpolation",
         "quality_policy": "per-record source quality flags are not present in the fused table",
@@ -38,6 +39,7 @@ _NORMALIZATION_CONTRACT: dict[str, dict[str, Any]] = {
     "location_policy": {
         "regional_scope": "western Lake Erie",
         "station_features": "retain station-specific predictors; do not spatially interpolate",
+        "station_coordinates": "normalize fixed GLERL station metadata in a separate coordinate table",
         "spatial_extension": "deferred until a gridded target and coordinate contract are defined",
     },
 }

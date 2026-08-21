@@ -25,6 +25,8 @@ sources:
     historical_target_ftp_root: ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0243/0312614/1.1/data/0-data/HAB_GreatLakes_Monitoring/intensity-extent-timeseries-csvs/GLErie/
     historical_target_metrics: ci_sum and bloom_area_sqkm from Western Lake Erie_fused
     historical_target_semantics: cross-sensor fused 10-day composite center date; no timezone; preserve seasonal gaps and missing values
+    historical_target_unit_status: CIcyano products are treated as dimensionless in current Lake Erie products; this historical summed ci_sum aggregate has no explicit unit statement
+    historical_target_unit_reference: https://repository.library.noaa.gov/view/noaa/72849/noaa_72849_DS1.pdf
     notes: Keep the current daily CI-CIcyano GeoTIFF target separate from the historical 10-day fused target until product calibration and temporal alignment are explicitly defined.
 
   noaa_glerl_ciglr_water_quality:
@@ -59,6 +61,11 @@ sources:
       west: -83.7084
     dataset_revision_date: 2025-07-03
     dataset_update_status: ongoing
+    station_coordinate_bbox:
+      north: 41.834
+      south: 41.617
+      east: -83.009
+      west: -83.424
     notes: Profile discrete sampling and moored-buoy subsets separately; do not treat them as one homogeneous series.
 
   usgs_maumee_daily_discharge:
