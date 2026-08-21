@@ -10,6 +10,7 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
+from algal_bloom_forecast.data.normalization import build_normalization_contract
 from algal_bloom_forecast.features.engineering import (
     DEFAULT_LAG_DAYS,
     DEFAULT_ROLLING_WINDOWS_DAYS,
@@ -24,6 +25,10 @@ def _latest(paths: list[Path], label: str) -> Path:
     if not paths:
         raise FileNotFoundError(f"no {label} table found")
     return max(paths)
+
+
+def _resolve(path: Path) -> Path:
+    return path if path.is_absolute() else ROOT / path
 
 
 def _coerce_value(field: str, value: str | None) -> Any:
@@ -72,11 +77,11 @@ def run(
 ) -> Path:
     retrieved_at = datetime.now(UTC)
     run_id = retrieved_at.strftime("%Y%m%dT%H%M%SZ")
-    target_path = target_path or _latest(
+    target_path = _resolve(target_path) if target_path else _latest(
         list((ROOT / "data/processed").glob("noaa_western_lake_erie_historical_target_*.csv")),
         "historical target",
     )
-    predictor_path = predictor_path or _latest(
+    predictor_path = _resolve(predictor_path) if predictor_path else _latest(
         list((ROOT / "data/processed").glob("algal_bloom_daily_predictors_*.csv")),
         "daily predictor",
     )
@@ -100,12 +105,7 @@ def run(
         "horizons_days": list(horizons),
         "lag_days": list(DEFAULT_LAG_DAYS),
         "rolling_windows_days": list(DEFAULT_ROLLING_WINDOWS_DAYS),
-        "normalization": {
-            "usgs_maumee_discharge_m3s": "usgs_maumee_discharge_cfs multiplied by 0.028316846592",
-            "ndbc": "retain source-documented SI and meteorological units",
-            "glerl": "retain source-documented UTC logger units",
-            "quality": "retain valid counts and add numeric USGS estimated flag",
-        },
+        "normalization": build_normalization_contract(),
         "leakage_policy": "all snapshots, lags, and rolling windows use predictor dates at or before target_date_minus_horizon",
         "missing_value_policy": "no interpolation; unavailable and invalid values remain null",
     }
