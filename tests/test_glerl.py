@@ -2,7 +2,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from algal_bloom_forecast.data.glerl import profile_glerl_csv
+from algal_bloom_forecast.data.glerl import profile_glerl_csv, profile_glerl_flag_codes
 from scripts.profile_glerl_observations import _selected_files
 
 
@@ -92,3 +92,21 @@ data logger,YSI EXO2,NAN
         self.assertEqual(profile["observed_start"], "2018-05-03 15:31:00")
         self.assertIn("UTC", profile["time_basis"])
         self.assertEqual(profile["missing_counts"]["chlorophylla"], 1)
+
+    def test_profiles_flag_sequences_without_assigning_meanings(self):
+        content = """\
+timestamp,chlorophylla,chlorophylla_flags
+UTC,RFU,NAN
+data logger,YSI EXO2,NAN
+5/3/2018 15:31,159.8,1 1 1 1
+5/3/2018 15:46,NAN,1 2 1 2
+"""
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "annual.csv"
+            path.write_text(content, encoding="latin-1")
+            profile = profile_glerl_flag_codes(path)
+
+        assert profile["timestamped_records"] == 2
+        assert profile["observed_flag_tokens"] == ["1", "2"]
+        assert profile["mapping_status"].startswith("raw sequences preserved")
+        assert profile["flag_value_counts"]["chlorophylla_flags"]["1 2 1 2"] == 1

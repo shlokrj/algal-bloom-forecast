@@ -52,6 +52,13 @@ sources:
     listed_moored_series_status: annual_summary files in accessions 0190201, 0190729, 0194301, and 0194302 are continuous logger series; verify any additional buoy products separately
     earliest_date: 2012-05-15
     seasonal_coverage: May-October
+    dataset_spatial_bbox:
+      north: 43.3
+      south: 41.8
+      east: -82.8
+      west: -83.7084
+    dataset_revision_date: 2025-07-03
+    dataset_update_status: ongoing
     notes: Profile discrete sampling and moored-buoy subsets separately; do not treat them as one homogeneous series.
 
   usgs_maumee_daily_discharge:

@@ -138,6 +138,37 @@ def profile_glerl_csv(path: Path, *, source_class: str) -> dict[str, object]:
     }
 
 
+def profile_glerl_flag_codes(path: Path) -> dict[str, object]:
+    """Profile raw GLERL flag sequences without assigning undocumented meanings."""
+    with path.open(newline="", encoding="latin-1") as handle:
+        reader = csv.DictReader(handle)
+        fieldnames = reader.fieldnames or []
+        flag_fields = [field for field in fieldnames if field.lower().endswith("_flags")]
+        value_counts = {field: Counter() for field in flag_fields}
+        tokens: set[str] = set()
+        timestamped_records = 0
+        for row in reader:
+            if _row_datetime(row, fieldnames) is None:
+                continue
+            timestamped_records += 1
+            for field in flag_fields:
+                raw_value = (row.get(field) or "").strip()
+                value = "<missing>" if _is_missing(raw_value) else raw_value
+                value_counts[field][value] += 1
+                if value != "<missing>":
+                    tokens.update(raw_value.split())
+    return {
+        "source_filename": path.name,
+        "flag_columns": flag_fields,
+        "timestamped_records": timestamped_records,
+        "flag_value_counts": {
+            field: dict(sorted(counts.items())) for field, counts in sorted(value_counts.items())
+        },
+        "observed_flag_tokens": sorted(tokens),
+        "mapping_status": "raw sequences preserved; code meanings not assigned",
+    }
+
+
 def _feature_name(field: str) -> str | None:
     normalized = re.sub(r"[^a-z0-9]+", "_", field.strip().lower()).strip("_")
     if not normalized or normalized.endswith("_flags"):
