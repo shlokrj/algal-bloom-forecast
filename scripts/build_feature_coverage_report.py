@@ -11,6 +11,8 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
+from algal_bloom_forecast.data.normalization import build_normalization_contract
+
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -106,6 +108,9 @@ def run(*, frame_path: Path | None = None, manifest_path: Path | None = None) ->
         "training_ready_manifest": str(manifest_path.relative_to(ROOT)),
         "frame_path": str(frame_path.relative_to(ROOT)),
         "output_path": str(output_path.relative_to(ROOT)),
+        "target_definition": source_manifest.get(
+            "target_definition", build_normalization_contract()["target"]
+        ),
         "feature_count": len(feature_names),
         "summary": summary_rows,
         "interpretation_policy": "coverage diagnostics only; no feature removal or model tuning is performed here",

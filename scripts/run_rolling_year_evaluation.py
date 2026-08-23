@@ -11,6 +11,7 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
+from algal_bloom_forecast.data.normalization import build_normalization_contract
 from algal_bloom_forecast.evaluation.metrics import regression_metrics
 from algal_bloom_forecast.models.baselines import build_baseline_predictions
 from algal_bloom_forecast.models.feature_groups import build_feature_groups
@@ -23,6 +24,10 @@ def _latest(paths: list[Path], label: str) -> Path:
     if not paths:
         raise FileNotFoundError(f"no {label} found")
     return max(paths)
+
+
+def _resolve(path: Path) -> Path:
+    return path if path.is_absolute() else ROOT / path
 
 
 def _coerce_value(field: str, value: str | None) -> Any:
@@ -62,11 +67,11 @@ def _write_csv(path: Path, records: list[dict[str, Any]], fields: list[str]) -> 
 def run(*, split_path: Path | None = None, feature_path: Path | None = None) -> Path:
     retrieved_at = datetime.now(UTC)
     run_id = retrieved_at.strftime("%Y%m%dT%H%M%SZ")
-    split_path = split_path or _latest(
+    split_path = _resolve(split_path) if split_path else _latest(
         list((ROOT / "data/processed").glob("algal_bloom_temporal_splits_*.csv")),
         "temporal split table",
     )
-    feature_path = feature_path or _latest(
+    feature_path = _resolve(feature_path) if feature_path else _latest(
         list((ROOT / "data/processed").glob("algal_bloom_feature_table_*.csv")),
         "feature table",
     )
@@ -146,6 +151,7 @@ def run(*, split_path: Path | None = None, feature_path: Path | None = None) -> 
         "split_path": str(split_path.relative_to(ROOT)),
         "feature_path": str(feature_path.relative_to(ROOT)),
         "output_path": str(output_path.relative_to(ROOT)),
+        "target_definition": build_normalization_contract()["target"],
         "evaluation_years": sorted({row["evaluation_year"] for row in output_rows}),
         "training_policy": "expanding window; each evaluation year trains only on earlier years",
         "models": ["climatology", "persistence", "trend", "linear:combined_core", "gradient_boosted"],
