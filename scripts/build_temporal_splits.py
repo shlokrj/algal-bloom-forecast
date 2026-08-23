@@ -10,6 +10,7 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
+from algal_bloom_forecast.data.normalization import build_normalization_contract
 from algal_bloom_forecast.evaluation.splits import build_temporal_splits
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -21,6 +22,10 @@ def _latest(paths: list[Path]) -> Path:
     if not paths:
         raise FileNotFoundError("no feature table found")
     return max(paths)
+
+
+def _resolve(path: Path) -> Path:
+    return path if path.is_absolute() else ROOT / path
 
 
 def _coerce_value(field: str, value: str | None) -> Any:
@@ -69,7 +74,7 @@ def run(
 ) -> Path:
     retrieved_at = datetime.now(UTC)
     run_id = retrieved_at.strftime("%Y%m%dT%H%M%SZ")
-    input_path = input_path or _latest(
+    input_path = _resolve(input_path) if input_path else _latest(
         list((ROOT / "data/processed").glob("algal_bloom_feature_table_*.csv"))
     )
     records = _read_csv(input_path)
@@ -87,6 +92,7 @@ def run(
         "output_path": str(output_path.relative_to(ROOT)),
         "fields": fields,
         "split_strategy": "held_out_year",
+        "target_definition": build_normalization_contract()["target"],
         "report": report,
     }
     manifest_path = ROOT / "data/manifests" / f"algal_bloom_temporal_splits_{run_id}.json"

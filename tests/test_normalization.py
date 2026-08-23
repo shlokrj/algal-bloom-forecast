@@ -10,6 +10,8 @@ def test_normalization_contract_records_units_time_and_quality_policies() -> Non
     assert "sentinel" in contract["ndbc_45005"]["missing_policy"]
     assert "flag-code mapping remains pending" in contract["glerl_continuous"]["quality_policy"]
     assert contract["location_policy"]["regional_scope"] == "western Lake Erie"
+    assert contract["target"]["label_observation"] == "10-day composite center date"
+    assert contract["target"]["daily_horizon_status"].startswith("pending")
 
 
 def test_normalization_contract_returns_independent_copies() -> None:

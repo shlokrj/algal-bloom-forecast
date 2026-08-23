@@ -10,6 +10,7 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
+from algal_bloom_forecast.data.normalization import build_normalization_contract
 from algal_bloom_forecast.models.dataset import build_training_frame, build_training_schema
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -19,6 +20,10 @@ def _latest(paths: list[Path]) -> Path:
     if not paths:
         raise FileNotFoundError("no temporal split table found")
     return max(paths)
+
+
+def _resolve(path: Path) -> Path:
+    return path if path.is_absolute() else ROOT / path
 
 
 def _coerce_value(field: str, value: str | None) -> Any:
@@ -58,7 +63,7 @@ def _write_csv(path: Path, rows: list[dict[str, Any]], fields: list[str]) -> Non
 def run(*, input_path: Path | None = None, target_field: str = "ci_sum") -> Path:
     retrieved_at = datetime.now(UTC)
     run_id = retrieved_at.strftime("%Y%m%dT%H%M%SZ")
-    input_path = input_path or _latest(
+    input_path = _resolve(input_path) if input_path else _latest(
         list((ROOT / "data/processed").glob("algal_bloom_temporal_splits_*.csv"))
     )
     frame = build_training_frame(_read_csv(input_path), target_field=target_field)
@@ -71,6 +76,7 @@ def run(*, input_path: Path | None = None, target_field: str = "ci_sum") -> Path
         "input_path": str(input_path.relative_to(ROOT)),
         "output_path": str(output_path.relative_to(ROOT)),
         "fields": fields,
+        "target_definition": build_normalization_contract()["target"],
         "schema": build_training_schema(frame),
         "validation": {
             "future_predictor_dates_rejected": True,

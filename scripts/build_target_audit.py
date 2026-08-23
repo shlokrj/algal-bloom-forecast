@@ -10,6 +10,7 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
+from algal_bloom_forecast.data.normalization import build_normalization_contract
 from algal_bloom_forecast.data.target_audit import audit_target_records
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -48,6 +49,7 @@ def run(*, manifest_path: Path | None = None, target_path: Path | None = None) -
     derived = manifest["derived_table"]
     target_path = _resolve(target_path) if target_path else _resolve(Path(derived["local_path"]))
     report = audit_target_records(_read_target(target_path))
+    target_contract = build_normalization_contract()["target"]
 
     audit = {
         "source_id": "algal_bloom_target_audit",
@@ -56,12 +58,11 @@ def run(*, manifest_path: Path | None = None, target_path: Path | None = None) -
         "target_path": str(target_path.relative_to(ROOT)),
         "target_contract": {
             "region": "western_lake_erie",
-            "target_field": "ci_sum",
+            **target_contract,
+            "target_field": target_contract["field"],
             "target_semantics": manifest["target_semantics"],
-            "timestamp_basis": "date-only composite center date; timezone not applicable",
-            "missing_target_policy": "preserve_null",
+            "missing_target_policy": target_contract["missing_policy"],
             "interpolation": "disabled",
-            "unit_status": "source unit is not explicitly provided; retain metric name until verified",
             "spatial_status": "regional fused series; coordinates and raster footprint are not present",
             "quality_flag_status": "missing values are explicit; per-record source quality flags are not present",
             "revision_policy": "preserve source and derived artifacts by immutable manifest ID; never overwrite",
@@ -71,8 +72,10 @@ def run(*, manifest_path: Path | None = None, target_path: Path | None = None) -
             "temporal_dates_validated": True,
             "missingness_profiled": True,
             "units_normalized": False,
+            "target_unit_calibration_required": True,
             "spatial_coverage_profiled": False,
             "quality_flags_normalized": False,
+            "daily_horizon_labels_ready": False,
             "status": "target_audited_normalization_pending",
         },
     }

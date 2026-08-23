@@ -10,6 +10,7 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
+from algal_bloom_forecast.data.normalization import build_normalization_contract
 from algal_bloom_forecast.features.alignment import align_daily_predictors_to_targets
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -20,6 +21,10 @@ def _latest(paths: list[Path], label: str) -> Path:
     if not paths:
         raise FileNotFoundError(f"no {label} table found")
     return max(paths)
+
+
+def _resolve(path: Path) -> Path:
+    return path if path.is_absolute() else ROOT / path
 
 
 def _read_csv(path: Path) -> list[dict[str, Any]]:
@@ -55,11 +60,11 @@ def run(
 
     retrieved_at = datetime.now(UTC)
     run_id = retrieved_at.strftime("%Y%m%dT%H%M%SZ")
-    target_path = target_path or _latest(
+    target_path = _resolve(target_path) if target_path else _latest(
         list((ROOT / "data/processed").glob("noaa_western_lake_erie_historical_target_*.csv")),
         "historical target",
     )
-    predictor_path = predictor_path or _latest(
+    predictor_path = _resolve(predictor_path) if predictor_path else _latest(
         list((ROOT / "data/processed").glob("algal_bloom_daily_predictors_*.csv")),
         "daily predictor",
     )
@@ -101,6 +106,7 @@ def run(
             "missing_target_policy": "preserve_null",
             "interpolation": "disabled",
         },
+        "target_definition": build_normalization_contract()["target"],
         "horizon_profiles": horizon_profiles,
     }
     manifest_path = ROOT / "data/manifests" / f"algal_bloom_aligned_training_{run_id}.json"

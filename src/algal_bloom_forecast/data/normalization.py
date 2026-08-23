@@ -7,6 +7,14 @@ from typing import Any
 
 _NORMALIZATION_CONTRACT: dict[str, dict[str, Any]] = {
     "target": {
+        "field": "ci_sum",
+        "value_semantics": "cross-sensor fused western Lake Erie intensity aggregate",
+        "label_observation": "10-day composite center date",
+        "horizon_semantics": (
+            "predictor cutoff is target observation date minus the requested horizon; "
+            "the label is not an exact daily t-plus-horizon observation"
+        ),
+        "daily_horizon_status": "pending target-product calibration and temporal alignment",
         "timestamp_basis": "date-only fused composite center date; timezone not applicable",
         "unit_status": "CIcyano products are treated as dimensionless; this historical summed ci_sum aggregate has no explicit unit statement",
         "unit_reference": "NOAA HAB-F ocean-color processing guidance; aggregate calibration remains pending",

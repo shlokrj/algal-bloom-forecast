@@ -106,6 +106,7 @@ def run(
         "lag_days": list(DEFAULT_LAG_DAYS),
         "rolling_windows_days": list(DEFAULT_ROLLING_WINDOWS_DAYS),
         "normalization": build_normalization_contract(),
+        "target_definition": build_normalization_contract()["target"],
         "leakage_policy": "all snapshots, lags, and rolling windows use predictor dates at or before target_date_minus_horizon",
         "missing_value_policy": "no interpolation; unavailable and invalid values remain null",
     }
