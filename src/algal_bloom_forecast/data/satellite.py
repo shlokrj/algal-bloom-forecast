@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import math
 import re
+from collections import Counter
 from dataclasses import asdict, dataclass
 from datetime import date, timedelta
 from pathlib import Path
@@ -13,6 +14,15 @@ VALID_DN_MIN = 1
 VALID_DN_MAX = 249
 DN_SCALE = 3.0 / 250.0
 DN_OFFSET = -4.2
+PRODUCT_FLAG_LABELS = {
+    0: "nodetect",
+    250: "saturated",
+    251: "ci_adjacency",
+    252: "land",
+    253: "cloud",
+    254: "mixed_pixel",
+    255: "nodata",
+}
 FILENAME_PATTERN = re.compile(
     r"^sentinel-3\.(?P<year>\d{4})(?P<day_of_year>\d{3})\."
     r"(?P<month>\d{2})(?P<day>\d{2})\."
@@ -118,6 +128,44 @@ def decode_ci_cyano(data_numbers: Any) -> tuple[list[list[float]], list[list[boo
         decoded.append(decoded_row)
         valid.append(valid_row)
     return decoded, valid
+
+
+def profile_ci_cyano_pixels(data_numbers: Any) -> dict[str, Any]:
+    """Count valid pixels and documented invalid product flags without filling them."""
+    rows = _as_rows(data_numbers)
+    flag_counts: Counter[str] = Counter({label: 0 for label in PRODUCT_FLAG_LABELS.values()})
+    valid_pixel_count = 0
+    unknown_invalid_pixel_count = 0
+    nonfinite_pixel_count = 0
+    total_pixel_count = sum(len(row) for row in rows)
+    for row in rows:
+        for value in row:
+            try:
+                numeric_value = float(value)
+            except (TypeError, ValueError):
+                nonfinite_pixel_count += 1
+                continue
+            if not math.isfinite(numeric_value):
+                nonfinite_pixel_count += 1
+            elif VALID_DN_MIN <= numeric_value <= VALID_DN_MAX:
+                valid_pixel_count += 1
+            elif numeric_value.is_integer() and int(numeric_value) in PRODUCT_FLAG_LABELS:
+                flag_counts[PRODUCT_FLAG_LABELS[int(numeric_value)]] += 1
+            else:
+                unknown_invalid_pixel_count += 1
+
+    invalid_pixel_count = total_pixel_count - valid_pixel_count
+    return {
+        "total_pixel_count": total_pixel_count,
+        "valid_pixel_count": valid_pixel_count,
+        "invalid_pixel_count": invalid_pixel_count,
+        "valid_pixel_fraction": (
+            valid_pixel_count / total_pixel_count if total_pixel_count else 0.0
+        ),
+        "flag_pixel_counts": dict(sorted(flag_counts.items())),
+        "unknown_invalid_pixel_count": unknown_invalid_pixel_count,
+        "nonfinite_pixel_count": nonfinite_pixel_count,
+    }
 
 
 def summarize_ci_cyano(data_numbers: Any) -> SatelliteTargetSummary:

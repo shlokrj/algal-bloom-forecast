@@ -1,0 +1,54 @@
+{
+  "aggregate": [
+    {
+      "forecast_horizon_days": 1,
+      "mae": 0.001131789543841683,
+      "overlap_pixel_count": 87532,
+      "rmse": 0.0016996367422774667,
+      "scored_raster_count": 46,
+      "target_raster_count": 55
+    },
+    {
+      "forecast_horizon_days": 3,
+      "mae": 0.0012197440200828033,
+      "overlap_pixel_count": 57832,
+      "rmse": 0.0017497201391996945,
+      "scored_raster_count": 48,
+      "target_raster_count": 55
+    },
+    {
+      "forecast_horizon_days": 7,
+      "mae": 0.0016386903630786643,
+      "overlap_pixel_count": 42896,
+      "rmse": 0.002356367509064131,
+      "scored_raster_count": 44,
+      "target_raster_count": 55
+    },
+    {
+      "forecast_horizon_days": 14,
+      "mae": 0.0016238431193258836,
+      "overlap_pixel_count": 46615,
+      "rmse": 0.0022339891399469616,
+      "scored_raster_count": 39,
+      "target_raster_count": 55
+    }
+  ],
+  "evaluation_policy": {
+    "baseline": "latest prior raster at or before target date minus horizon",
+    "fit_started": false,
+    "interpolation": "disabled",
+    "interpretation": "descriptive spatial baseline; no held-out-season claim",
+    "valid_pixel_policy": "score only pixels valid in both target and baseline masks"
+  },
+  "horizons_days": [
+    1,
+    3,
+    7,
+    14
+  ],
+  "output_path": "results/tables/algal_bloom_spatial_persistence_20260825T213955Z.csv",
+  "retrieved_at": "2026-08-25T21:39:55.626519+00:00",
+  "rows": 220,
+  "source_id": "algal_bloom_spatial_persistence_baseline",
+  "spatial_target_manifest": "data/manifests/algal_bloom_spatial_target_20260825T213758Z.json"
+}

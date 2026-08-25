@@ -9,6 +9,7 @@ from algal_bloom_forecast.data.satellite import (
     build_daily_target_records,
     decode_ci_cyano,
     parse_satellite_filename,
+    profile_ci_cyano_pixels,
     summarize_ci_cyano,
 )
 
@@ -46,6 +47,16 @@ class SatelliteTargetTests(unittest.TestCase):
         decoded, valid = decode_ci_cyano([[0, 250, 251, 252, 253, 254, 255]])
         self.assertEqual(valid, [[False, False, False, False, False, False, False]])
         self.assertTrue(all(math.isnan(value) for value in decoded[0]))
+
+    def test_pixel_profile_preserves_documented_flag_counts(self):
+        profile = profile_ci_cyano_pixels([[1, 2, 0, 250, 251, 252, 253, 254, 255]])
+
+        self.assertEqual(profile["total_pixel_count"], 9)
+        self.assertEqual(profile["valid_pixel_count"], 2)
+        self.assertEqual(profile["invalid_pixel_count"], 7)
+        self.assertEqual(profile["flag_pixel_counts"]["nodetect"], 1)
+        self.assertEqual(profile["flag_pixel_counts"]["nodata"], 1)
+        self.assertEqual(profile["unknown_invalid_pixel_count"], 0)
 
     def test_summary_keeps_coverage_and_mean(self):
         summary = summarize_ci_cyano([[1, 2, 255, 253]])

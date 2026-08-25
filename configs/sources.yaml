@@ -27,6 +27,23 @@ sources:
     historical_target_semantics: cross-sensor fused 10-day composite center date; no timezone; preserve seasonal gaps and missing values
     historical_target_unit_status: CIcyano products are treated as dimensionless in current Lake Erie products; this historical summed ci_sum aggregate has no explicit unit statement
     historical_target_unit_reference: https://repository.library.noaa.gov/view/noaa/72849/noaa_72849_DS1.pdf
+    current_raster_units: dimensionless (dl)
+    current_raster_scaling: 10**(3.0 / 250.0 * DN - 4.2)
+    current_raster_valid_dn_range: [1, 249]
+    current_raster_invalid_dn_codes:
+      0: nodetect
+      250: saturated
+      251: ci_adjacency
+      252: land
+      253: cloud
+      254: mixed_pixel
+      255: nodata
+    current_raster_grid:
+      crs: EPSG:32617
+      width: 351
+      height: 294
+      pixel_size_m: 300
+    current_raster_missing_policy: retain raw DN and set decoded intensity to NaN where valid_mask is zero
     notes: Keep the current daily CI-CIcyano GeoTIFF target separate from the historical 10-day fused target until product calibration and temporal alignment are explicitly defined.
 
   noaa_glerl_ciglr_water_quality:
