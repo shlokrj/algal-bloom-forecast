@@ -1,0 +1,1922 @@
+{
+  "artifacts": [
+    {
+      "finite_intensity_count": 178,
+      "flag_pixel_counts": {
+        "ci_adjacency": 276,
+        "cloud": 8348,
+        "land": 46242,
+        "mixed_pixel": 24767,
+        "nodata": 0,
+        "nodetect": 23383,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 103016,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 103016,
+      "observation_date": "2026-06-25",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-06-25.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 178,
+      "valid_pixel_fraction": 0.0017249064868112487,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 176,
+      "flag_pixel_counts": {
+        "ci_adjacency": 1523,
+        "cloud": 6390,
+        "land": 46252,
+        "mixed_pixel": 13802,
+        "nodata": 0,
+        "nodetect": 35051,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 103018,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 103018,
+      "observation_date": "2026-06-26",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-06-26.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 176,
+      "valid_pixel_fraction": 0.0017055255150493246,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 89,
+      "flag_pixel_counts": {
+        "ci_adjacency": 176,
+        "cloud": 3310,
+        "land": 46129,
+        "mixed_pixel": 23134,
+        "nodata": 0,
+        "nodetect": 30356,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 103105,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 103105,
+      "observation_date": "2026-06-27",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-06-27.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 89,
+      "valid_pixel_fraction": 0.0008624532434056243,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 569,
+      "flag_pixel_counts": {
+        "ci_adjacency": 67,
+        "cloud": 147,
+        "land": 46082,
+        "mixed_pixel": 3562,
+        "nodata": 0,
+        "nodetect": 52767,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 102625,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 102625,
+      "observation_date": "2026-06-28",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-06-28.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 569,
+      "valid_pixel_fraction": 0.005513886466267419,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 782,
+      "flag_pixel_counts": {
+        "ci_adjacency": 1183,
+        "cloud": 6,
+        "land": 46116,
+        "mixed_pixel": 2581,
+        "nodata": 0,
+        "nodetect": 52526,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 102412,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 102412,
+      "observation_date": "2026-06-29",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-06-29.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 782,
+      "valid_pixel_fraction": 0.00757795995891234,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 222,
+      "flag_pixel_counts": {
+        "ci_adjacency": 2012,
+        "cloud": 3174,
+        "land": 46245,
+        "mixed_pixel": 6158,
+        "nodata": 0,
+        "nodetect": 45383,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 102972,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 102972,
+      "observation_date": "2026-06-30",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-06-30.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 222,
+      "valid_pixel_fraction": 0.00215128786557358,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 1031,
+      "flag_pixel_counts": {
+        "ci_adjacency": 422,
+        "cloud": 1,
+        "land": 46143,
+        "mixed_pixel": 2596,
+        "nodata": 0,
+        "nodetect": 53001,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 102163,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 102163,
+      "observation_date": "2026-07-01",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-07-01.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 1031,
+      "valid_pixel_fraction": 0.009990890943271895,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 1018,
+      "flag_pixel_counts": {
+        "ci_adjacency": 166,
+        "cloud": 64,
+        "land": 46064,
+        "mixed_pixel": 3093,
+        "nodata": 0,
+        "nodetect": 52789,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 102176,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 102176,
+      "observation_date": "2026-07-02",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-07-02.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 1018,
+      "valid_pixel_fraction": 0.009864914626819389,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 993,
+      "flag_pixel_counts": {
+        "ci_adjacency": 4719,
+        "cloud": 3627,
+        "land": 46209,
+        "mixed_pixel": 12473,
+        "nodata": 0,
+        "nodetect": 35173,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 102201,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 102201,
+      "observation_date": "2026-07-03",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-07-03.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 993,
+      "valid_pixel_fraction": 0.009622652479795338,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 670,
+      "flag_pixel_counts": {
+        "ci_adjacency": 1012,
+        "cloud": 29564,
+        "land": 46240,
+        "mixed_pixel": 16747,
+        "nodata": 0,
+        "nodetect": 8961,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 102524,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 102524,
+      "observation_date": "2026-07-04",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-07-04.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 670,
+      "valid_pixel_fraction": 0.006492625540244588,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 818,
+      "flag_pixel_counts": {
+        "ci_adjacency": 372,
+        "cloud": 4137,
+        "land": 46183,
+        "mixed_pixel": 15004,
+        "nodata": 0,
+        "nodetect": 36680,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 102376,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 102376,
+      "observation_date": "2026-07-07",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-07-07.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 818,
+      "valid_pixel_fraction": 0.007926817450626974,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 4047,
+      "flag_pixel_counts": {
+        "ci_adjacency": 4290,
+        "cloud": 2145,
+        "land": 46189,
+        "mixed_pixel": 15437,
+        "nodata": 0,
+        "nodetect": 31086,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 99147,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 99147,
+      "observation_date": "2026-07-08",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-07-08.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 4047,
+      "valid_pixel_fraction": 0.0392173963602535,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 1919,
+      "flag_pixel_counts": {
+        "ci_adjacency": 686,
+        "cloud": 910,
+        "land": 46208,
+        "mixed_pixel": 5292,
+        "nodata": 0,
+        "nodetect": 48179,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 101275,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 101275,
+      "observation_date": "2026-07-09",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-07-09.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 1919,
+      "valid_pixel_fraction": 0.018596042405566216,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 503,
+      "flag_pixel_counts": {
+        "ci_adjacency": 347,
+        "cloud": 15314,
+        "land": 46256,
+        "mixed_pixel": 24758,
+        "nodata": 0,
+        "nodetect": 16016,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 102691,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 102691,
+      "observation_date": "2026-07-10",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-07-10.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 503,
+      "valid_pixel_fraction": 0.004874314398123922,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 45,
+      "flag_pixel_counts": {
+        "ci_adjacency": 371,
+        "cloud": 12545,
+        "land": 46271,
+        "mixed_pixel": 39009,
+        "nodata": 0,
+        "nodetect": 4953,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 103149,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 103149,
+      "observation_date": "2026-07-11",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-07-11.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 45,
+      "valid_pixel_fraction": 0.0004360718646432932,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 1600,
+      "flag_pixel_counts": {
+        "ci_adjacency": 181,
+        "cloud": 6,
+        "land": 46052,
+        "mixed_pixel": 11362,
+        "nodata": 0,
+        "nodetect": 43993,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 101594,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 101594,
+      "observation_date": "2026-07-12",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-07-12.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 1600,
+      "valid_pixel_fraction": 0.015504777409539315,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 2024,
+      "flag_pixel_counts": {
+        "ci_adjacency": 11340,
+        "cloud": 3,
+        "land": 46232,
+        "mixed_pixel": 5670,
+        "nodata": 0,
+        "nodetect": 37925,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 101170,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 101170,
+      "observation_date": "2026-07-13",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-07-13.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 2024,
+      "valid_pixel_fraction": 0.01961354342306723,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 1107,
+      "flag_pixel_counts": {
+        "ci_adjacency": 12779,
+        "cloud": 2503,
+        "land": 46235,
+        "mixed_pixel": 2511,
+        "nodata": 0,
+        "nodetect": 38059,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 102087,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 102087,
+      "observation_date": "2026-07-14",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-07-14.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 1107,
+      "valid_pixel_fraction": 0.010727367870225013,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 583,
+      "flag_pixel_counts": {
+        "ci_adjacency": 15726,
+        "cloud": 6047,
+        "land": 46248,
+        "mixed_pixel": 7170,
+        "nodata": 0,
+        "nodetect": 27420,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 102611,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 102611,
+      "observation_date": "2026-07-15",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-07-15.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 583,
+      "valid_pixel_fraction": 0.005649553268600888,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 0,
+      "flag_pixel_counts": {
+        "ci_adjacency": 0,
+        "cloud": 26925,
+        "land": 46274,
+        "mixed_pixel": 25442,
+        "nodata": 0,
+        "nodetect": 4553,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 103194,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 103194,
+      "observation_date": "2026-07-16",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-07-16.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0
+      ],
+      "valid_pixel_count": 0,
+      "valid_pixel_fraction": 0.0,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 5,
+      "flag_pixel_counts": {
+        "ci_adjacency": 1208,
+        "cloud": 16076,
+        "land": 46263,
+        "mixed_pixel": 16649,
+        "nodata": 0,
+        "nodetect": 22993,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 103189,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 103189,
+      "observation_date": "2026-07-17",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-07-17.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 5,
+      "valid_pixel_fraction": 4.845242940481036e-05,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 943,
+      "flag_pixel_counts": {
+        "ci_adjacency": 1055,
+        "cloud": 5206,
+        "land": 46231,
+        "mixed_pixel": 29544,
+        "nodata": 0,
+        "nodetect": 20215,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 102251,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 102251,
+      "observation_date": "2026-07-18",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-07-18.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 943,
+      "valid_pixel_fraction": 0.009138128185747234,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 1507,
+      "flag_pixel_counts": {
+        "ci_adjacency": 2224,
+        "cloud": 10359,
+        "land": 46235,
+        "mixed_pixel": 7532,
+        "nodata": 0,
+        "nodetect": 35337,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 101687,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 101687,
+      "observation_date": "2026-07-19",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-07-19.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 1507,
+      "valid_pixel_fraction": 0.014603562222609843,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 903,
+      "flag_pixel_counts": {
+        "ci_adjacency": 1688,
+        "cloud": 37916,
+        "land": 46238,
+        "mixed_pixel": 12274,
+        "nodata": 0,
+        "nodetect": 4175,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 102291,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 102291,
+      "observation_date": "2026-07-20",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-07-20.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 903,
+      "valid_pixel_fraction": 0.008750508750508751,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 843,
+      "flag_pixel_counts": {
+        "ci_adjacency": 651,
+        "cloud": 4731,
+        "land": 46147,
+        "mixed_pixel": 18794,
+        "nodata": 0,
+        "nodetect": 32028,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 102351,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 102351,
+      "observation_date": "2026-07-21",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-07-21.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 843,
+      "valid_pixel_fraction": 0.008169079597651027,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 1721,
+      "flag_pixel_counts": {
+        "ci_adjacency": 1527,
+        "cloud": 9037,
+        "land": 46234,
+        "mixed_pixel": 23966,
+        "nodata": 0,
+        "nodetect": 20709,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 101473,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 101473,
+      "observation_date": "2026-07-22",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-07-22.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 1721,
+      "valid_pixel_fraction": 0.016677326201135725,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 5714,
+      "flag_pixel_counts": {
+        "ci_adjacency": 3063,
+        "cloud": 815,
+        "land": 46214,
+        "mixed_pixel": 6121,
+        "nodata": 0,
+        "nodetect": 41267,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 97480,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 97480,
+      "observation_date": "2026-07-23",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-07-23.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 5714,
+      "valid_pixel_fraction": 0.055371436323817275,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 2547,
+      "flag_pixel_counts": {
+        "ci_adjacency": 4826,
+        "cloud": 23408,
+        "land": 46224,
+        "mixed_pixel": 22382,
+        "nodata": 0,
+        "nodetect": 3807,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 100647,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 100647,
+      "observation_date": "2026-07-24",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-07-24.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 2547,
+      "valid_pixel_fraction": 0.024681667538810396,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 4093,
+      "flag_pixel_counts": {
+        "ci_adjacency": 3329,
+        "cloud": 582,
+        "land": 46150,
+        "mixed_pixel": 5566,
+        "nodata": 0,
+        "nodetect": 43474,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 99101,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 99101,
+      "observation_date": "2026-07-25",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-07-25.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 4093,
+      "valid_pixel_fraction": 0.03966315871077776,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 830,
+      "flag_pixel_counts": {
+        "ci_adjacency": 2099,
+        "cloud": 18119,
+        "land": 46235,
+        "mixed_pixel": 21934,
+        "nodata": 0,
+        "nodetect": 13977,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 102364,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 102364,
+      "observation_date": "2026-07-26",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-07-26.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 830,
+      "valid_pixel_fraction": 0.008043103281198519,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 146,
+      "flag_pixel_counts": {
+        "ci_adjacency": 442,
+        "cloud": 40992,
+        "land": 46263,
+        "mixed_pixel": 12344,
+        "nodata": 0,
+        "nodetect": 3007,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 103048,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 103048,
+      "observation_date": "2026-07-27",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-07-27.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 146,
+      "valid_pixel_fraction": 0.0014148109386204625,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 1129,
+      "flag_pixel_counts": {
+        "ci_adjacency": 4334,
+        "cloud": 3326,
+        "land": 46236,
+        "mixed_pixel": 5928,
+        "nodata": 0,
+        "nodetect": 42241,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 102065,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 102065,
+      "observation_date": "2026-07-28",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-07-28.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 1129,
+      "valid_pixel_fraction": 0.010940558559606179,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 7371,
+      "flag_pixel_counts": {
+        "ci_adjacency": 370,
+        "cloud": 63,
+        "land": 46087,
+        "mixed_pixel": 2793,
+        "nodata": 0,
+        "nodetect": 46510,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 95823,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 95823,
+      "observation_date": "2026-07-29",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-07-29.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 7371,
+      "valid_pixel_fraction": 0.07142857142857142,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 7816,
+      "flag_pixel_counts": {
+        "ci_adjacency": 1381,
+        "cloud": 3,
+        "land": 46134,
+        "mixed_pixel": 2560,
+        "nodata": 0,
+        "nodetect": 45300,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 95378,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 95378,
+      "observation_date": "2026-07-30",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-07-30.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 7816,
+      "valid_pixel_fraction": 0.07574083764559955,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 1517,
+      "flag_pixel_counts": {
+        "ci_adjacency": 2914,
+        "cloud": 15865,
+        "land": 46217,
+        "mixed_pixel": 9995,
+        "nodata": 0,
+        "nodetect": 26686,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 101677,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 101677,
+      "observation_date": "2026-07-31",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-07-31.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 1517,
+      "valid_pixel_fraction": 0.014700467081419463,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 233,
+      "flag_pixel_counts": {
+        "ci_adjacency": 22,
+        "cloud": 40146,
+        "land": 46271,
+        "mixed_pixel": 15237,
+        "nodata": 0,
+        "nodetect": 1285,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 102961,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 102961,
+      "observation_date": "2026-08-02",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-08-02.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 233,
+      "valid_pixel_fraction": 0.0022578832102641624,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 9121,
+      "flag_pixel_counts": {
+        "ci_adjacency": 988,
+        "cloud": 3,
+        "land": 46125,
+        "mixed_pixel": 2517,
+        "nodata": 0,
+        "nodetect": 44440,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 94073,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 94073,
+      "observation_date": "2026-08-03",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-08-03.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 9121,
+      "valid_pixel_fraction": 0.08838692172025506,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 9347,
+      "flag_pixel_counts": {
+        "ci_adjacency": 810,
+        "cloud": 2,
+        "land": 46085,
+        "mixed_pixel": 8837,
+        "nodata": 0,
+        "nodetect": 38113,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 93847,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 93847,
+      "observation_date": "2026-08-04",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-08-04.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 9347,
+      "valid_pixel_fraction": 0.09057697152935248,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 13154,
+      "flag_pixel_counts": {
+        "ci_adjacency": 1890,
+        "cloud": 0,
+        "land": 46156,
+        "mixed_pixel": 2742,
+        "nodata": 0,
+        "nodetect": 39252,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 90040,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 90040,
+      "observation_date": "2026-08-05",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-08-05.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 13154,
+      "valid_pixel_fraction": 0.12746865127817508,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 8186,
+      "flag_pixel_counts": {
+        "ci_adjacency": 1320,
+        "cloud": 235,
+        "land": 46129,
+        "mixed_pixel": 3136,
+        "nodata": 0,
+        "nodetect": 44188,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 95008,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 95008,
+      "observation_date": "2026-08-06",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-08-06.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 8186,
+      "valid_pixel_fraction": 0.07932631742155552,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 5106,
+      "flag_pixel_counts": {
+        "ci_adjacency": 2115,
+        "cloud": 2261,
+        "land": 46151,
+        "mixed_pixel": 9426,
+        "nodata": 0,
+        "nodetect": 38135,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 98088,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 98088,
+      "observation_date": "2026-08-08",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-08-08.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 5106,
+      "valid_pixel_fraction": 0.049479620908192336,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 9696,
+      "flag_pixel_counts": {
+        "ci_adjacency": 7076,
+        "cloud": 3,
+        "land": 46210,
+        "mixed_pixel": 2797,
+        "nodata": 0,
+        "nodetect": 37412,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 93498,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 93498,
+      "observation_date": "2026-08-09",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-08-09.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 9696,
+      "valid_pixel_fraction": 0.09395895110180824,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 1292,
+      "flag_pixel_counts": {
+        "ci_adjacency": 6514,
+        "cloud": 13971,
+        "land": 46217,
+        "mixed_pixel": 11532,
+        "nodata": 0,
+        "nodetect": 23668,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 101902,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 101902,
+      "observation_date": "2026-08-10",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-08-10.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 1292,
+      "valid_pixel_fraction": 0.012520107758202996,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 178,
+      "flag_pixel_counts": {
+        "ci_adjacency": 325,
+        "cloud": 13282,
+        "land": 46260,
+        "mixed_pixel": 38511,
+        "nodata": 0,
+        "nodetect": 4638,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 103016,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 103016,
+      "observation_date": "2026-08-12",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-08-12.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 178,
+      "valid_pixel_fraction": 0.0017249064868112487,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 98,
+      "flag_pixel_counts": {
+        "ci_adjacency": 2208,
+        "cloud": 33405,
+        "land": 46274,
+        "mixed_pixel": 6434,
+        "nodata": 0,
+        "nodetect": 14775,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 103096,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 103096,
+      "observation_date": "2026-08-14",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-08-14.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 98,
+      "valid_pixel_fraction": 0.000949667616334283,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 0,
+      "flag_pixel_counts": {
+        "ci_adjacency": 0,
+        "cloud": 16213,
+        "land": 46274,
+        "mixed_pixel": 40637,
+        "nodata": 0,
+        "nodetect": 70,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 103194,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 103194,
+      "observation_date": "2026-08-16",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-08-16.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0
+      ],
+      "valid_pixel_count": 0,
+      "valid_pixel_fraction": 0.0,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 1010,
+      "flag_pixel_counts": {
+        "ci_adjacency": 656,
+        "cloud": 6951,
+        "land": 46247,
+        "mixed_pixel": 30321,
+        "nodata": 0,
+        "nodetect": 18009,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 102184,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 102184,
+      "observation_date": "2026-08-17",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-08-17.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 1010,
+      "valid_pixel_fraction": 0.009787390739771692,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 13278,
+      "flag_pixel_counts": {
+        "ci_adjacency": 900,
+        "cloud": 113,
+        "land": 46130,
+        "mixed_pixel": 3701,
+        "nodata": 0,
+        "nodetect": 39072,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 89916,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 89916,
+      "observation_date": "2026-08-18",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-08-18.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 13278,
+      "valid_pixel_fraction": 0.1286702715274144,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 1837,
+      "flag_pixel_counts": {
+        "ci_adjacency": 1635,
+        "cloud": 8969,
+        "land": 46264,
+        "mixed_pixel": 23284,
+        "nodata": 0,
+        "nodetect": 21205,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 101357,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 101357,
+      "observation_date": "2026-08-19",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-08-19.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 1837,
+      "valid_pixel_fraction": 0.017801422563327327,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 4065,
+      "flag_pixel_counts": {
+        "ci_adjacency": 1197,
+        "cloud": 6812,
+        "land": 46208,
+        "mixed_pixel": 31981,
+        "nodata": 0,
+        "nodetect": 12931,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 99129,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 99129,
+      "observation_date": "2026-08-20",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-08-20.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 4065,
+      "valid_pixel_fraction": 0.03939182510611082,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 13932,
+      "flag_pixel_counts": {
+        "ci_adjacency": 552,
+        "cloud": 4,
+        "land": 46033,
+        "mixed_pixel": 2324,
+        "nodata": 0,
+        "nodetect": 40349,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 89262,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 89262,
+      "observation_date": "2026-08-21",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-08-21.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 13932,
+      "valid_pixel_fraction": 0.13500784929356358,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 799,
+      "flag_pixel_counts": {
+        "ci_adjacency": 531,
+        "cloud": 7609,
+        "land": 46254,
+        "mixed_pixel": 45896,
+        "nodata": 0,
+        "nodetect": 2105,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 102395,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 102395,
+      "observation_date": "2026-08-22",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-08-22.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 799,
+      "valid_pixel_fraction": 0.0077426982188886955,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 16801,
+      "flag_pixel_counts": {
+        "ci_adjacency": 4106,
+        "cloud": 4032,
+        "land": 46165,
+        "mixed_pixel": 6727,
+        "nodata": 0,
+        "nodetect": 25363,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 86393,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 86393,
+      "observation_date": "2026-08-23",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-08-23.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 16801,
+      "valid_pixel_fraction": 0.16280985328604375,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 13209,
+      "flag_pixel_counts": {
+        "ci_adjacency": 271,
+        "cloud": 249,
+        "land": 46052,
+        "mixed_pixel": 4766,
+        "nodata": 0,
+        "nodetect": 38647,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 89985,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 89985,
+      "observation_date": "2026-08-24",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-08-24.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 13209,
+      "valid_pixel_fraction": 0.128001628001628,
+      "validation_passed": true
+    },
+    {
+      "finite_intensity_count": 15392,
+      "flag_pixel_counts": {
+        "ci_adjacency": 503,
+        "cloud": 133,
+        "land": 46098,
+        "mixed_pixel": 2933,
+        "nodata": 0,
+        "nodetect": 38135,
+        "saturated": 0
+      },
+      "invalid_intensity_non_nan_count": 0,
+      "invalid_pixel_count": 87802,
+      "mask_matches_raw_dn": true,
+      "nan_intensity_count": 87802,
+      "observation_date": "2026-08-25",
+      "output_path": "data/processed/algal_bloom_spatial_target_20260825T213758Z/2026-08-25.npz",
+      "output_sha256_matches": true,
+      "pixel_profile_matches": true,
+      "shape": [
+        294,
+        351
+      ],
+      "total_pixel_count": 103194,
+      "valid_intensity_nonfinite_count": 0,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_pixel_count": 15392,
+      "valid_pixel_fraction": 0.1491559586797682,
+      "validation_passed": true
+    }
+  ],
+  "coverage": {
+    "aggregate_flag_pixel_counts": {
+      "ci_adjacency": 122378,
+      "cloud": 466057,
+      "land": 2540581,
+      "mixed_pixel": 752689,
+      "nodata": 0,
+      "nodetect": 1601772,
+      "saturated": 0
+    },
+    "all_invalid_dates": [
+      "2026-07-16",
+      "2026-08-16"
+    ],
+    "interval_days_max": 3,
+    "interval_days_median": 1.0,
+    "interval_days_min": 1,
+    "missing_calendar_gaps": [
+      {
+        "after": "2026-07-04",
+        "before": "2026-07-07",
+        "missing_day_count": 2
+      },
+      {
+        "after": "2026-07-31",
+        "before": "2026-08-02",
+        "missing_day_count": 1
+      },
+      {
+        "after": "2026-08-06",
+        "before": "2026-08-08",
+        "missing_day_count": 1
+      },
+      {
+        "after": "2026-08-10",
+        "before": "2026-08-12",
+        "missing_day_count": 1
+      },
+      {
+        "after": "2026-08-12",
+        "before": "2026-08-14",
+        "missing_day_count": 1
+      },
+      {
+        "after": "2026-08-14",
+        "before": "2026-08-16",
+        "missing_day_count": 1
+      }
+    ],
+    "valid_fraction_max": 0.16280985328604375,
+    "valid_fraction_median": 0.010727367870225013,
+    "valid_fraction_min": 0.0
+  },
+  "grid": {
+    "bounds": [
+      284882.934996,
+      4576808.997997,
+      390182.934996,
+      4665008.997997
+    ],
+    "count": 1,
+    "crs": "EPSG:32617",
+    "dtype": "uint8",
+    "height": 294,
+    "nodata": null,
+    "transform": [
+      300.0,
+      0.0,
+      284882.934996,
+      0.0,
+      -300.0,
+      4665008.997997,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "width": 351
+  },
+  "map_output_gate": {
+    "interpolation": "disabled",
+    "policy": "map outputs may expose only decoded intensity where valid_mask is one",
+    "status": "rules_validated"
+  },
+  "observation_end": "2026-08-25",
+  "observation_start": "2026-06-25",
+  "records": 55,
+  "retrieved_at": "2026-08-26T04:00:09.098502+00:00",
+  "source_id": "algal_bloom_spatial_quality",
+  "spatial_model_gate": {
+    "reason": "current archive is a single 55-observation season with variable masked coverage and no held-out season; retain spatial persistence as descriptive",
+    "status": "deferred"
+  },
+  "spatial_persistence_manifest": "data/manifests/algal_bloom_spatial_persistence_20260825T213955Z.json",
+  "spatial_target_manifest": "data/manifests/algal_bloom_spatial_target_20260825T213758Z.json",
+  "spatial_target_manifest_sha256": "866cc140a20ae3b25ab4a0ac93dea42aff97b1e780bcc7d03e0122764bef878f",
+  "validation": {
+    "grid_shape_consistent": true,
+    "intensity_nan_policy_validated": true,
+    "output_checksum_mismatches": [],
+    "output_checksums_match": true,
+    "pixel_profile_mismatches": [],
+    "pixel_profiles_match": true,
+    "status": "mask_validation_complete",
+    "valid_mask_matches_raw_dn": true
+  }
+}
