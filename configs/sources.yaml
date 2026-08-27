@@ -25,8 +25,9 @@ sources:
     historical_target_ftp_root: ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0243/0312614/1.1/data/0-data/HAB_GreatLakes_Monitoring/intensity-extent-timeseries-csvs/GLErie/
     historical_target_metrics: ci_sum and bloom_area_sqkm from Western Lake Erie_fused
     historical_target_semantics: cross-sensor fused 10-day composite center date; no timezone; preserve seasonal gaps and missing values
-    historical_target_unit_status: CIcyano products are treated as dimensionless in current Lake Erie products; this historical summed ci_sum aggregate has no explicit unit statement
+    historical_target_unit_status: NOAA guidance identifies legacy historical Lake Erie CI pixel values as sr^-1 while current Lake Erie CI/CIcyano products are treated as dimensionless; the aggregate unit of ci_sum remains unresolved
     historical_target_unit_reference: https://repository.library.noaa.gov/view/noaa/72849/noaa_72849_DS1.pdf
+    historical_target_unit_evidence: NOAA HAB-F guidance section 3.1.2 distinguishes historical MERIS sr^-1 labeling from current dimensionless Lake Erie products; it does not define the unit of the summed ci_sum aggregate
     current_raster_units: dimensionless (dl)
     current_raster_scaling: 10**(3.0 / 250.0 * DN - 4.2)
     current_raster_valid_dn_range: [1, 249]
@@ -38,6 +39,7 @@ sources:
       253: cloud
       254: mixed_pixel
       255: nodata
+    current_raster_saturated_policy: exclude DN 250 because it is off-scale and cannot be recovered as a continuous intensity value
     current_raster_grid:
       crs: EPSG:32617
       width: 351

@@ -16,8 +16,17 @@ _NORMALIZATION_CONTRACT: dict[str, dict[str, Any]] = {
         ),
         "daily_horizon_status": "pending target-product calibration and temporal alignment",
         "timestamp_basis": "date-only fused composite center date; timezone not applicable",
-        "unit_status": "CIcyano products are treated as dimensionless; this historical summed ci_sum aggregate has no explicit unit statement",
-        "unit_reference": "NOAA HAB-F ocean-color processing guidance; aggregate calibration remains pending",
+        "unit_status": (
+            "NOAA guidance identifies legacy historical Lake Erie CI pixel values as sr^-1 "
+            "while current Lake Erie CI/CIcyano products are treated as dimensionless; "
+            "the aggregate unit of ci_sum remains unresolved"
+        ),
+        "unit_reference": "NOAA HAB-F ocean-color processing guidance section 3.1.2; aggregate calibration remains pending",
+        "unit_evidence": (
+            "historical MERIS CI pixel values carried legacy sr^-1 labeling, current Lake Erie "
+            "CI/CIcyano products are dimensionless, and the source does not define the summed "
+            "ci_sum aggregate unit"
+        ),
         "location_scope": "western Lake Erie regional fused series; no coordinate fields",
         "missing_policy": "preserve nulls; no interpolation",
         "quality_policy": "per-record source quality flags are not present in the fused table",

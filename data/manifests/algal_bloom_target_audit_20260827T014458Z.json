@@ -1,0 +1,101 @@
+{
+  "audit": {
+    "date_interval_days": {
+      "10": 344,
+      "20": 3,
+      "224": 1,
+      "225": 18,
+      "226": 5
+    },
+    "expected_interval_days": 10,
+    "fields": {
+      "bloom_area_sqkm": {
+        "maximum": 2530.1100000000006,
+        "minimum": 0.18,
+        "missing": 4,
+        "missing_rate": 0.010752688172043012,
+        "negative_values": 0,
+        "nonnegative_values": true,
+        "present": 368,
+        "records": 372
+      },
+      "ci_sum": {
+        "maximum": 53.92269711,
+        "minimum": 0.000554551,
+        "missing": 4,
+        "missing_rate": 0.010752688172043012,
+        "negative_values": 0,
+        "nonnegative_values": true,
+        "present": 368,
+        "records": 372
+      }
+    },
+    "observed_end": "2024-10-22",
+    "observed_start": "2000-06-06",
+    "records": 372,
+    "unexpected_interval_records": 27,
+    "year_counts": {
+      "2000": 14,
+      "2001": 13,
+      "2002": 15,
+      "2003": 15,
+      "2004": 15,
+      "2005": 15,
+      "2006": 15,
+      "2007": 15,
+      "2008": 15,
+      "2009": 15,
+      "2010": 15,
+      "2011": 15,
+      "2012": 15,
+      "2013": 15,
+      "2014": 15,
+      "2015": 15,
+      "2016": 15,
+      "2017": 15,
+      "2018": 15,
+      "2019": 15,
+      "2020": 15,
+      "2021": 15,
+      "2022": 15,
+      "2023": 15,
+      "2024": 15
+    }
+  },
+  "readiness": {
+    "daily_horizon_labels_ready": false,
+    "missingness_profiled": true,
+    "quality_flags_normalized": false,
+    "spatial_coverage_profiled": false,
+    "status": "target_audited_normalization_pending",
+    "target_unit_calibration_required": true,
+    "temporal_dates_validated": true,
+    "units_normalized": false
+  },
+  "retrieved_at": "2026-08-27T01:44:58.137509+00:00",
+  "source_id": "algal_bloom_target_audit",
+  "source_manifest": "data/manifests/noaa_western_lake_erie_historical_ci_timeseries_20260817T222538Z.json",
+  "target_contract": {
+    "daily_horizon_status": "pending target-product calibration and temporal alignment",
+    "field": "ci_sum",
+    "horizon_semantics": "predictor cutoff is target observation date minus the requested horizon; the label is not an exact daily t-plus-horizon observation",
+    "interpolation": "disabled",
+    "label_observation": "10-day composite center date",
+    "location_scope": "western Lake Erie regional fused series; no coordinate fields",
+    "missing_policy": "preserve nulls; no interpolation",
+    "missing_target_policy": "preserve nulls; no interpolation",
+    "quality_flag_status": "missing values are explicit; per-record source quality flags are not present",
+    "quality_policy": "per-record source quality flags are not present in the fused table",
+    "region": "western_lake_erie",
+    "revision_policy": "preserve source and derived artifacts by immutable manifest ID; never overwrite",
+    "spatial_status": "regional fused series; coordinates and raster footprint are not present",
+    "target_field": "ci_sum",
+    "target_semantics": "cross-sensor fused 10-day composite center dates; no timezone",
+    "timestamp_basis": "date-only fused composite center date; timezone not applicable",
+    "unit_evidence": "historical MERIS CI pixel values carried legacy sr^-1 labeling, current Lake Erie CI/CIcyano products are dimensionless, and the source does not define the summed ci_sum aggregate unit",
+    "unit_reference": "NOAA HAB-F ocean-color processing guidance section 3.1.2; aggregate calibration remains pending",
+    "unit_status": "NOAA guidance identifies legacy historical Lake Erie CI pixel values as sr^-1 while current Lake Erie CI/CIcyano products are treated as dimensionless; the aggregate unit of ci_sum remains unresolved",
+    "value_semantics": "cross-sensor fused western Lake Erie intensity aggregate"
+  },
+  "target_path": "data/processed/noaa_western_lake_erie_historical_target_20260817T222538Z.csv"
+}
