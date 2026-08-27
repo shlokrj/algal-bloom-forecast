@@ -84,3 +84,33 @@ def validate_spatial_arrays(
         "nan_intensity_count": int(np.isnan(intensity_numeric).sum()),
         "validation_passed": True,
     }
+
+
+def summarize_spatial_intensity(intensity: Any, valid_mask: Any) -> dict[str, Any]:
+    """Summarize decoded intensity using valid pixels only.
+
+    No warning threshold is applied here because the current product contract
+    does not define an operational threshold for this spatial representation.
+    """
+    intensity_array = np.asarray(intensity).astype(np.float64, copy=False)
+    mask_array = np.asarray(valid_mask).astype(bool, copy=False)
+    if intensity_array.shape != mask_array.shape:
+        raise ValueError("intensity and valid_mask must have identical shapes")
+    values = intensity_array[mask_array]
+    if values.size == 0:
+        return {
+            "valid_pixel_count": 0,
+            "intensity_min": None,
+            "intensity_mean": None,
+            "intensity_median": None,
+            "intensity_p95": None,
+            "intensity_max": None,
+        }
+    return {
+        "valid_pixel_count": int(values.size),
+        "intensity_min": float(np.min(values)),
+        "intensity_mean": float(np.mean(values)),
+        "intensity_median": float(np.median(values)),
+        "intensity_p95": float(np.quantile(values, 0.95)),
+        "intensity_max": float(np.max(values)),
+    }

@@ -1,0 +1,27 @@
+{
+  "fields": [
+    "observation_date",
+    "total_pixel_count",
+    "valid_pixel_count",
+    "valid_pixel_fraction",
+    "intensity_min",
+    "intensity_mean",
+    "intensity_median",
+    "intensity_p95",
+    "intensity_max"
+  ],
+  "output_path": "results/tables/algal_bloom_spatial_summary_20260827T014312Z.csv",
+  "quality_manifest": "data/manifests/algal_bloom_spatial_quality_20260826T040009Z.json",
+  "quality_manifest_sha256": "61c352263f3aa25253c1c7f1f720e3369f186c002e9c7d027ad764c9dd7f7785",
+  "retrieved_at": "2026-08-27T01:43:12.853509+00:00",
+  "rows": 55,
+  "source_id": "algal_bloom_spatial_summary",
+  "spatial_target_manifest": "data/manifests/algal_bloom_spatial_target_20260825T213758Z.json",
+  "spatial_target_manifest_sha256": "866cc140a20ae3b25ab4a0ac93dea42aff97b1e780bcc7d03e0122764bef878f",
+  "summary_contract": {
+    "coverage": "valid pixel count and fraction retained per date",
+    "invalid_pixel_policy": "excluded from intensity statistics; no interpolation",
+    "statistics": "min, mean, median, p95, and max over valid decoded pixels",
+    "warning_threshold": "not applied; operational threshold is not defined"
+  }
+}

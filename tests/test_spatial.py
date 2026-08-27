@@ -2,7 +2,10 @@ import unittest
 
 import numpy as np
 
-from algal_bloom_forecast.data.spatial import validate_spatial_arrays
+from algal_bloom_forecast.data.spatial import (
+    summarize_spatial_intensity,
+    validate_spatial_arrays,
+)
 
 
 class SpatialValidationTests(unittest.TestCase):
@@ -41,3 +44,23 @@ class SpatialValidationTests(unittest.TestCase):
                 np.zeros((2, 1), dtype=np.uint8),
                 np.zeros((2, 2), dtype=np.uint8),
             )
+
+    def test_summary_uses_valid_pixels_only(self):
+        result = summarize_spatial_intensity(
+            np.array([[1.0, 999.0], [3.0, 5.0]]),
+            np.array([[1, 0], [1, 1]], dtype=np.uint8),
+        )
+
+        self.assertEqual(result["valid_pixel_count"], 3)
+        self.assertEqual(result["intensity_min"], 1.0)
+        self.assertAlmostEqual(result["intensity_mean"], 3.0)
+        self.assertEqual(result["intensity_max"], 5.0)
+
+    def test_summary_preserves_empty_observation(self):
+        result = summarize_spatial_intensity(
+            np.array([[np.nan]]),
+            np.array([[0]], dtype=np.uint8),
+        )
+
+        self.assertEqual(result["valid_pixel_count"], 0)
+        self.assertIsNone(result["intensity_mean"])
