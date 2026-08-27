@@ -1,0 +1,1069 @@
+{
+  "artifacts": [
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-06-25",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 178,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-06-26",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 176,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-06-27",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 89,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-06-28",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 569,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-06-29",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 782,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-06-30",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 222,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-07-01",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 1031,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-07-02",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 1018,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-07-03",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 993,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-07-04",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 670,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-07-07",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 818,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-07-08",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 4047,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-07-09",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 1919,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-07-10",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 503,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-07-11",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 45,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-07-12",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 1600,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-07-13",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 2024,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-07-14",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 1107,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-07-15",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 583,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-07-16",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 0,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-07-17",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 5,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-07-18",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 943,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-07-19",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 1507,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-07-20",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 903,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-07-21",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 843,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-07-22",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 1721,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-07-23",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 5714,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-07-24",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 2547,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-07-25",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 4093,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-07-26",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 830,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-07-27",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 146,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-07-28",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 1129,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-07-29",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 7371,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-07-30",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 7816,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-07-31",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 1517,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-08-02",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 233,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-08-03",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 9121,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-08-04",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 9347,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-08-05",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 13154,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-08-06",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 8186,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-08-08",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 5106,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-08-09",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 9696,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-08-10",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 1292,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-08-12",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 178,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-08-14",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 98,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-08-16",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 0,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-08-17",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 1010,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-08-18",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 13278,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-08-19",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 1837,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-08-20",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 4065,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-08-21",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 13932,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-08-22",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 799,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-08-23",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 16801,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-08-24",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 13209,
+      "validation_passed": true
+    },
+    {
+      "intensity_sha256_matches": true,
+      "invalid_non_nodata_count": 0,
+      "nodata_values_match": true,
+      "observation_date": "2026-08-25",
+      "profiles_match": true,
+      "shape": [
+        294,
+        351
+      ],
+      "valid_mask_sha256_matches": true,
+      "valid_mask_unique_values": [
+        0,
+        1
+      ],
+      "valid_nonfinite_count": 0,
+      "valid_pixel_count": 15392,
+      "validation_passed": true
+    }
+  ],
+  "map_contract": {
+    "intensity_field": "decoded CI-CIcyano intensity",
+    "intensity_nodata": -9999.0,
+    "intensity_units": "dimensionless (dl)",
+    "invalid_pixel_policy": "write intensity as nodata and mask as zero",
+    "mask_nodata": 0,
+    "spatial_interpolation": "disabled",
+    "valid_mask_field": "valid_mask"
+  },
+  "map_manifest": "data/manifests/algal_bloom_spatial_maps_20260826T040212Z.json",
+  "map_manifest_sha256": "88efcf3c56ede03e46a20acec73232e03a3544eff15c042cc78a2966a8f6d3d2",
+  "records": 55,
+  "retrieved_at": "2026-08-27T01:46:33.820823+00:00",
+  "source_id": "algal_bloom_spatial_map_validation",
+  "validation": {
+    "checksum_mismatches": [],
+    "checksums_match": true,
+    "nodata_and_mask_contract_validated": true,
+    "profile_mismatches": [],
+    "profiles_match": true,
+    "status": "map_validation_complete"
+  }
+}

@@ -114,3 +114,37 @@ def summarize_spatial_intensity(intensity: Any, valid_mask: Any) -> dict[str, An
         "intensity_p95": float(np.quantile(values, 0.95)),
         "intensity_max": float(np.max(values)),
     }
+
+
+def validate_exported_map_arrays(
+    intensity: Any,
+    valid_mask: Any,
+    *,
+    intensity_nodata: float = -9999.0,
+) -> dict[str, Any]:
+    """Validate an exported intensity map against its binary valid-pixel map."""
+    intensity_array = np.asarray(intensity)
+    mask_array = np.asarray(valid_mask)
+    if intensity_array.shape != mask_array.shape:
+        raise ValueError("exported intensity and valid_mask must have identical shapes")
+    unique_mask_values = sorted({int(value) for value in np.unique(mask_array).tolist()})
+    if not set(unique_mask_values).issubset({0, 1}):
+        raise ValueError(f"exported valid_mask must contain only 0 and 1, got {unique_mask_values}")
+    mask_boolean = mask_array.astype(bool, copy=False)
+    intensity_numeric = intensity_array.astype(np.float64, copy=False)
+    valid_nonfinite_count = int(np.count_nonzero(mask_boolean & ~np.isfinite(intensity_numeric)))
+    invalid_non_nodata_count = int(
+        np.count_nonzero(~mask_boolean & (intensity_numeric != intensity_nodata))
+    )
+    if valid_nonfinite_count:
+        raise ValueError("exported valid pixels must have finite intensity")
+    if invalid_non_nodata_count:
+        raise ValueError("exported invalid pixels must equal the configured nodata value")
+    return {
+        "shape": [int(dimension) for dimension in intensity_array.shape],
+        "valid_mask_unique_values": unique_mask_values,
+        "valid_pixel_count": int(mask_boolean.sum()),
+        "valid_nonfinite_count": valid_nonfinite_count,
+        "invalid_non_nodata_count": invalid_non_nodata_count,
+        "validation_passed": True,
+    }

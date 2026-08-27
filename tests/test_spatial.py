@@ -4,6 +4,7 @@ import numpy as np
 
 from algal_bloom_forecast.data.spatial import (
     summarize_spatial_intensity,
+    validate_exported_map_arrays,
     validate_spatial_arrays,
 )
 
@@ -64,3 +65,19 @@ class SpatialValidationTests(unittest.TestCase):
 
         self.assertEqual(result["valid_pixel_count"], 0)
         self.assertIsNone(result["intensity_mean"])
+
+    def test_exported_map_preserves_nodata_contract(self):
+        result = validate_exported_map_arrays(
+            np.array([[0.01, -9999.0]], dtype=np.float32),
+            np.array([[1, 0]], dtype=np.uint8),
+        )
+
+        self.assertTrue(result["validation_passed"])
+        self.assertEqual(result["valid_pixel_count"], 1)
+
+    def test_exported_map_rejects_data_in_invalid_pixel(self):
+        with self.assertRaisesRegex(ValueError, "nodata"):
+            validate_exported_map_arrays(
+                np.array([[0.01, 0.02]], dtype=np.float32),
+                np.array([[1, 0]], dtype=np.uint8),
+            )
