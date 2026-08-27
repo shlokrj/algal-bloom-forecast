@@ -3,7 +3,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from scripts.build_regional_reference_manifest import _describe
+from scripts.build_regional_reference_manifest import _describe, select_spatial_reference_manifests
 
 
 def test_describe_records_manifest_identity(tmp_path: Path) -> None:
@@ -17,3 +17,16 @@ def test_describe_records_manifest_identity(tmp_path: Path) -> None:
 
     assert description["source_id"] == "example"
     assert len(description["sha256"]) == 64
+
+
+def test_spatial_reference_selection_covers_validated_extension() -> None:
+    selected = select_spatial_reference_manifests()
+
+    assert set(selected) == {
+        "spatial_target",
+        "spatial_persistence",
+        "spatial_quality",
+        "spatial_summary",
+        "spatial_maps",
+        "spatial_map_validation",
+    }

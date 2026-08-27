@@ -28,6 +28,15 @@ REFERENCE_PATTERNS = {
     "rolling_year_evaluation": "algal_bloom_rolling_year_evaluation_*.json",
 }
 
+SPATIAL_REFERENCE_PATTERNS = {
+    "spatial_target": "algal_bloom_spatial_target_*.json",
+    "spatial_persistence": "algal_bloom_spatial_persistence_*.json",
+    "spatial_quality": "algal_bloom_spatial_quality_*.json",
+    "spatial_summary": "algal_bloom_spatial_summary_*.json",
+    "spatial_maps": "algal_bloom_spatial_maps_*.json",
+    "spatial_map_validation": "algal_bloom_spatial_map_validation_*.json",
+}
+
 
 def _latest(pattern: str, label: str) -> Path:
     paths = sorted(
@@ -60,6 +69,14 @@ def select_reference_manifests() -> dict[str, Path]:
     }
 
 
+def select_spatial_reference_manifests() -> dict[str, Path]:
+    """Select the newest immutable artifact for each spatial extension stage."""
+    return {
+        key: _latest(pattern, key)
+        for key, pattern in SPATIAL_REFERENCE_PATTERNS.items()
+    }
+
+
 def _describe(path: Path) -> dict[str, Any]:
     payload = json.loads(path.read_text(encoding="utf-8"))
     try:
@@ -78,7 +95,11 @@ def run(*, output_path: Path | None = None) -> Path:
     retrieved_at = datetime.now(UTC)
     run_id = retrieved_at.strftime("%Y%m%dT%H%M%SZ")
     selected = select_reference_manifests()
-    manifests = {key: _describe(path) for key, path in selected.items()}
+    selected_spatial = select_spatial_reference_manifests()
+    manifests = {
+        "regional": {key: _describe(path) for key, path in selected.items()},
+        "spatial": {key: _describe(path) for key, path in selected_spatial.items()},
+    }
 
     training_manifest = json.loads(selected["training_ready"].read_text(encoding="utf-8"))
     training_frame = _resolve(ROOT / training_manifest["output_path"])
@@ -90,7 +111,9 @@ def run(*, output_path: Path | None = None) -> Path:
     reference = {
         "source_id": "algal_bloom_regional_reference",
         "retrieved_at": retrieved_at.isoformat(),
-        "reference_scope": "western Lake Erie regional forecast; spatial extension deferred",
+        "reference_scope": (
+            "western Lake Erie regional forecast with a validated descriptive spatial extension"
+        ),
         "manifests": manifests,
         "target_definition": target_definition,
         "validation": {
@@ -102,7 +125,10 @@ def run(*, output_path: Path | None = None) -> Path:
         },
         "gates": {
             "regional_reference_status": "validated",
-            "spatial_target_status": "deferred",
+            "spatial_target_status": "validated_descriptive_extension",
+            "spatial_model_status": (
+                "deferred pending a held-out season and stronger spatial coverage"
+            ),
             "temporal_neural_status": "deferred pending stronger data coverage and independent validation",
             "calibrated_probability_status": "deferred pending more independent validation cases",
             "open_source_definitions": [
