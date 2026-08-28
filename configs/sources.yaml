@@ -71,6 +71,10 @@ sources:
       - '0293514'
       - '0303633'
     listed_moored_series_status: annual_summary files in accessions 0190201, 0190729, 0194301, and 0194302 are continuous logger series; verify any additional buoy products separately
+    quality_flag_reference: https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:0190201
+    quality_flag_mapping: {1: pass, 3: suspect, 4: failed}
+    quality_flag_mapping_scope: official NCEI metadata for GLERL annual-summary *_flags fields in accession 0190201; verify the same codebook for other accessions before broader application
+    quality_flag_unmapped_policy: retain raw flag sequences; do not infer meanings for observed tokens outside the documented mapping
     earliest_date: 2012-05-15
     seasonal_coverage: May-October
     dataset_spatial_bbox:

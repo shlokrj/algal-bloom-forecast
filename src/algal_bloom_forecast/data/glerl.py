@@ -11,6 +11,22 @@ from typing import Any
 
 MISSING_VALUES = {"", "na", "nan", "n/a", "null", "none"}
 
+# The NCEI metadata for accession 0190201 documents these QARTOD flag values
+# for annual-summary ``*_flags`` fields. Keep this mapping deliberately narrow:
+# observed tokens outside the documented subset must remain unresolved.
+QARTOD_FLAG_LABELS = {
+    "1": "pass",
+    "3": "suspect",
+    "4": "failed",
+}
+QARTOD_FLAG_REFERENCE = (
+    "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:0190201"
+)
+QARTOD_FLAG_MAPPING_SCOPE = (
+    "official NCEI metadata for GLERL annual-summary *_flags fields in accession 0190201; "
+    "verify the same codebook for other accessions before broader application"
+)
+
 
 def _normalized_name(value: str) -> str:
     return "".join(character for character in value.lower() if character.isalnum())
@@ -139,7 +155,7 @@ def profile_glerl_csv(path: Path, *, source_class: str) -> dict[str, object]:
 
 
 def profile_glerl_flag_codes(path: Path) -> dict[str, object]:
-    """Profile raw GLERL flag sequences without assigning undocumented meanings."""
+    """Profile raw GLERL flag sequences with only the documented code meanings."""
     with path.open(newline="", encoding="latin-1") as handle:
         reader = csv.DictReader(handle)
         fieldnames = reader.fieldnames or []
@@ -157,6 +173,9 @@ def profile_glerl_flag_codes(path: Path) -> dict[str, object]:
                 value_counts[field][value] += 1
                 if value != "<missing>":
                     tokens.update(raw_value.split())
+    observed_flag_tokens = sorted(tokens)
+    mapped_flag_tokens = sorted(set(observed_flag_tokens) & set(QARTOD_FLAG_LABELS))
+    unmapped_flag_tokens = sorted(set(observed_flag_tokens) - set(QARTOD_FLAG_LABELS))
     return {
         "source_filename": path.name,
         "flag_columns": flag_fields,
@@ -164,8 +183,15 @@ def profile_glerl_flag_codes(path: Path) -> dict[str, object]:
         "flag_value_counts": {
             field: dict(sorted(counts.items())) for field, counts in sorted(value_counts.items())
         },
-        "observed_flag_tokens": sorted(tokens),
-        "mapping_status": "raw sequences preserved; code meanings not assigned",
+        "observed_flag_tokens": observed_flag_tokens,
+        "documented_flag_mapping": dict(QARTOD_FLAG_LABELS),
+        "mapped_observed_flag_tokens": mapped_flag_tokens,
+        "unmapped_observed_flag_tokens": unmapped_flag_tokens,
+        "mapping_reference": QARTOD_FLAG_REFERENCE,
+        "mapping_scope": QARTOD_FLAG_MAPPING_SCOPE,
+        "mapping_status": (
+            "documented subset mapped; raw sequences preserved; unlisted tokens unresolved"
+        ),
     }
 
 

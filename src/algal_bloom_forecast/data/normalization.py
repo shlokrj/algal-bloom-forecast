@@ -51,7 +51,23 @@ _NORMALIZATION_CONTRACT: dict[str, dict[str, Any]] = {
         "timestamp_basis": "UTC as documented by annual-summary timestamp rows",
         "unit_policy": "retain the source units row; no cross-sensor unit conversion",
         "missing_policy": "non-numeric and missing values become null; retain valid counts",
-        "quality_policy": "raw *_flags columns are excluded from numeric features; flag-code mapping remains pending",
+        "quality_policy": (
+            "raw *_flags columns are excluded from numeric features; official NCEI metadata "
+            "documents 1=pass, 3=suspect, and 4=failed for accession 0190201; unlisted "
+            "tokens remain unresolved"
+        ),
+        "quality_flag_reference": (
+            "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:0190201"
+        ),
+        "quality_flag_mapping": {"1": "pass", "3": "suspect", "4": "failed"},
+        "quality_flag_mapping_scope": (
+            "official NCEI metadata for GLERL annual-summary *_flags fields in accession "
+            "0190201; verify the same codebook for other accessions before broader application"
+        ),
+        "quality_flag_unmapped_policy": (
+            "retain raw flag sequences and do not infer meanings for observed tokens outside "
+            "the documented mapping"
+        ),
     },
     "location_policy": {
         "regional_scope": "western Lake Erie",

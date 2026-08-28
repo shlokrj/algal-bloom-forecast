@@ -8,7 +8,12 @@ import json
 from datetime import UTC, datetime
 from pathlib import Path
 
-from algal_bloom_forecast.data.glerl import profile_glerl_flag_codes
+from algal_bloom_forecast.data.glerl import (
+    QARTOD_FLAG_LABELS,
+    QARTOD_FLAG_MAPPING_SCOPE,
+    QARTOD_FLAG_REFERENCE,
+    profile_glerl_flag_codes,
+)
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_MANIFEST = ROOT / "data/manifests/noaa_glerl_observations_20260817T221729Z.json"
@@ -44,6 +49,15 @@ def run(*, manifest_path: Path = DEFAULT_MANIFEST, include_phosphate: bool = Fal
             }
         )
 
+    observed_tokens = sorted(
+        {
+            token
+            for profile in profiles
+            for token in profile["observed_flag_tokens"]
+        }
+    )
+    unmapped_tokens = sorted(set(observed_tokens) - set(QARTOD_FLAG_LABELS))
+
     report = {
         "source_id": "algal_bloom_glerl_flag_audit",
         "retrieved_at": retrieved_at.isoformat(),
@@ -55,7 +69,16 @@ def run(*, manifest_path: Path = DEFAULT_MANIFEST, include_phosphate: bool = Fal
         ),
         "file_count": len(profiles),
         "profiles": profiles,
-        "mapping_status": "audit complete; flag-code meanings remain unresolved without a source codebook",
+        "mapping_status": (
+            "audit complete; documented flag subset mapped; unlisted observed tokens remain "
+            "unresolved"
+        ),
+        "documented_flag_mapping": dict(QARTOD_FLAG_LABELS),
+        "mapping_reference": QARTOD_FLAG_REFERENCE,
+        "mapping_scope": QARTOD_FLAG_MAPPING_SCOPE,
+        "observed_flag_tokens": observed_tokens,
+        "unmapped_observed_flag_tokens": unmapped_tokens,
+        "unmapped_token_policy": "retain raw sequences; do not infer meanings",
         "spatial_metadata": {
             "dataset_bbox": {
                 "north": 43.3,

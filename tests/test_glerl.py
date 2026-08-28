@@ -108,5 +108,12 @@ data logger,YSI EXO2,NAN
 
         assert profile["timestamped_records"] == 2
         assert profile["observed_flag_tokens"] == ["1", "2"]
-        assert profile["mapping_status"].startswith("raw sequences preserved")
+        assert profile["documented_flag_mapping"] == {
+            "1": "pass",
+            "3": "suspect",
+            "4": "failed",
+        }
+        assert profile["mapped_observed_flag_tokens"] == ["1"]
+        assert profile["unmapped_observed_flag_tokens"] == ["2"]
+        assert "documented subset mapped" in profile["mapping_status"]
         assert profile["flag_value_counts"]["chlorophylla_flags"]["1 2 1 2"] == 1

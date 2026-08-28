@@ -133,7 +133,10 @@ def run(*, output_path: Path | None = None) -> Path:
             "calibrated_probability_status": "deferred pending more independent validation cases",
             "open_source_definitions": [
                 "historical summed ci_sum unit and calibration",
-                "GLERL quality-flag code meanings",
+                (
+                    "GLERL quality-flag meanings for codes or annual-summary accessions "
+                    "outside the documented 0190201 subset"
+                ),
                 "exact daily t-plus-horizon target labels",
             ],
         },
