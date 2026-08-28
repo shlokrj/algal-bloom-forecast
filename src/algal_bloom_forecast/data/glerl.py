@@ -11,20 +11,23 @@ from typing import Any
 
 MISSING_VALUES = {"", "na", "nan", "n/a", "null", "none"}
 
-# The NCEI metadata for accession 0190201 documents these QARTOD flag values
-# for annual-summary ``*_flags`` fields. Keep this mapping deliberately narrow:
-# observed tokens outside the documented subset must remain unresolved.
+# The NCEI metadata for the audited annual-summary accessions documents these
+# QARTOD flag values for ``*_flags`` fields. Keep nonnumeric tokens unresolved.
 QARTOD_FLAG_LABELS = {
     "1": "pass",
+    "2": "not evaluated",
     "3": "suspect",
     "4": "failed",
 }
-QARTOD_FLAG_REFERENCE = (
-    "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:0190201"
-)
+QARTOD_FLAG_REFERENCES = {
+    "0190201": "https://www.ncei.noaa.gov/archive/accession/0190201",
+    "0190729": "https://www.ncei.noaa.gov/archive/accession/0190729",
+    "0194301": "https://www.ncei.noaa.gov/archive/accession/0194301",
+    "0194302": "https://www.ncei.noaa.gov/archive/accession/0194302",
+}
 QARTOD_FLAG_MAPPING_SCOPE = (
-    "official NCEI metadata for GLERL annual-summary *_flags fields in accession 0190201; "
-    "verify the same codebook for other accessions before broader application"
+    "official NCEI metadata for GLERL annual-summary *_flags fields in the audited "
+    "moored-buoy accessions 0190201, 0190729, 0194301, and 0194302"
 )
 
 
@@ -187,7 +190,7 @@ def profile_glerl_flag_codes(path: Path) -> dict[str, object]:
         "documented_flag_mapping": dict(QARTOD_FLAG_LABELS),
         "mapped_observed_flag_tokens": mapped_flag_tokens,
         "unmapped_observed_flag_tokens": unmapped_flag_tokens,
-        "mapping_reference": QARTOD_FLAG_REFERENCE,
+        "mapping_references": dict(QARTOD_FLAG_REFERENCES),
         "mapping_scope": QARTOD_FLAG_MAPPING_SCOPE,
         "mapping_status": (
             "documented subset mapped; raw sequences preserved; unlisted tokens unresolved"

@@ -135,8 +135,8 @@ def run(*, output_path: Path | None = None) -> Path:
             "open_source_definitions": [
                 "historical summed ci_sum unit and calibration",
                 (
-                    "GLERL quality-flag meanings for codes or annual-summary accessions "
-                    "outside the documented 0190201 subset"
+                    "GLERL quality-flag meanings for nonnumeric tokens or annual-summary "
+                    "accessions outside the audited QARTOD metadata subset"
                 ),
                 "exact daily t-plus-horizon target labels",
             ],

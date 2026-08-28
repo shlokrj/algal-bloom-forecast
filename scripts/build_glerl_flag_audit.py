@@ -11,7 +11,7 @@ from pathlib import Path
 from algal_bloom_forecast.data.glerl import (
     QARTOD_FLAG_LABELS,
     QARTOD_FLAG_MAPPING_SCOPE,
-    QARTOD_FLAG_REFERENCE,
+    QARTOD_FLAG_REFERENCES,
     profile_glerl_flag_codes,
 )
 
@@ -74,7 +74,7 @@ def run(*, manifest_path: Path = DEFAULT_MANIFEST, include_phosphate: bool = Fal
             "unresolved"
         ),
         "documented_flag_mapping": dict(QARTOD_FLAG_LABELS),
-        "mapping_reference": QARTOD_FLAG_REFERENCE,
+        "mapping_references": dict(QARTOD_FLAG_REFERENCES),
         "mapping_scope": QARTOD_FLAG_MAPPING_SCOPE,
         "observed_flag_tokens": observed_tokens,
         "unmapped_observed_flag_tokens": unmapped_tokens,

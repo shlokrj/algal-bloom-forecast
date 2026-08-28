@@ -99,7 +99,7 @@ timestamp,chlorophylla,chlorophylla_flags
 UTC,RFU,NAN
 data logger,YSI EXO2,NAN
 5/3/2018 15:31,159.8,1 1 1 1
-5/3/2018 15:46,NAN,1 2 1 2
+5/3/2018 15:46,NAN,1 NA 1 2
 """
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "annual.csv"
@@ -107,13 +107,14 @@ data logger,YSI EXO2,NAN
             profile = profile_glerl_flag_codes(path)
 
         assert profile["timestamped_records"] == 2
-        assert profile["observed_flag_tokens"] == ["1", "2"]
+        assert profile["observed_flag_tokens"] == ["1", "2", "NA"]
         assert profile["documented_flag_mapping"] == {
             "1": "pass",
+            "2": "not evaluated",
             "3": "suspect",
             "4": "failed",
         }
-        assert profile["mapped_observed_flag_tokens"] == ["1"]
-        assert profile["unmapped_observed_flag_tokens"] == ["2"]
+        assert profile["mapped_observed_flag_tokens"] == ["1", "2"]
+        assert profile["unmapped_observed_flag_tokens"] == ["NA"]
         assert "documented subset mapped" in profile["mapping_status"]
-        assert profile["flag_value_counts"]["chlorophylla_flags"]["1 2 1 2"] == 1
+        assert profile["flag_value_counts"]["chlorophylla_flags"]["1 NA 1 2"] == 1

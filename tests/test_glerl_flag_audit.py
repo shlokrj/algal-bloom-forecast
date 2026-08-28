@@ -39,9 +39,21 @@ def test_validates_audit_against_raw_file_and_source_manifest(tmp_path: Path) ->
             {
                 "source_id": "algal_bloom_glerl_flag_audit",
                 "source_manifest": str(source_manifest_path),
-                "documented_flag_mapping": {"1": "pass", "3": "suspect", "4": "failed"},
-                "mapping_reference": (
-                    "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:0190201"
+                "documented_flag_mapping": {
+                    "1": "pass",
+                    "2": "not evaluated",
+                    "3": "suspect",
+                    "4": "failed",
+                },
+                "mapping_references": {
+                    "0190201": "https://www.ncei.noaa.gov/archive/accession/0190201",
+                    "0190729": "https://www.ncei.noaa.gov/archive/accession/0190729",
+                    "0194301": "https://www.ncei.noaa.gov/archive/accession/0194301",
+                    "0194302": "https://www.ncei.noaa.gov/archive/accession/0194302",
+                },
+                "mapping_scope": (
+                    "official NCEI metadata for GLERL annual-summary *_flags fields in the audited "
+                    "moored-buoy accessions 0190201, 0190729, 0194301, and 0194302"
                 ),
                 "observed_flag_tokens": profile["observed_flag_tokens"],
                 "unmapped_observed_flag_tokens": profile["unmapped_observed_flag_tokens"],
@@ -56,4 +68,4 @@ def test_validates_audit_against_raw_file_and_source_manifest(tmp_path: Path) ->
     validation = json.loads(output.read_text(encoding="utf-8"))
 
     assert validation["validation"]["status"] == "flag_audit_validation_complete"
-    assert validation["unmapped_observed_flag_tokens"] == ["2"]
+    assert validation["unmapped_observed_flag_tokens"] == []

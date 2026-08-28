@@ -12,7 +12,8 @@ from typing import Any
 
 from algal_bloom_forecast.data.glerl import (
     QARTOD_FLAG_LABELS,
-    QARTOD_FLAG_REFERENCE,
+    QARTOD_FLAG_MAPPING_SCOPE,
+    QARTOD_FLAG_REFERENCES,
     profile_glerl_flag_codes,
 )
 
@@ -66,7 +67,7 @@ def _validate_profile(
         "documented_flag_mapping",
         "mapped_observed_flag_tokens",
         "unmapped_observed_flag_tokens",
-        "mapping_reference",
+        "mapping_references",
         "mapping_scope",
         "mapping_status",
     )
@@ -92,8 +93,10 @@ def run(
         raise ValueError("unexpected GLERL audit source ID")
     if audit.get("documented_flag_mapping") != QARTOD_FLAG_LABELS:
         raise ValueError("GLERL audit mapping differs from the documented mapping")
-    if audit.get("mapping_reference") != QARTOD_FLAG_REFERENCE:
-        raise ValueError("GLERL audit mapping reference differs from the documented reference")
+    if audit.get("mapping_references") != QARTOD_FLAG_REFERENCES:
+        raise ValueError("GLERL audit mapping references differ from the documented references")
+    if audit.get("mapping_scope") != QARTOD_FLAG_MAPPING_SCOPE:
+        raise ValueError("GLERL audit mapping scope differs from the documented scope")
 
     source_manifest_path = _resolve(Path(str(audit["source_manifest"])))
     source_manifest = json.loads(source_manifest_path.read_text(encoding="utf-8"))
@@ -139,7 +142,7 @@ def run(
         "source_manifest_sha256": _sha256(source_manifest_path),
         "file_count": len(profile_checks),
         "documented_flag_mapping": dict(QARTOD_FLAG_LABELS),
-        "mapping_reference": QARTOD_FLAG_REFERENCE,
+        "mapping_references": dict(QARTOD_FLAG_REFERENCES),
         "observed_flag_tokens": observed_tokens,
         "unmapped_observed_flag_tokens": unmapped_tokens,
         "unmapped_token_policy": "retain raw sequences; do not infer meanings",

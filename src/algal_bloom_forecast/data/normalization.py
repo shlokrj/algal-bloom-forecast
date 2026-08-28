@@ -53,19 +53,27 @@ _NORMALIZATION_CONTRACT: dict[str, dict[str, Any]] = {
         "missing_policy": "non-numeric and missing values become null; retain valid counts",
         "quality_policy": (
             "raw *_flags columns are excluded from numeric features; official NCEI metadata "
-            "documents 1=pass, 3=suspect, and 4=failed for accession 0190201; unlisted "
-            "tokens remain unresolved"
+            "documents 1=pass, 2=not evaluated, 3=suspect, and 4=failed for the audited "
+            "moored-buoy accessions; nonnumeric tokens remain unresolved"
         ),
-        "quality_flag_reference": (
-            "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:0190201"
-        ),
-        "quality_flag_mapping": {"1": "pass", "3": "suspect", "4": "failed"},
+        "quality_flag_references": {
+            "0190201": "https://www.ncei.noaa.gov/archive/accession/0190201",
+            "0190729": "https://www.ncei.noaa.gov/archive/accession/0190729",
+            "0194301": "https://www.ncei.noaa.gov/archive/accession/0194301",
+            "0194302": "https://www.ncei.noaa.gov/archive/accession/0194302",
+        },
+        "quality_flag_mapping": {
+            "1": "pass",
+            "2": "not evaluated",
+            "3": "suspect",
+            "4": "failed",
+        },
         "quality_flag_mapping_scope": (
-            "official NCEI metadata for GLERL annual-summary *_flags fields in accession "
-            "0190201; verify the same codebook for other accessions before broader application"
+            "official NCEI metadata for GLERL annual-summary *_flags fields in the audited "
+            "moored-buoy accessions 0190201, 0190729, 0194301, and 0194302"
         ),
         "quality_flag_unmapped_policy": (
-            "retain raw flag sequences and do not infer meanings for observed tokens outside "
+            "retain raw flag sequences and do not infer meanings for nonnumeric tokens outside "
             "the documented mapping"
         ),
     },
