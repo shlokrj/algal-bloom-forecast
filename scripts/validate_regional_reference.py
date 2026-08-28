@@ -91,10 +91,21 @@ def run(*, reference_path: Path | None = None) -> Path:
             )
         ).read_text(encoding="utf-8")
     )
+    glerl_flag_validation = json.loads(
+        _resolve(
+            Path(
+                str(
+                    reference["manifests"]["regional"]["glerl_flag_validation"]["manifest_path"]
+                )
+            )
+        ).read_text(encoding="utf-8")
+    )
     gate_checks = {
         "regional_reference_status": reference["gates"]["regional_reference_status"] == "validated",
         "training_ready_status": training_validation["status"] == "prepared_not_fitted",
         "model_fit_started": training_validation["model_fit_started"],
+        "glerl_flag_validation_status": glerl_flag_validation["validation"]["status"]
+        == "flag_audit_validation_complete",
         "spatial_target_status": reference["gates"]["spatial_target_status"]
         == "validated_descriptive_extension",
         "spatial_quality_status": spatial_quality["validation"]["status"]

@@ -1,0 +1,152 @@
+{
+  "audit_manifest": "data/manifests/algal_bloom_glerl_flag_audit_20260828T234023Z.json",
+  "audit_manifest_sha256": "c6840a14ab1f089359d79b37393371a07090076cdbcc5262b210fbf181a42dfd",
+  "documented_flag_mapping": {
+    "1": "pass",
+    "3": "suspect",
+    "4": "failed"
+  },
+  "file_count": 19,
+  "mapping_reference": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:0190201",
+  "observed_flag_tokens": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "NA",
+    "NAN"
+  ],
+  "profiles": [
+    {
+      "local_path": "data/raw/noaa/glerl_observations/0190201/1.1/WE02_2014_annual_summary.csv",
+      "profile_recomputed": true,
+      "sha256_matches": true,
+      "source_manifest_match": true
+    },
+    {
+      "local_path": "data/raw/noaa/glerl_observations/0190201/1.1/WE02_2015_annual_summary.csv",
+      "profile_recomputed": true,
+      "sha256_matches": true,
+      "source_manifest_match": true
+    },
+    {
+      "local_path": "data/raw/noaa/glerl_observations/0190201/1.1/WE02_2016_annual_summary.csv",
+      "profile_recomputed": true,
+      "sha256_matches": true,
+      "source_manifest_match": true
+    },
+    {
+      "local_path": "data/raw/noaa/glerl_observations/0190201/1.1/WE02_2017_annual_summary.csv",
+      "profile_recomputed": true,
+      "sha256_matches": true,
+      "source_manifest_match": true
+    },
+    {
+      "local_path": "data/raw/noaa/glerl_observations/0190201/1.1/WE02_2018_annual_summary.csv",
+      "profile_recomputed": true,
+      "sha256_matches": true,
+      "source_manifest_match": true
+    },
+    {
+      "local_path": "data/raw/noaa/glerl_observations/0190729/1.1/WE04_2014_annual_summary.csv",
+      "profile_recomputed": true,
+      "sha256_matches": true,
+      "source_manifest_match": true
+    },
+    {
+      "local_path": "data/raw/noaa/glerl_observations/0190729/1.1/WE04_2015_annual_summary.csv",
+      "profile_recomputed": true,
+      "sha256_matches": true,
+      "source_manifest_match": true
+    },
+    {
+      "local_path": "data/raw/noaa/glerl_observations/0190729/1.1/WE04_2016_annual_summary.csv",
+      "profile_recomputed": true,
+      "sha256_matches": true,
+      "source_manifest_match": true
+    },
+    {
+      "local_path": "data/raw/noaa/glerl_observations/0190729/1.1/WE04_2017_annual_summary.csv",
+      "profile_recomputed": true,
+      "sha256_matches": true,
+      "source_manifest_match": true
+    },
+    {
+      "local_path": "data/raw/noaa/glerl_observations/0190729/1.1/WE04_2018_annual_summary.csv",
+      "profile_recomputed": true,
+      "sha256_matches": true,
+      "source_manifest_match": true
+    },
+    {
+      "local_path": "data/raw/noaa/glerl_observations/0194301/1.1/WE08_2014_annual_summary.csv",
+      "profile_recomputed": true,
+      "sha256_matches": true,
+      "source_manifest_match": true
+    },
+    {
+      "local_path": "data/raw/noaa/glerl_observations/0194301/1.1/WE08_2015_annual_summary.csv",
+      "profile_recomputed": true,
+      "sha256_matches": true,
+      "source_manifest_match": true
+    },
+    {
+      "local_path": "data/raw/noaa/glerl_observations/0194301/1.1/WE08_2016_annual_summary.csv",
+      "profile_recomputed": true,
+      "sha256_matches": true,
+      "source_manifest_match": true
+    },
+    {
+      "local_path": "data/raw/noaa/glerl_observations/0194301/1.1/WE08_2017_annual_summary.csv",
+      "profile_recomputed": true,
+      "sha256_matches": true,
+      "source_manifest_match": true
+    },
+    {
+      "local_path": "data/raw/noaa/glerl_observations/0194301/1.1/WE08_2018_annual_summary.csv",
+      "profile_recomputed": true,
+      "sha256_matches": true,
+      "source_manifest_match": true
+    },
+    {
+      "local_path": "data/raw/noaa/glerl_observations/0194302/1.1/WE13_2015_annual_summary.csv",
+      "profile_recomputed": true,
+      "sha256_matches": true,
+      "source_manifest_match": true
+    },
+    {
+      "local_path": "data/raw/noaa/glerl_observations/0194302/1.1/WE13_2016_annual_summary.csv",
+      "profile_recomputed": true,
+      "sha256_matches": true,
+      "source_manifest_match": true
+    },
+    {
+      "local_path": "data/raw/noaa/glerl_observations/0194302/1.1/WE13_2017_annual_summary.csv",
+      "profile_recomputed": true,
+      "sha256_matches": true,
+      "source_manifest_match": true
+    },
+    {
+      "local_path": "data/raw/noaa/glerl_observations/0194302/1.1/WE13_2018_annual_summary.csv",
+      "profile_recomputed": true,
+      "sha256_matches": true,
+      "source_manifest_match": true
+    }
+  ],
+  "retrieved_at": "2026-08-28T23:43:44.275017+00:00",
+  "source_id": "algal_bloom_glerl_flag_validation",
+  "source_manifest": "data/manifests/noaa_glerl_observations_20260817T221729Z.json",
+  "source_manifest_sha256": "af2daadfbef124178ca7b832b2cb76bdccc0d078397d10de331322448b15e6be",
+  "unmapped_observed_flag_tokens": [
+    "2",
+    "NA",
+    "NAN"
+  ],
+  "unmapped_token_policy": "retain raw sequences; do not infer meanings",
+  "validation": {
+    "mapping_consistent": true,
+    "profiles_recomputed": true,
+    "raw_file_checksums_match": true,
+    "source_manifest_checksums_match": true,
+    "status": "flag_audit_validation_complete"
+  }
+}
