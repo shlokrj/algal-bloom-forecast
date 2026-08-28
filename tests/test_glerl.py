@@ -93,7 +93,7 @@ data logger,YSI EXO2,NAN
         self.assertIn("UTC", profile["time_basis"])
         self.assertEqual(profile["missing_counts"]["chlorophylla"], 1)
 
-    def test_profiles_flag_sequences_without_assigning_meanings(self):
+    def test_profiles_flag_sequences_and_documents_known_meanings(self):
         content = """\
 timestamp,chlorophylla,chlorophylla_flags
 UTC,RFU,NAN
