@@ -21,11 +21,19 @@ _NORMALIZATION_CONTRACT: dict[str, dict[str, Any]] = {
             "while current Lake Erie CI/CIcyano products are treated as dimensionless; "
             "the aggregate unit of ci_sum remains unresolved"
         ),
-        "unit_reference": "NOAA HAB-F ocean-color processing guidance section 3.1.2; aggregate calibration remains pending",
+        "unit_reference": (
+            "NOAA HAB-F ocean-color processing guidance section 3.1.2 and NOAA's curated "
+            "annual Western Lake Erie CI reference; aggregate calibration remains pending"
+        ),
         "unit_evidence": (
             "historical MERIS CI pixel values carried legacy sr^-1 labeling, current Lake Erie "
             "CI/CIcyano products are dimensionless, and the source does not define the summed "
-            "ci_sum aggregate unit"
+            "ci_sum aggregate unit; the curated annual reference describes CI as bloom biomass "
+            "and records updated calibrations but does not state a physical CI unit"
+        ),
+        "curated_annual_reference": (
+            "https://nccospublicstor.blob.core.windows.net/hab-data/bulletins/lake-erie/2025/"
+            "NOAA_NCCOS_2000to2025_Curated_WLE_Annual_CI.xlsx"
         ),
         "location_scope": "western Lake Erie regional fused series; no coordinate fields",
         "missing_policy": "preserve nulls; no interpolation",

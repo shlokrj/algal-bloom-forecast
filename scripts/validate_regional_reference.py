@@ -100,12 +100,30 @@ def run(*, reference_path: Path | None = None) -> Path:
             )
         ).read_text(encoding="utf-8")
     )
+    curated_annual_ci_reference = json.loads(
+        _resolve(
+            Path(
+                str(
+                    reference["manifests"]["regional"]["curated_annual_ci_reference"][
+                        "manifest_path"
+                    ]
+                )
+            )
+        ).read_text(encoding="utf-8")
+    )
     gate_checks = {
         "regional_reference_status": reference["gates"]["regional_reference_status"] == "validated",
         "training_ready_status": training_validation["status"] == "prepared_not_fitted",
         "model_fit_started": training_validation["model_fit_started"],
         "glerl_flag_validation_status": glerl_flag_validation["validation"]["status"]
         == "flag_audit_validation_complete",
+        "curated_annual_ci_reference_status": curated_annual_ci_reference["interpretation"][
+            "status"
+        ]
+        == "profiled_reference_only",
+        "curated_annual_ci_unit_status": curated_annual_ci_reference["interpretation"][
+            "ci_unit_status"
+        ].startswith("not stated in workbook"),
         "spatial_target_status": reference["gates"]["spatial_target_status"]
         == "validated_descriptive_extension",
         "spatial_quality_status": spatial_quality["validation"]["status"]

@@ -16,6 +16,8 @@ def test_normalization_contract_records_units_time_and_quality_policies() -> Non
     assert contract["target"]["daily_horizon_status"].startswith("pending")
     assert "aggregate unit of ci_sum remains unresolved" in contract["target"]["unit_status"]
     assert "historical MERIS CI pixel values" in contract["target"]["unit_evidence"]
+    assert "curated annual reference" in contract["target"]["unit_evidence"]
+    assert contract["target"]["curated_annual_reference"].endswith("Annual_CI.xlsx")
 
 
 def test_normalization_contract_returns_independent_copies() -> None:

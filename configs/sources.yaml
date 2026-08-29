@@ -28,6 +28,11 @@ sources:
     historical_target_unit_status: NOAA guidance identifies legacy historical Lake Erie CI pixel values as sr^-1 while current Lake Erie CI/CIcyano products are treated as dimensionless; the aggregate unit of ci_sum remains unresolved
     historical_target_unit_reference: https://repository.library.noaa.gov/view/noaa/72849/noaa_72849_DS1.pdf
     historical_target_unit_evidence: NOAA HAB-F guidance section 3.1.2 distinguishes historical MERIS sr^-1 labeling from current dimensionless Lake Erie products; it does not define the unit of the summed ci_sum aggregate
+    curated_annual_ci_reference_url: https://nccospublicstor.blob.core.windows.net/hab-data/bulletins/lake-erie/2025/NOAA_NCCOS_2000to2025_Curated_WLE_Annual_CI.xlsx
+    curated_annual_ci_reference_filename: NOAA_NCCOS_2000to2025_Curated_WLE_Annual_CI.xlsx
+    curated_annual_ci_reference_semantics: annual Western Lake Erie CI accumulation and bloom-area reference; not interchangeable with the historical 10-day fused ci_sum
+    curated_annual_ci_unit_status: workbook does not state a physical unit for CI fields; area fields explicitly use km^2
+    curated_annual_ci_calibration_evidence: workbook description records post-2024 reprocessing with new calibrations and improved algorithms
     current_raster_units: dimensionless (dl)
     current_raster_scaling: 10**(3.0 / 250.0 * DN - 4.2)
     current_raster_valid_dn_range: [1, 249]

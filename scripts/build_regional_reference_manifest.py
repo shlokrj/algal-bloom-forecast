@@ -19,6 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 REFERENCE_PATTERNS = {
     "target_audit": "algal_bloom_target_audit_*.json",
+    "curated_annual_ci_reference": "algal_bloom_noaa_curated_wle_annual_ci_*.json",
     "glerl_flag_audit": "algal_bloom_glerl_flag_audit_*.json",
     "glerl_flag_validation": "algal_bloom_glerl_flag_validation_*.json",
     "station_coordinates": "algal_bloom_glerl_station_coordinates_*.json",
@@ -133,7 +134,10 @@ def run(*, output_path: Path | None = None) -> Path:
             "temporal_neural_status": "deferred pending stronger data coverage and independent validation",
             "calibrated_probability_status": "deferred pending more independent validation cases",
             "open_source_definitions": [
-                "historical summed ci_sum unit and calibration",
+                (
+                    "historical summed ci_sum unit and 10-day calibration mapping; the NOAA "
+                    "curated annual reference is profiled but not interchangeable"
+                ),
                 (
                     "GLERL quality-flag meanings for nonnumeric tokens or annual-summary "
                     "accessions outside the audited QARTOD metadata subset"

@@ -4,7 +4,11 @@ import hashlib
 import json
 from pathlib import Path
 
-from scripts.build_regional_reference_manifest import _describe, select_spatial_reference_manifests
+from scripts.build_regional_reference_manifest import (
+    REFERENCE_PATTERNS,
+    _describe,
+    select_spatial_reference_manifests,
+)
 from scripts.validate_regional_reference import _validate_pinned_manifests
 
 
@@ -32,6 +36,12 @@ def test_spatial_reference_selection_covers_validated_extension() -> None:
         "spatial_maps",
         "spatial_map_validation",
     }
+
+
+def test_regional_reference_selection_includes_curated_ci_reference() -> None:
+    assert REFERENCE_PATTERNS["curated_annual_ci_reference"] == (
+        "algal_bloom_noaa_curated_wle_annual_ci_*.json"
+    )
 
 
 def test_pinned_manifest_validation_records_identity(tmp_path: Path) -> None:
