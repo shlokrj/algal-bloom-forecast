@@ -1,0 +1,152 @@
+{
+  "gates": {
+    "calibrated_probability_status": "deferred pending more independent validation cases",
+    "open_source_definitions": [
+      "historical summed ci_sum unit and 10-day calibration mapping; the NOAA curated annual reference is profiled but not interchangeable",
+      "GLERL quality-flag meanings for nonnumeric tokens or annual-summary accessions outside the audited QARTOD metadata subset",
+      "exact daily t-plus-horizon target labels"
+    ],
+    "regional_reference_status": "validated",
+    "spatial_model_status": "deferred pending a held-out season and stronger spatial coverage",
+    "spatial_target_status": "validated_descriptive_extension",
+    "temporal_neural_status": "deferred pending stronger data coverage and independent validation"
+  },
+  "manifests": {
+    "regional": {
+      "curated_annual_ci_reference": {
+        "manifest_path": "data/manifests/algal_bloom_noaa_curated_wle_annual_ci_20260829T214228Z.json",
+        "retrieved_at": "2026-08-29T21:42:28.014584+00:00",
+        "sha256": "1a55a70079e1d637363163978e19a90b139bd7faba2640e5d1d188271fb6b64b",
+        "source_id": "noaa_curated_wle_annual_ci_reference"
+      },
+      "feature_coverage": {
+        "manifest_path": "data/manifests/algal_bloom_feature_coverage_20260829T214243Z.json",
+        "retrieved_at": "2026-08-29T21:42:43.503963+00:00",
+        "sha256": "6d20e05d6271f8276d5a84cb2fcdf8c5989e99dce36473b2d663efa58ecb217f",
+        "source_id": "algal_bloom_feature_coverage"
+      },
+      "feature_table": {
+        "manifest_path": "data/manifests/algal_bloom_feature_table_20260829T214241Z.json",
+        "retrieved_at": "2026-08-29T21:42:41.313909+00:00",
+        "sha256": "d1e76b07c0b09339b82958fd4e5dd01829e94d37d19c63dc0b2b3e70c2dca68e",
+        "source_id": "algal_bloom_feature_table"
+      },
+      "glerl_flag_audit": {
+        "manifest_path": "data/manifests/algal_bloom_glerl_flag_audit_20260828T234949Z.json",
+        "retrieved_at": "2026-08-28T23:49:49.408966+00:00",
+        "sha256": "680e02830f0c48d1123766c49b6496d73a8951296e18f14a18417936c9179524",
+        "source_id": "algal_bloom_glerl_flag_audit"
+      },
+      "glerl_flag_validation": {
+        "manifest_path": "data/manifests/algal_bloom_glerl_flag_validation_20260828T235022Z.json",
+        "retrieved_at": "2026-08-28T23:50:22.596308+00:00",
+        "sha256": "0185825471a4bcf5c3ee6af81786e894cce3f3cb8aa3ec13f20c9c2b6fce7fda",
+        "source_id": "algal_bloom_glerl_flag_validation"
+      },
+      "rolling_year_evaluation": {
+        "manifest_path": "data/manifests/algal_bloom_rolling_year_evaluation_20260829T214246Z.json",
+        "retrieved_at": "2026-08-29T21:42:46.055743+00:00",
+        "sha256": "8751ba265120f8e7fa39a040dffe6b30297e0fb70510cfdc619f04c82e47ce8f",
+        "source_id": "algal_bloom_rolling_year_evaluation"
+      },
+      "station_coordinates": {
+        "manifest_path": "data/manifests/algal_bloom_glerl_station_coordinates_20260821T193915Z.json",
+        "retrieved_at": "2026-08-21T19:39:15.106184+00:00",
+        "sha256": "e023106d7318c7a741c9c1d41f81393ebd567c21f02ea15a1f45e9e319afb4cc",
+        "source_id": "algal_bloom_glerl_station_coordinates"
+      },
+      "target_audit": {
+        "manifest_path": "data/manifests/algal_bloom_target_audit_20260829T214240Z.json",
+        "retrieved_at": "2026-08-29T21:42:40.723412+00:00",
+        "sha256": "93a3317f248cf0afdcac62dfa33dbb4cd3deb3527cc31c5bb0f8f8f7fb1b8d03",
+        "source_id": "algal_bloom_target_audit"
+      },
+      "temporal_splits": {
+        "manifest_path": "data/manifests/algal_bloom_temporal_splits_20260829T214242Z.json",
+        "retrieved_at": "2026-08-29T21:42:42.447922+00:00",
+        "sha256": "b0cf2f455bcdc3e3a044253e492f356c24af81fd578aa48994548656e7367870",
+        "source_id": "algal_bloom_temporal_splits"
+      },
+      "training_ready": {
+        "manifest_path": "data/manifests/algal_bloom_training_ready_20260829T214242Z.json",
+        "retrieved_at": "2026-08-29T21:42:42.948598+00:00",
+        "sha256": "6e3cd1cba6d5da0cb82c7b3ea35ca60e202135aa862647e4fe289cf43537a502",
+        "source_id": "algal_bloom_training_ready"
+      }
+    },
+    "spatial": {
+      "spatial_map_validation": {
+        "manifest_path": "data/manifests/algal_bloom_spatial_map_validation_20260827T014633Z.json",
+        "retrieved_at": "2026-08-27T01:46:33.820823+00:00",
+        "sha256": "d946eca30816ace8a7b70c616937c9df1d93a2048f77a9cb5472c8d8cc19f352",
+        "source_id": "algal_bloom_spatial_map_validation"
+      },
+      "spatial_maps": {
+        "manifest_path": "data/manifests/algal_bloom_spatial_maps_20260826T040212Z.json",
+        "retrieved_at": "2026-08-26T04:02:12.628834+00:00",
+        "sha256": "88efcf3c56ede03e46a20acec73232e03a3544eff15c042cc78a2966a8f6d3d2",
+        "source_id": "algal_bloom_spatial_map_outputs"
+      },
+      "spatial_persistence": {
+        "manifest_path": "data/manifests/algal_bloom_spatial_persistence_20260825T213955Z.json",
+        "retrieved_at": "2026-08-25T21:39:55.626519+00:00",
+        "sha256": "4573cbbd3a891e4c85393d33c3182f5465dfdcc7ee9c7d00982ccf377bd31b9d",
+        "source_id": "algal_bloom_spatial_persistence_baseline"
+      },
+      "spatial_quality": {
+        "manifest_path": "data/manifests/algal_bloom_spatial_quality_20260826T040009Z.json",
+        "retrieved_at": "2026-08-26T04:00:09.098502+00:00",
+        "sha256": "61c352263f3aa25253c1c7f1f720e3369f186c002e9c7d027ad764c9dd7f7785",
+        "source_id": "algal_bloom_spatial_quality"
+      },
+      "spatial_summary": {
+        "manifest_path": "data/manifests/algal_bloom_spatial_summary_20260827T014312Z.json",
+        "retrieved_at": "2026-08-27T01:43:12.853509+00:00",
+        "sha256": "fc2631515b3354c6e5dde82c2bc73dafd99970643a855282828bf22d584754ee",
+        "source_id": "algal_bloom_spatial_summary"
+      },
+      "spatial_target": {
+        "manifest_path": "data/manifests/algal_bloom_spatial_target_20260825T213758Z.json",
+        "retrieved_at": "2026-08-25T21:37:58.956654+00:00",
+        "sha256": "866cc140a20ae3b25ab4a0ac93dea42aff97b1e780bcc7d03e0122764bef878f",
+        "source_id": "algal_bloom_spatial_target"
+      }
+    }
+  },
+  "reference_scope": "western Lake Erie regional forecast with a validated descriptive spatial extension",
+  "retrieved_at": "2026-08-29T21:42:51.361023+00:00",
+  "source_id": "algal_bloom_regional_reference",
+  "target_definition": {
+    "curated_annual_reference": "https://nccospublicstor.blob.core.windows.net/hab-data/bulletins/lake-erie/2025/NOAA_NCCOS_2000to2025_Curated_WLE_Annual_CI.xlsx",
+    "daily_horizon_status": "pending target-product calibration and temporal alignment",
+    "field": "ci_sum",
+    "horizon_semantics": "predictor cutoff is target observation date minus the requested horizon; the label is not an exact daily t-plus-horizon observation",
+    "label_observation": "10-day composite center date",
+    "location_scope": "western Lake Erie regional fused series; no coordinate fields",
+    "missing_policy": "preserve nulls; no interpolation",
+    "quality_policy": "per-record source quality flags are not present in the fused table",
+    "timestamp_basis": "date-only fused composite center date; timezone not applicable",
+    "unit_evidence": "historical MERIS CI pixel values carried legacy sr^-1 labeling, current Lake Erie CI/CIcyano products are dimensionless, and the source does not define the summed ci_sum aggregate unit; the curated annual reference describes CI as bloom biomass and records updated calibrations but does not state a physical CI unit",
+    "unit_reference": "NOAA HAB-F ocean-color processing guidance section 3.1.2 and NOAA's curated annual Western Lake Erie CI reference; aggregate calibration remains pending",
+    "unit_status": "NOAA guidance identifies legacy historical Lake Erie CI pixel values as sr^-1 while current Lake Erie CI/CIcyano products are treated as dimensionless; the aggregate unit of ci_sum remains unresolved",
+    "value_semantics": "cross-sensor fused western Lake Erie intensity aggregate"
+  },
+  "validation": {
+    "coverage_summary_rows": 15,
+    "feature_count": 579,
+    "model_fit_started": false,
+    "rolling_metric_rows": 240,
+    "training_ready": {
+      "features": 579,
+      "future_predictor_rows": 0,
+      "model_fit_started": false,
+      "rows": 768,
+      "split_counts": {
+        "test": 60,
+        "train": 652,
+        "validation": 56
+      },
+      "status": "prepared_not_fitted"
+    }
+  }
+}

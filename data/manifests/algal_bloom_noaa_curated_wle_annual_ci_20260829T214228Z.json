@@ -1,0 +1,97 @@
+{
+  "artifact": {
+    "local_path": "data/raw/noaa/satellite/curated_references/NOAA_NCCOS_2000to2025_Curated_WLE_Annual_CI.xlsx",
+    "metadata": {
+      "ci_unit_status": "not stated in workbook",
+      "reference_role": "annual CI calibration and semantics reference",
+      "target_interchangeability": "reference only; annual CI metrics are not interchangeable with historical 10-day fused ci_sum"
+    },
+    "retrieved_at": "2026-08-29T21:42:28.014584+00:00",
+    "sha256": "31689461cd8cc6e5741864f382391dc754ade7ca08fdda5a83cbc89e5578b6dd",
+    "size_bytes": 14478,
+    "source_id": "noaa_curated_wle_annual_ci_reference",
+    "source_url": "https://nccospublicstor.blob.core.windows.net/hab-data/bulletins/lake-erie/2025/NOAA_NCCOS_2000to2025_Curated_WLE_Annual_CI.xlsx"
+  },
+  "interpretation": {
+    "ci_unit_status": "not stated in workbook; historical ci_sum aggregate unit remains unresolved",
+    "daily_horizon_labels": "not addressed by this annual reference",
+    "status": "profiled_reference_only",
+    "target_interchangeability": "reference only; annual CI metrics are not interchangeable with historical 10-day fused ci_sum"
+  },
+  "profile": {
+    "area_fields": [
+      "WLE_area_km2_max",
+      "WLE_area_km2_avg_30d"
+    ],
+    "area_unit_status": "explicit km^2 in workbook metadata",
+    "calibration_evidence": "workbook description records reprocessing after the 2024 Microcystis bloom with new calibrations and improved algorithms",
+    "ci_fields": [
+      "WLE_CI_max",
+      "WLE_CI_avg_30d"
+    ],
+    "ci_unit_status": "not stated in workbook",
+    "data_descriptions": {
+      "Date_max": "Date of maximum CI for each year for the western Lake Erie basin.",
+      "WLE_CI_Max": "Maximum quantity (biomass) of the cyanobacterial bloom using the Cyanobacteria Index (CI) for the western Lake Erie basin. More information about cyanobacteria bloom monitoring via satellite can be found in Stumpf et al. 2016.",
+      "WLE_CI_avg_30d": "Quantity (biomass) of the bloom over a  30 day period using three 10-day maximum composites monitored using the Cyanobacteria Index (CI) for the western Lake Erie basin. More information about cyanobacteria bloom monitoring via satellite can be found in Stumpf et al. 2016.",
+      "WLE_area_km2_avg_30d": "Average area (km2) associated with the 3 10-day time periods of the highest CI for the western Lake Erie basin.",
+      "WLE_area_km2_max": "Maximum area (km2) associated with the 10-day period with the maximum CI for the western Lake Erie basin."
+    },
+    "data_sheet": "2000to2025_Curated_WLE_Annual_C",
+    "fields": [
+      "year",
+      "WLE_CI_max",
+      "WLE_area_km2_max",
+      "WLE_CI_avg_30d",
+      "WLE_area_km2_avg_30d",
+      "Date_max"
+    ],
+    "metadata": {
+      "Attribution": "The Western Lake Erie Annual CI Accumulation is dervied from NOAA's National Centers for Coastal Ocean Science (NCCOS) HAB Monitoring Program.",
+      "Dataset Title": "Western Lake Erie Annual CI Accumulation and Bloom Area",
+      "Description": "Timeseries of annual bloom severity metrics (CI Accumulation, Bloom Area) for Western Lake Erie basin from 2000 to 2025. \nFollowing the 2024 Microcystis bloom, we reprocessed the satellite remote sensing time series used to monitor the severity and impacts of annually occurring cyanobacteria (Microcystis) HABs. The satellite reprocessing included new calibrations and improved algorithms, generating a more consistent data set for HAB monitoring in Lake Erie. You can find more information about the updated time series here (https://nccospublicstor.blob.core.windows.net/hab-data/bulletins/lake-erie/2025/NOAA_NCCOS_LE_Bloom_SeverityIndex_Revised2000to2024.xlsx). In addition, Ohio Sea Grant hosted a webinar on the time series update (recorded presentation here, https://ohioseagrant.osu.edu/news/calendar/2025/06/26/5rl8g/2025-lake-erie-habs-forecast).\nFor more information about cyanobacteria bloom monitoring via satellite can be found in Stumpf et al. 2016 (https://www.sciencedirect.com/science/article/pii/S0380133016301484).",
+      "File Name": "NOAA_NCCOS_2000to2025_Curated_WLE_Annual_CI.xlsx"
+    },
+    "observed_end_year": 2025,
+    "observed_start_year": 2000,
+    "observed_years": [
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "records": 26,
+    "source_filename": "NOAA_NCCOS_2000to2025_Curated_WLE_Annual_CI.xlsx",
+    "target_interchangeability": "reference only; annual CI metrics are not interchangeable with historical 10-day fused ci_sum",
+    "workbook_sheets": [
+      "2000to2025_Curated_WLE_Annual_C",
+      "Metadata"
+    ]
+  },
+  "reference_role": "annual CI calibration and semantics reference",
+  "retrieved_at": "2026-08-29T21:42:28.014584+00:00",
+  "source_id": "noaa_curated_wle_annual_ci_reference",
+  "source_url": "https://nccospublicstor.blob.core.windows.net/hab-data/bulletins/lake-erie/2025/NOAA_NCCOS_2000to2025_Curated_WLE_Annual_CI.xlsx"
+}

@@ -1,0 +1,145 @@
+{
+  "gates": {
+    "curated_annual_ci_reference_status": true,
+    "curated_annual_ci_unit_status": true,
+    "glerl_flag_validation_status": true,
+    "model_fit_started": false,
+    "regional_reference_status": true,
+    "spatial_map_validation_status": true,
+    "spatial_quality_status": true,
+    "spatial_target_status": true,
+    "training_ready_status": true
+  },
+  "pinned_manifest_count": 16,
+  "pinned_manifests": [
+    {
+      "key": "curated_annual_ci_reference",
+      "manifest_path": "data/manifests/algal_bloom_noaa_curated_wle_annual_ci_20260829T214228Z.json",
+      "scope": "regional",
+      "sha256_matches": true,
+      "source_id_matches": true
+    },
+    {
+      "key": "feature_coverage",
+      "manifest_path": "data/manifests/algal_bloom_feature_coverage_20260829T214243Z.json",
+      "scope": "regional",
+      "sha256_matches": true,
+      "source_id_matches": true
+    },
+    {
+      "key": "feature_table",
+      "manifest_path": "data/manifests/algal_bloom_feature_table_20260829T214241Z.json",
+      "scope": "regional",
+      "sha256_matches": true,
+      "source_id_matches": true
+    },
+    {
+      "key": "glerl_flag_audit",
+      "manifest_path": "data/manifests/algal_bloom_glerl_flag_audit_20260828T234949Z.json",
+      "scope": "regional",
+      "sha256_matches": true,
+      "source_id_matches": true
+    },
+    {
+      "key": "glerl_flag_validation",
+      "manifest_path": "data/manifests/algal_bloom_glerl_flag_validation_20260828T235022Z.json",
+      "scope": "regional",
+      "sha256_matches": true,
+      "source_id_matches": true
+    },
+    {
+      "key": "rolling_year_evaluation",
+      "manifest_path": "data/manifests/algal_bloom_rolling_year_evaluation_20260829T214246Z.json",
+      "scope": "regional",
+      "sha256_matches": true,
+      "source_id_matches": true
+    },
+    {
+      "key": "station_coordinates",
+      "manifest_path": "data/manifests/algal_bloom_glerl_station_coordinates_20260821T193915Z.json",
+      "scope": "regional",
+      "sha256_matches": true,
+      "source_id_matches": true
+    },
+    {
+      "key": "target_audit",
+      "manifest_path": "data/manifests/algal_bloom_target_audit_20260829T214240Z.json",
+      "scope": "regional",
+      "sha256_matches": true,
+      "source_id_matches": true
+    },
+    {
+      "key": "temporal_splits",
+      "manifest_path": "data/manifests/algal_bloom_temporal_splits_20260829T214242Z.json",
+      "scope": "regional",
+      "sha256_matches": true,
+      "source_id_matches": true
+    },
+    {
+      "key": "training_ready",
+      "manifest_path": "data/manifests/algal_bloom_training_ready_20260829T214242Z.json",
+      "scope": "regional",
+      "sha256_matches": true,
+      "source_id_matches": true
+    },
+    {
+      "key": "spatial_map_validation",
+      "manifest_path": "data/manifests/algal_bloom_spatial_map_validation_20260827T014633Z.json",
+      "scope": "spatial",
+      "sha256_matches": true,
+      "source_id_matches": true
+    },
+    {
+      "key": "spatial_maps",
+      "manifest_path": "data/manifests/algal_bloom_spatial_maps_20260826T040212Z.json",
+      "scope": "spatial",
+      "sha256_matches": true,
+      "source_id_matches": true
+    },
+    {
+      "key": "spatial_persistence",
+      "manifest_path": "data/manifests/algal_bloom_spatial_persistence_20260825T213955Z.json",
+      "scope": "spatial",
+      "sha256_matches": true,
+      "source_id_matches": true
+    },
+    {
+      "key": "spatial_quality",
+      "manifest_path": "data/manifests/algal_bloom_spatial_quality_20260826T040009Z.json",
+      "scope": "spatial",
+      "sha256_matches": true,
+      "source_id_matches": true
+    },
+    {
+      "key": "spatial_summary",
+      "manifest_path": "data/manifests/algal_bloom_spatial_summary_20260827T014312Z.json",
+      "scope": "spatial",
+      "sha256_matches": true,
+      "source_id_matches": true
+    },
+    {
+      "key": "spatial_target",
+      "manifest_path": "data/manifests/algal_bloom_spatial_target_20260825T213758Z.json",
+      "scope": "spatial",
+      "sha256_matches": true,
+      "source_id_matches": true
+    }
+  ],
+  "reference_manifest": "data/manifests/algal_bloom_regional_reference_20260829T214251Z.json",
+  "reference_manifest_sha256": "1ef7a112df225ec13f63b001975e98d2838f2dca3331eedaf3d3c812fcc258a4",
+  "retrieved_at": "2026-08-29T21:42:55.285967+00:00",
+  "source_id": "algal_bloom_regional_reference_validation",
+  "status": "reference_validation_complete",
+  "training_ready": {
+    "features": 579,
+    "future_predictor_rows": 0,
+    "model_fit_started": false,
+    "rows": 768,
+    "split_counts": {
+      "test": 60,
+      "train": 652,
+      "validation": 56
+    },
+    "status": "prepared_not_fitted"
+  }
+}
