@@ -14,6 +14,11 @@ def test_release_artifact_index_covers_model_and_spatial_outputs() -> None:
     assert "spatial_map_validation" in ARTIFACT_PATTERNS
 
 
+def test_release_patterns_do_not_select_suffixed_reference_variants() -> None:
+    assert ARTIFACT_PATTERNS["regional_reference"].endswith("????????T??????Z.json")
+    assert ARTIFACT_PATTERNS["training_ready"].endswith("????????T??????Z.json")
+
+
 def test_release_describe_records_immutable_identity(tmp_path: Path) -> None:
     manifest = tmp_path / "manifest.json"
     payload = {"source_id": "example", "retrieved_at": "2026-09-01T00:00:00Z"}

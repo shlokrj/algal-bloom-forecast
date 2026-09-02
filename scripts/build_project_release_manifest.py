@@ -14,9 +14,9 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 
 ARTIFACT_PATTERNS = {
-    "regional_reference": "algal_bloom_regional_reference_*.json",
+    "regional_reference": "algal_bloom_regional_reference_????????T??????Z.json",
     "regional_reference_validation": "algal_bloom_regional_reference_validation_*.json",
-    "training_ready": "algal_bloom_training_ready_*.json",
+    "training_ready": "algal_bloom_training_ready_????????T??????Z.json",
     "baseline_results": "algal_bloom_baseline_results_*.json",
     "gradient_baseline": "algal_bloom_gradient_baseline_*.json",
     "training_run": "algal_bloom_training_run_*.json",
