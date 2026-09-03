@@ -1,0 +1,149 @@
+{
+  "artifacts": {
+    "baseline_results": {
+      "manifest_path": "data/manifests/algal_bloom_baseline_results_20260818T052149Z.json",
+      "retrieved_at": "2026-08-18T05:21:49.903078+00:00",
+      "sha256": "1e0f3c6f15dbf4c8a77545670c73ceca6f65c5d4ec15a4243fa614f2fc08940b",
+      "source_id": "algal_bloom_baseline_results"
+    },
+    "error_diagnostics": {
+      "manifest_path": "data/manifests/algal_bloom_selected_error_diagnostics_20260818T204550Z.json",
+      "retrieved_at": "2026-08-18T20:45:50.060207+00:00",
+      "sha256": "0fed76d67ce1cea846bfeec6ecf4281dbff55fdca5b3062389a682ee791b0bb0",
+      "source_id": "algal_bloom_selected_error_diagnostics"
+    },
+    "event_results": {
+      "manifest_path": "data/manifests/algal_bloom_event_results_20260818T052152Z.json",
+      "retrieved_at": "2026-08-18T05:21:52.351150+00:00",
+      "sha256": "047249cf39180e999d3d95251de340b2db67d9d5d52c0382ff694687adf70a14",
+      "source_id": "algal_bloom_event_results"
+    },
+    "feature_ablation": {
+      "manifest_path": "data/manifests/algal_bloom_feature_ablation_20260818T052154Z.json",
+      "retrieved_at": "2026-08-18T05:21:54.770180+00:00",
+      "sha256": "533efe24ed3ab346328ebcc23f923e6dc525478af181bfe1fdf8ceb39ec014c4",
+      "source_id": "algal_bloom_feature_ablation_results"
+    },
+    "glerl_annual_summary_scope": {
+      "manifest_path": "data/manifests/algal_bloom_glerl_annual_summary_scope_validation_20260905T025408Z.json",
+      "retrieved_at": "2026-09-05T02:54:08.275623+00:00",
+      "sha256": "578c91c959abbe32c3f13dc35eb888b3f0c8bbe49cdea8987118266a3e07914f",
+      "source_id": "algal_bloom_glerl_annual_summary_scope_validation"
+    },
+    "gradient_baseline": {
+      "manifest_path": "data/manifests/algal_bloom_gradient_baseline_20260818T052201Z.json",
+      "retrieved_at": "2026-08-18T05:22:01.621410+00:00",
+      "sha256": "2e02515aa678b1d7003b3034027b6a7d22bdb9eaf52c25e7e25e63200f378a26",
+      "source_id": "algal_bloom_gradient_baseline_results"
+    },
+    "horizon_summary": {
+      "manifest_path": "data/manifests/algal_bloom_horizon_summary_20260818T054359Z.json",
+      "retrieved_at": "2026-08-18T05:43:59.250681+00:00",
+      "sha256": "34a384f6f034e75af20ecb02291387aebee0187d60e43ef196e213826f11a6d7",
+      "source_id": "algal_bloom_horizon_summary"
+    },
+    "lag_analysis": {
+      "manifest_path": "data/manifests/algal_bloom_lag_analysis_20260818T210138Z.json",
+      "retrieved_at": "2026-08-18T21:01:38.821865+00:00",
+      "sha256": "490cd6b8a92074d9d919e26fd9768cc2ded1acba0de8c8e7e0a8fff08f1e20ca",
+      "source_id": "algal_bloom_lag_analysis"
+    },
+    "model_selection": {
+      "manifest_path": "data/manifests/algal_bloom_model_selection_20260818T054347Z.json",
+      "retrieved_at": "2026-08-18T05:43:47.499292+00:00",
+      "sha256": "d14a65e5c306d6596df8ad0cfc7861c3b496bd4e2cf7236abac24224fef90a2d",
+      "source_id": "algal_bloom_model_selection"
+    },
+    "regional_reference": {
+      "manifest_path": "data/manifests/algal_bloom_regional_reference_20260905T025414Z.json",
+      "retrieved_at": "2026-09-05T02:54:14.764693+00:00",
+      "sha256": "f8c03d47e5da6f89e9f44552f22723de57b401fa3a8513ff61b8c0550f1a3154",
+      "source_id": "algal_bloom_regional_reference"
+    },
+    "regional_reference_validation": {
+      "manifest_path": "data/manifests/algal_bloom_regional_reference_validation_20260905T025420Z.json",
+      "retrieved_at": "2026-09-05T02:54:20.459164+00:00",
+      "sha256": "61ba233a7998d77fc6e7e58638dce7634627d7834176bd39f1e8eaf647ba5729",
+      "source_id": "algal_bloom_regional_reference_validation"
+    },
+    "spatial_map_validation": {
+      "manifest_path": "data/manifests/algal_bloom_spatial_map_validation_20260827T014633Z.json",
+      "retrieved_at": "2026-08-27T01:46:33.820823+00:00",
+      "sha256": "d946eca30816ace8a7b70c616937c9df1d93a2048f77a9cb5472c8d8cc19f352",
+      "source_id": "algal_bloom_spatial_map_validation"
+    },
+    "spatial_persistence": {
+      "manifest_path": "data/manifests/algal_bloom_spatial_persistence_20260825T213955Z.json",
+      "retrieved_at": "2026-08-25T21:39:55.626519+00:00",
+      "sha256": "4573cbbd3a891e4c85393d33c3182f5465dfdcc7ee9c7d00982ccf377bd31b9d",
+      "source_id": "algal_bloom_spatial_persistence_baseline"
+    },
+    "spatial_summary": {
+      "manifest_path": "data/manifests/algal_bloom_spatial_summary_20260827T014312Z.json",
+      "retrieved_at": "2026-08-27T01:43:12.853509+00:00",
+      "sha256": "fc2631515b3354c6e5dde82c2bc73dafd99970643a855282828bf22d584754ee",
+      "source_id": "algal_bloom_spatial_summary"
+    },
+    "training_ready": {
+      "manifest_path": "data/manifests/algal_bloom_training_ready_20260829T214242Z.json",
+      "retrieved_at": "2026-08-29T21:42:42.948598+00:00",
+      "sha256": "6e3cd1cba6d5da0cb82c7b3ea35ca60e202135aa862647e4fe289cf43537a502",
+      "source_id": "algal_bloom_training_ready"
+    },
+    "training_run": {
+      "manifest_path": "data/manifests/algal_bloom_training_run_20260818T205851Z.json",
+      "retrieved_at": "2026-08-18T20:58:51.431528+00:00",
+      "sha256": "4bd0dc179e16abccc5546aa1b182a1651a683e8e2e6c4bbe4ebda59a60dc7de0",
+      "source_id": "algal_bloom_training_run"
+    }
+  },
+  "conclusions_boundary": {
+    "causal_interpretation": "not supported by this observational workflow",
+    "event_probabilities": "hard-threshold diagnostics only; calibrated probabilities are not claimed",
+    "model_selection": "candidate comparisons and validation-only selection are recorded; no production model is promoted"
+  },
+  "follow_up_gates": [
+    "resolve the historical ci_sum aggregate unit and 10-day calibration mapping",
+    "define exact daily t-plus-horizon labels from a calibrated target product",
+    "add calibrated event probabilities after more independent validation cases",
+    "add a temporal neural model only if expanded data coverage justifies it",
+    "add a spatial model only after a held-out-season archive is available"
+  ],
+  "project": "algal-bloom-forecast",
+  "release_status": "research_prototype_complete",
+  "retrieved_at": "2026-09-05T02:55:02.208080+00:00",
+  "scope": {
+    "primary_target": "historical cross-sensor fused 10-day ci_sum composite series",
+    "region": "western Lake Erie",
+    "regional_horizons_days": [
+      1,
+      3,
+      7,
+      14
+    ],
+    "spatial_extension": "validated descriptive raster extension; not a spatial forecast model"
+  },
+  "source_id": "algal_bloom_project_release",
+  "source_revision": {
+    "commit": "533c315a330622e072452b72858888d53f80585e",
+    "tracked_worktree": "clean"
+  },
+  "validated_boundary": {
+    "candidate_model_runs_present": true,
+    "pinned_manifest_count": 17,
+    "raw_data_committed": false,
+    "reference_validation_status": "reference_validation_complete",
+    "training_ready": {
+      "features": 579,
+      "future_predictor_rows": 0,
+      "model_fit_started": false,
+      "rows": 768,
+      "split_counts": {
+        "test": 60,
+        "train": 652,
+        "validation": 56
+      },
+      "status": "prepared_not_fitted"
+    }
+  }
+}
