@@ -9,6 +9,7 @@ from scripts.build_project_release_manifest import ARTIFACT_PATTERNS, _describe
 
 def test_release_artifact_index_covers_model_and_spatial_outputs() -> None:
     assert "regional_reference_validation" in ARTIFACT_PATTERNS
+    assert "glerl_annual_summary_scope" in ARTIFACT_PATTERNS
     assert "training_run" in ARTIFACT_PATTERNS
     assert "model_selection" in ARTIFACT_PATTERNS
     assert "spatial_map_validation" in ARTIFACT_PATTERNS
