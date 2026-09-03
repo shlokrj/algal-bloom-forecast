@@ -44,6 +44,12 @@ def test_regional_reference_selection_includes_curated_ci_reference() -> None:
     )
 
 
+def test_regional_reference_selection_includes_glerl_scope_validation() -> None:
+    assert REFERENCE_PATTERNS["glerl_annual_summary_scope"] == (
+        "algal_bloom_glerl_annual_summary_scope_validation_*.json"
+    )
+
+
 def test_pinned_manifest_validation_records_identity(tmp_path: Path) -> None:
     manifest = tmp_path / "manifest.json"
     payload = {"source_id": "example"}

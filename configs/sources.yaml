@@ -84,6 +84,8 @@ sources:
     quality_flag_mapping: {1: pass, 2: "not evaluated", 3: suspect, 4: failed}
     quality_flag_mapping_scope: official NCEI metadata for GLERL annual-summary *_flags fields in the audited moored-buoy accessions 0190201, 0190729, 0194301, and 0194302
     quality_flag_unmapped_policy: retain raw flag sequences; do not infer meanings for nonnumeric tokens outside the documented mapping
+    annual_summary_scope_status: immutable inventory review found all 37 annual-summary files in the four audited accessions; rerun the scope check before adding any new accession
+    annual_summary_scope_accessions: ['0190201', '0190729', '0194301', '0194302']
     earliest_date: 2012-05-15
     seasonal_coverage: May-October
     dataset_spatial_bbox:

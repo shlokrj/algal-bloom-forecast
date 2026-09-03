@@ -22,6 +22,7 @@ REFERENCE_PATTERNS = {
     "curated_annual_ci_reference": "algal_bloom_noaa_curated_wle_annual_ci_*.json",
     "glerl_flag_audit": "algal_bloom_glerl_flag_audit_*.json",
     "glerl_flag_validation": "algal_bloom_glerl_flag_validation_*.json",
+    "glerl_annual_summary_scope": "algal_bloom_glerl_annual_summary_scope_validation_*.json",
     "station_coordinates": "algal_bloom_glerl_station_coordinates_*.json",
     "feature_table": "algal_bloom_feature_table_*.json",
     "temporal_splits": "algal_bloom_temporal_splits_*.json",

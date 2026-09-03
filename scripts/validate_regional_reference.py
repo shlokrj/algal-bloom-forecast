@@ -111,6 +111,17 @@ def run(*, reference_path: Path | None = None) -> Path:
             )
         ).read_text(encoding="utf-8")
     )
+    glerl_annual_summary_scope = json.loads(
+        _resolve(
+            Path(
+                str(
+                    reference["manifests"]["regional"]["glerl_annual_summary_scope"][
+                        "manifest_path"
+                    ]
+                )
+            )
+        ).read_text(encoding="utf-8")
+    )
     gate_checks = {
         "regional_reference_status": reference["gates"]["regional_reference_status"] == "validated",
         "training_ready_status": training_validation["status"] == "prepared_not_fitted",
@@ -124,6 +135,11 @@ def run(*, reference_path: Path | None = None) -> Path:
         "curated_annual_ci_unit_status": curated_annual_ci_reference["interpretation"][
             "ci_unit_status"
         ].startswith("not stated in workbook"),
+        "glerl_annual_summary_scope_status": glerl_annual_summary_scope["validation"]["status"]
+        == "annual_summary_scope_validation_complete"
+        and glerl_annual_summary_scope["validation"][
+            "no_additional_annual_summary_accessions_in_inventory"
+        ],
         "spatial_target_status": reference["gates"]["spatial_target_status"]
         == "validated_descriptive_extension",
         "spatial_quality_status": spatial_quality["validation"]["status"]
