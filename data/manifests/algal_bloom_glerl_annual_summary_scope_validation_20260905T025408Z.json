@@ -1,0 +1,263 @@
+{
+  "audited_accessions": [
+    "0190201",
+    "0190729",
+    "0194301",
+    "0194302"
+  ],
+  "retrieved_at": "2026-09-05T02:54:08.275623+00:00",
+  "scope": {
+    "annual_summary_accessions": [
+      "0190201",
+      "0190729",
+      "0194301",
+      "0194302"
+    ],
+    "annual_summary_classifications": {
+      "moored_buoy_or_continuous": 37
+    },
+    "annual_summary_file_count": 37,
+    "annual_summary_files": [
+      {
+        "accession": "0190201",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE02_2014_annual_summary.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0140/0190201/1.1/data/0-data/WE02_2014_annual_summary.csv"
+      },
+      {
+        "accession": "0190201",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE02_2014_annual_summary_phosphate.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0140/0190201/1.1/data/0-data/WE02_2014_annual_summary_phosphate.csv"
+      },
+      {
+        "accession": "0190201",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE02_2015_annual_summary.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0140/0190201/1.1/data/0-data/WE02_2015_annual_summary.csv"
+      },
+      {
+        "accession": "0190201",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE02_2015_annual_summary_phosphate.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0140/0190201/1.1/data/0-data/WE02_2015_annual_summary_phosphate.csv"
+      },
+      {
+        "accession": "0190201",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE02_2016_annual_summary.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0140/0190201/1.1/data/0-data/WE02_2016_annual_summary.csv"
+      },
+      {
+        "accession": "0190201",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE02_2016_annual_summary_phosphate.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0140/0190201/1.1/data/0-data/WE02_2016_annual_summary_phosphate.csv"
+      },
+      {
+        "accession": "0190201",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE02_2017_annual_summary.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0140/0190201/1.1/data/0-data/WE02_2017_annual_summary.csv"
+      },
+      {
+        "accession": "0190201",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE02_2017_annual_summary_phosphate.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0140/0190201/1.1/data/0-data/WE02_2017_annual_summary_phosphate.csv"
+      },
+      {
+        "accession": "0190201",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE02_2018_annual_summary.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0140/0190201/1.1/data/0-data/WE02_2018_annual_summary.csv"
+      },
+      {
+        "accession": "0190201",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE02_2018_annual_summary_phosphate.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0140/0190201/1.1/data/0-data/WE02_2018_annual_summary_phosphate.csv"
+      },
+      {
+        "accession": "0190729",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE04_2014_annual_summary.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0140/0190729/1.1/data/0-data/WE04_2014_annual_summary.csv"
+      },
+      {
+        "accession": "0190729",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE04_2014_annual_summary_phosphate.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0140/0190729/1.1/data/0-data/WE04_2014_annual_summary_phosphate.csv"
+      },
+      {
+        "accession": "0190729",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE04_2015_annual_summary.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0140/0190729/1.1/data/0-data/WE04_2015_annual_summary.csv"
+      },
+      {
+        "accession": "0190729",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE04_2015_annual_summary_phosphate.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0140/0190729/1.1/data/0-data/WE04_2015_annual_summary_phosphate.csv"
+      },
+      {
+        "accession": "0190729",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE04_2016_annual_summary.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0140/0190729/1.1/data/0-data/WE04_2016_annual_summary.csv"
+      },
+      {
+        "accession": "0190729",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE04_2016_annual_summary_phosphate.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0140/0190729/1.1/data/0-data/WE04_2016_annual_summary_phosphate.csv"
+      },
+      {
+        "accession": "0190729",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE04_2017_annual_summary.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0140/0190729/1.1/data/0-data/WE04_2017_annual_summary.csv"
+      },
+      {
+        "accession": "0190729",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE04_2017_annual_summary_phosphate.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0140/0190729/1.1/data/0-data/WE04_2017_annual_summary_phosphate.csv"
+      },
+      {
+        "accession": "0190729",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE04_2018_annual_summary.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0140/0190729/1.1/data/0-data/WE04_2018_annual_summary.csv"
+      },
+      {
+        "accession": "0190729",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE04_2018_annual_summary_phosphate.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0140/0190729/1.1/data/0-data/WE04_2018_annual_summary_phosphate.csv"
+      },
+      {
+        "accession": "0194301",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE08_2014_annual_summary.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0142/0194301/1.1/data/0-data/WE08_2014_annual_summary.csv"
+      },
+      {
+        "accession": "0194301",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE08_2014_annual_summary_phosphate.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0142/0194301/1.1/data/0-data/WE08_2014_annual_summary_phosphate.csv"
+      },
+      {
+        "accession": "0194301",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE08_2015_annual_summary.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0142/0194301/1.1/data/0-data/WE08_2015_annual_summary.csv"
+      },
+      {
+        "accession": "0194301",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE08_2015_annual_summary_phosphate.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0142/0194301/1.1/data/0-data/WE08_2015_annual_summary_phosphate.csv"
+      },
+      {
+        "accession": "0194301",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE08_2016_annual_summary.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0142/0194301/1.1/data/0-data/WE08_2016_annual_summary.csv"
+      },
+      {
+        "accession": "0194301",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE08_2016_annual_summary_phosphate.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0142/0194301/1.1/data/0-data/WE08_2016_annual_summary_phosphate.csv"
+      },
+      {
+        "accession": "0194301",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE08_2017_annual_summary.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0142/0194301/1.1/data/0-data/WE08_2017_annual_summary.csv"
+      },
+      {
+        "accession": "0194301",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE08_2017_annual_summary_phosphate.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0142/0194301/1.1/data/0-data/WE08_2017_annual_summary_phosphate.csv"
+      },
+      {
+        "accession": "0194301",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE08_2018_annual_summary.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0142/0194301/1.1/data/0-data/WE08_2018_annual_summary.csv"
+      },
+      {
+        "accession": "0194301",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE08_2018_annual_summary_phosphate.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0142/0194301/1.1/data/0-data/WE08_2018_annual_summary_phosphate.csv"
+      },
+      {
+        "accession": "0194302",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE13_2015_annual_summary.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0142/0194302/1.1/data/0-data/WE13_2015_annual_summary.csv"
+      },
+      {
+        "accession": "0194302",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE13_2015_annual_summary_phosphate.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0142/0194302/1.1/data/0-data/WE13_2015_annual_summary_phosphate.csv"
+      },
+      {
+        "accession": "0194302",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE13_2016_annual_summary.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0142/0194302/1.1/data/0-data/WE13_2016_annual_summary.csv"
+      },
+      {
+        "accession": "0194302",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE13_2016_annual_summary_phosphate.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0142/0194302/1.1/data/0-data/WE13_2016_annual_summary_phosphate.csv"
+      },
+      {
+        "accession": "0194302",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE13_2017_annual_summary.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0142/0194302/1.1/data/0-data/WE13_2017_annual_summary.csv"
+      },
+      {
+        "accession": "0194302",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE13_2018_annual_summary.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0142/0194302/1.1/data/0-data/WE13_2018_annual_summary.csv"
+      },
+      {
+        "accession": "0194302",
+        "classification": "moored_buoy_or_continuous",
+        "path": "WE13_2018_annual_summary_phosphate.csv",
+        "url": "ftp://ftp-oceans.ncei.noaa.gov/nodc/archive/arc0142/0194302/1.1/data/0-data/WE13_2018_annual_summary_phosphate.csv"
+      }
+    ],
+    "annual_summary_files_by_accession": {
+      "0190201": 10,
+      "0190729": 10,
+      "0194301": 10,
+      "0194302": 7
+    },
+    "outside_audited_scope": []
+  },
+  "source_id": "algal_bloom_glerl_annual_summary_scope_validation",
+  "source_manifest": "data/manifests/ncei_source_inventory_20260817T221557Z.json",
+  "source_manifest_sha256": "67e009921e0de0c6955cc3b370d7ab771a6825d2a9b4da7877fb0b74fd9901c8",
+  "validation": {
+    "all_annual_summary_files_are_moored_buoy_or_continuous": true,
+    "future_accession_policy": "rerun this validation and obtain accession-level metadata before using any new annual-summary accession",
+    "inventory_scope_only": true,
+    "no_additional_annual_summary_accessions_in_inventory": true,
+    "quality_flag_mapping_ready_for_scope": true,
+    "status": "annual_summary_scope_validation_complete"
+  }
+}
